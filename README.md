@@ -2,7 +2,7 @@
 
 A daily geography grid. Fill each of the nine cells with a country that fits both its row and its column, in ten guesses. Rarer answers score lower, and the lowest total wins.
 
-Play: https://tilman-schieber.github.io/crosscountry/
+Play: https://gh.tschieber.de/crosscountry/
 
 - One board per day, switching at midnight Berlin time. The arrows under the title go back to earlier days.
 - The guess field only completes a country once what you typed can mean just one.
