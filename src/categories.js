@@ -104,14 +104,18 @@ const flagOther = [
     id: "flag:two",
     label: "Flag has exactly 2 colours",
     group: "flag",
-    how: `Accepted if the flag has exactly two colours counting every detail, or exactly two main colours.`,
+    how:
+      "Qualifies if the flag has exactly two colours, read either way: counting every detail, or counting main colours only. " +
+      "So Japan qualifies outright, and Portugal qualifies too, because its main colours are red and green even though the coat of arms adds more.",
     test: (c) => c.flagColors.length === 2 || c.flagMain.length === 2,
   },
   {
     id: "flag:rwb",
     label: "Flag is only red, white and blue",
     group: "flag",
-    how: `All three colours are present and no other. Accepted if that holds counting every detail, or for the main colours alone.`,
+    how:
+      "Red, white and blue are all present and nothing else, read either way: counting every detail, or counting main colours only. " +
+      "Australia qualifies outright. Fiji qualifies through its main colours, since only the small shield adds yellow. Sweden does not qualify.",
     test: (c) => [c.flagColors, c.flagMain].some((f) => f.join() === "blue,red,white"),
   },
   {
