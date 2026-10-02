@@ -216,19 +216,14 @@ const people = [
   },
   { id: "density:high", label: "Over 300 people per km²", group: "people", how: "Density above 300.", test: (c) => has(c.density) && c.density > 300 },
   { id: "density:low", label: "Under 20 people per km²", group: "people", how: "Density below 20.", test: (c) => has(c.density) && c.density < 20 },
-  // Wikidata has city-proper counts, which understate capitals like Athens or
-  // Stockholm, so 640k in the city itself stands in for a metro area of a million.
-  // Capitals that still slip through (Brussels, Lisbon) are listed in curated.json.
   {
     id: "capital:1m",
-    label: "Capital metro area over 1M",
+    label: "Capital city over 1M people",
     group: "people",
     how:
-      "An approximation. No metro-area dataset is used: a capital counts if Wikidata gives its city proper more than 640,000 residents, " +
-      "which is taken as a sign of a metro area above a million (Athens, Stockholm). Nine capitals with a small city proper but a large metro area " +
-      "are added by hand: Brussels, New Delhi, Lisbon, Dublin, Rabat, Tunis, San José, San Salvador and Asunción. " +
-      "Where a country has several capitals, the largest counts. Expect a few wrong calls near the line.",
-    test: (c) => c.capitalPopulation > 640000 || c.sets.includes("capital_metro_1m"),
+      "The capital itself has more than 1,000,000 residents, by the city-proper figure on Wikidata. The wider metro area does not count, " +
+      "so Athens, Brussels, Lisbon and Washington do not qualify. Where a country has several capitals, the largest one counts (La Paz for Bolivia).",
+    test: (c) => c.capitalPopulation > 1e6,
   },
 ];
 

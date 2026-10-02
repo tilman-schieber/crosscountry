@@ -800,7 +800,6 @@
    "yellow"
   ],
   "sets": [
-   "capital_metro_1m",
    "eu",
    "monarchy",
    "nato",
@@ -1917,9 +1916,7 @@
    "red",
    "white"
   ],
-  "sets": [
-   "capital_metro_1m"
-  ],
+  "sets": [],
   "views": 1063788
  },
  {
@@ -2480,9 +2477,7 @@
    "blue",
    "white"
   ],
-  "sets": [
-   "capital_metro_1m"
-  ],
+  "sets": [],
   "views": 1323264
  },
  {
@@ -3620,7 +3615,6 @@
    "white"
   ],
   "sets": [
-   "capital_metro_1m",
    "commonwealth",
    "desert",
    "drives_left",
@@ -3822,7 +3816,6 @@
    "white"
   ],
   "sets": [
-   "capital_metro_1m",
    "drives_left",
    "eu"
   ],
@@ -5546,7 +5539,6 @@
   ],
   "sets": [
    "arab_league",
-   "capital_metro_1m",
    "desert",
    "monarchy"
   ],
@@ -6504,9 +6496,7 @@
    "red",
    "white"
   ],
-  "sets": [
-   "capital_metro_1m"
-  ],
+  "sets": [],
   "views": 865884
  },
  {
@@ -6695,7 +6685,6 @@
    "yellow"
   ],
   "sets": [
-   "capital_metro_1m",
    "eu",
    "nato",
    "tourism_top20"
@@ -8578,7 +8567,6 @@
   ],
   "sets": [
    "arab_league",
-   "capital_metro_1m",
    "desert",
    "ottoman"
   ],

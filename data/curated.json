@@ -90,11 +90,6 @@
       "expect": 20,
       "note": "Roughly the 20 most-visited countries by international tourist arrivals (UN Tourism, 2024). The first 17 are clear; Canada, UAE and Poland are close calls against Vietnam, Morocco and Croatia.",
       "members": ["FRA", "ESP", "USA", "CHN", "TUR", "ITA", "MEX", "GBR", "DEU", "JPN", "GRC", "THA", "AUT", "SAU", "PRT", "MYS", "NLD", "CAN", "ARE", "POL"]
-    },
-    "capital_metro_1m": {
-      "expect": 9,
-      "note": "Capitals whose metro area exceeds 1M although Wikidata's city-proper figure is small (Brussels, New Delhi, Lisbon ...). Added to the population-based test.",
-      "members": ["BEL", "CRI", "SLV", "IND", "IRL", "MAR", "PRY", "PRT", "TUN"]
     }
   },
   "flag_color_overrides": {
