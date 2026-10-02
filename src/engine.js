@@ -1,11 +1,21 @@
 import { CATEGORIES } from "./categories.js";
 
 // Rarity model. A cell's score is the share of an imagined crowd that would give
-// the same answer: prior ∝ fame^BETA among the valid answers, then blended with
-// your own past picks as if they were ALPHA-outweighed extra players.
-// Fame = Wikipedia views × √GDP: views alone are noisy and nearly flat between
-// countries, economic size alone forgets small-but-famous places.
-export const BETA = 1; // >1 concentrates the crowd on famous countries
+// the same answer, then blended with your own past picks as if they were
+// ALPHA-outweighed extra players.
+//
+// How well known a country is, from 0 to 1, is a weighted average of its rank
+// among all countries for Wikipedia views, total GDP and population. Ranks, not
+// raw values: a country ten times richer is not ten times more likely to be
+// guessed, and no single outlier can swallow a cell.
+//
+// The chance that a country comes to mind is an S-curve of that score: the
+// well-known countries are all about equally available (no cliff between
+// Brazil and Bulgaria), while obscure ones fall away quickly, which is what
+// makes a rare answer rare.
+export const FAME_WEIGHTS = { views: 0.4, gdp: 0.4, population: 0.2 };
+export const RECALL_MIDPOINT = 0.6; // fame score at which a country is recalled half as readily as the best known
+export const RECALL_STEEPNESS = 6; // higher makes obscure countries rarer
 export const ALPHA = 20; // how many of your own picks it takes to match the prior
 export const MIN_ANSWERS = 3; // every cell must have at least this many valid answers
 export const MAX_GUESSES = 10;
@@ -49,11 +59,29 @@ export function createEngine(countries) {
   const matches = new Map(CATEGORIES.map((cat) => [cat.id, new Set(countries.filter(cat.test).map((c) => c.id))]));
   const usable = CATEGORIES.filter((cat) => matches.get(cat.id).size >= MIN_ANSWERS);
   const byId = new Map(CATEGORIES.map((cat) => [cat.id, cat]));
-  const gdp = (c) => (c.population && c.gdpPerCapita ? c.population * c.gdpPerCapita : null);
-  const known = countries.map(gdp).filter(Boolean).sort((a, b) => a - b);
-  const medianGdp = known[known.length >> 1];
-  const fame = (c) => Math.max(c.views, 1) * Math.sqrt(gdp(c) ?? medianGdp);
-  const weight = new Map(countries.map((c) => [c.id, Math.pow(fame(c), BETA)]));
+  // Rank of every country for one measure, as a share from 0 (lowest) to 1
+  // (highest); null where the measure is unknown.
+  const ranks = (measure) => {
+    const values = countries.map(measure);
+    const sorted = values.filter((v) => v != null).sort((a, b) => a - b);
+    return new Map(countries.map((c, i) => [c.id, values[i] == null ? null : sorted.indexOf(values[i]) / (sorted.length - 1)]));
+  };
+  const rank = {
+    views: ranks((c) => c.views),
+    gdp: ranks((c) => (c.population && c.gdpPerCapita ? c.population * c.gdpPerCapita : null)),
+    population: ranks((c) => c.population),
+  };
+  // Measures a country has no figure for are left out and the rest re-weighted.
+  const fame = (c) => {
+    let sum = 0, total = 0;
+    for (const [key, w] of Object.entries(FAME_WEIGHTS)) {
+      const r = rank[key].get(c.id);
+      if (r != null) (sum += r * w), (total += w);
+    }
+    return total ? sum / total : 0;
+  };
+  const recall = (c) => 1 / (1 + Math.exp(-RECALL_STEEPNESS * (fame(c) - RECALL_MIDPOINT)));
+  const weight = new Map(countries.map((c) => [c.id, recall(c)]));
 
   const overlap = (a, b) => {
     const A = matches.get(a.id), B = matches.get(b.id);
