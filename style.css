@@ -14,6 +14,12 @@
   --accent: #2c5a70;
   --number: #9a6a1c;
   --wrong: #9c3b25;
+  /* Relief-map tints for answered cells, from common to rare. */
+  --tier-common: #cfdcae;
+  --tier-mid: #ecdc9c;
+  --tier-rare: #e2b184;
+  --logo-light: #b23a26;
+  --logo-minor: #2c5a70;
   --display: "IM Fell English", Georgia, serif;
   --text: "Source Serif 4", Georgia, serif;
 }
@@ -43,6 +49,11 @@ main > header {
   margin-bottom: 14px;
 }
 h1 { font: 400 2rem/1 var(--display); margin: 0; margin-right: auto; }
+.logo { flex: none; align-self: center; }
+.logo .ring { stroke: var(--ink); }
+.logo .dark { fill: var(--ink); }
+.logo .light { fill: var(--logo-light); }
+.logo .minor { fill: var(--logo-minor); }
 .status { display: flex; gap: 14px; white-space: nowrap; font-size: 0.9rem; color: var(--faded); font-variant-numeric: tabular-nums; }
 #score { color: var(--number); }
 
@@ -118,6 +129,9 @@ h1 { font: 400 2rem/1 var(--display); margin: 0; margin-right: auto; }
   cursor: pointer;
 }
 .cell.filled { cursor: default; }
+.cell.tier-common { background: var(--tier-common); }
+.cell.tier-mid { background: var(--tier-mid); }
+.cell.tier-rare { background: var(--tier-rare); }
 .cell.over { cursor: pointer; }
 .cell .ref { visibility: hidden; }
 .cell.selected .ref { visibility: visible; color: var(--accent); }
@@ -133,6 +147,12 @@ h1 { font: 400 2rem/1 var(--display); margin: 0; margin-right: auto; }
 @media (prefers-reduced-motion: reduce) {
   .cell.shake { animation: none; }
 }
+
+.legend { display: flex; align-items: center; justify-content: flex-end; gap: 6px; margin: 8px 0 0; font-size: 0.75rem; color: var(--faded); }
+.legend i { width: 22px; height: 9px; border: 1px solid var(--rule); }
+.legend .tier-common { background: var(--tier-common); }
+.legend .tier-mid { background: var(--tier-mid); }
+.legend .tier-rare { background: var(--tier-rare); }
 
 .entry { position: relative; margin-top: 16px; }
 .entry input {
@@ -235,7 +255,19 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
 .help-empty { margin: 18px 0; color: var(--faded); }
 
 /* ---------- Atlas ---------- */
-[data-theme="atlas"] main { border: 1px solid var(--rule); outline: 1px solid var(--rule); outline-offset: -6px; }
+/* A chequered map border (neatline) around the sheet. */
+[data-theme="atlas"] main {
+  padding: 32px;
+  background:
+    repeating-linear-gradient(90deg, var(--ink) 0 26px, transparent 26px 52px) top / 100% 7px no-repeat,
+    repeating-linear-gradient(90deg, transparent 0 26px, var(--ink) 26px 52px) bottom / 100% 7px no-repeat,
+    repeating-linear-gradient(0deg, var(--ink) 0 26px, transparent 26px 52px) left / 7px 100% no-repeat,
+    repeating-linear-gradient(0deg, transparent 0 26px, var(--ink) 26px 52px) right / 7px 100% no-repeat,
+    var(--surface);
+  box-shadow: inset 0 0 0 1px var(--ink), inset 0 0 0 8px var(--surface), inset 0 0 0 9px var(--ink);
+}
+[data-theme="atlas"] .cell.filled .pct { color: var(--ink); }
+[data-theme="atlas"] .legend { font-style: italic; }
 [data-theme="atlas"] .status, [data-theme="atlas"] .message, [data-theme="atlas"] .entry input::placeholder { font-style: italic; }
 [data-theme="atlas"] .label { font-size: 0.92rem; }
 [data-theme="atlas"] .ref { font-size: 0.7rem; }
@@ -260,6 +292,11 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
   --accent: #e6b450;
   --number: #e6b450;
   --wrong: #e0705c;
+  --tier-common: #1c2b1e;
+  --tier-mid: #322c14;
+  --tier-rare: #40261a;
+  --logo-light: #e6b450;
+  --logo-minor: #6b766d;
   --display: "JetBrains Mono", ui-monospace, Menlo, monospace;
   --text: "JetBrains Mono", ui-monospace, Menlo, monospace;
 }
@@ -280,6 +317,11 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
 [data-theme="terminal"] .cell .name { display: none; }
 [data-theme="terminal"] .cell .code { display: block; font-weight: 700; letter-spacing: 0.08em; }
 [data-theme="terminal"] .cell .pct { font-size: 0.86rem; }
+[data-theme="terminal"] .cell.tier-common .pct { color: #8fca8a; }
+[data-theme="terminal"] .cell.tier-mid .pct { color: #e6c85a; }
+[data-theme="terminal"] .cell.tier-rare .pct { color: #f0935c; }
+[data-theme="terminal"] .logo { width: 22px; height: 22px; }
+[data-theme="terminal"] .legend { text-transform: uppercase; letter-spacing: 0.04em; }
 [data-theme="terminal"] .entry input { border-bottom: 0; padding-left: 2ch; }
 [data-theme="terminal"] .entry::before { content: ">"; position: absolute; left: 0; top: 8px; color: var(--accent); }
 [data-theme="terminal"] .suggestions { position: static; border: 0; }
@@ -303,6 +345,11 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
   --accent: #e30613;
   --number: #000000;
   --wrong: #e30613;
+  --tier-common: #b9e2c2;
+  --tier-mid: #ffe14d;
+  --tier-rare: #ff9a57;
+  --logo-light: #e30613;
+  --logo-minor: #8a8a8a;
   --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --text: "Archivo", "Helvetica Neue", Arial, sans-serif;
 }
@@ -322,6 +369,9 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
 [data-theme="swiss"] .cell.selected.filled { box-shadow: inset 0 0 0 3px var(--accent); }
 [data-theme="swiss"] .cell.shake { background: var(--ink); }
 [data-theme="swiss"] .cell .emoji { font-size: 1.5rem; }
+[data-theme="swiss"] .logo { align-self: flex-end; }
+[data-theme="swiss"] .legend { font-weight: 900; text-transform: uppercase; font-size: 0.65rem; color: var(--ink); }
+[data-theme="swiss"] .legend i { border: 2px solid var(--ink); height: 11px; }
 [data-theme="swiss"] .cell .name { font-size: 0.7rem; font-weight: 600; }
 [data-theme="swiss"] .cell .pct { font-weight: 900; font-size: 1.3rem; line-height: 1; letter-spacing: -0.03em; }
 [data-theme="swiss"] .entry input { border-bottom: 4px solid var(--ink); padding: 6px 0; font-weight: 900; font-size: 1.3rem; text-transform: uppercase; letter-spacing: -0.02em; }
@@ -355,5 +405,6 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
   main > header { gap: 8px; }
   main > header h1, [data-theme="swiss"] main > header h1 { font-size: 1.45rem; }
   .status { font-size: 0.8rem; }
-  [data-theme="atlas"] main { border: 0; outline: 0; }
+  [data-theme="atlas"] main { padding: 20px 16px; background: var(--surface); box-shadow: none; }
+  .logo { width: 24px; height: 24px; }
 }

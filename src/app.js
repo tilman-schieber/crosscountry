@@ -22,6 +22,8 @@ const save = (key, value) => {
 };
 const normalize = (s) => s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 const pct = (p) => `${(p * 100).toFixed(p < 0.1 ? 1 : 0)}%`;
+// Answered cells are tinted like a relief map: lowlands for common answers, highlands for rare ones.
+const tier = (p) => (p < 0.05 ? "rare" : p < 0.2 ? "mid" : "common");
 
 const countries = await (await fetch("data/countries.json")).json();
 const engine = createEngine(countries);
@@ -157,7 +159,7 @@ function render() {
     if (!countryId) cell.append(span("ref", `${"ABC"[Math.floor(i / 3)]} ${(i % 3) + 1}`));
     if (countryId) {
       const c = byId.get(countryId);
-      cell.classList.add("filled");
+      cell.classList.add("filled", `tier-${tier(game.scores[i])}`);
       // Themes pick whether to show the name or the code.
       cell.append(span("emoji", c.emoji), span("name", c.name), span("code", c.id), span("pct", pct(game.scores[i])));
     }
@@ -327,10 +329,10 @@ window.addEventListener("hashchange", () => openDay(location.hash.slice(1)));
 
 // The shared result shows how rare each answer was, never which country it is.
 function shareText() {
-  const square = (p) => (p === null ? "⬜" : p < 0.05 ? "🟩" : p < 0.2 ? "🟨" : "🟧");
+  const square = (p) => (p === null ? "⬜" : { common: "🟩", mid: "🟨", rare: "🟫" }[tier(p)]);
   const rows = [0, 3, 6].map((i) => game.scores.slice(i, i + 3).map(square).join(""));
   const filled = game.cells.filter(Boolean).length;
-  const lines = [`Crosscountry ${day}`, `Score ${totalScore().toFixed(1)} · ${filled}/9`, ...rows, "🟩 under 5%  🟨 under 20%  🟧 common  ⬜ empty"];
+  const lines = [`Crosscountry ${day}`, `Score ${totalScore().toFixed(1)} · ${filled}/9`, ...rows, "🟩 common  🟨 under 20%  🟫 under 5%  ⬜ empty"];
   // A link to this day's board, unless the game is only running on this machine.
   if (!/(^|\.)localhost$|^127\.|^\[::1\]$/.test(location.hostname)) lines.push(`${location.origin}${location.pathname}#${day}`);
   return lines.join("\n");
