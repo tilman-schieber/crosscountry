@@ -222,7 +222,7 @@ const people = [
     group: "people",
     how:
       "The capital itself has more than 1,000,000 residents, by the city-proper figure on Wikidata. The wider metro area does not count, " +
-      "so Athens, Brussels, Lisbon and Washington do not qualify. Where a country has several capitals, the largest one counts (La Paz for Bolivia).",
+      "so Athens, Brussels, Lisbon and Washington do not qualify. Where a country has several capitals, the largest one is used.",
     test: (c) => c.capitalPopulation > 1e6,
   },
 ];
