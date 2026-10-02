@@ -34,11 +34,9 @@ RAW = HERE / "raw"
 UA = "crosscountry-build/0.1 (personal hobby project)"
 PAGEVIEW_RANGE = ("2025090100", "2026083100")
 
-# Two readings of a flag. flagColors is lenient: anything covering >= FLAG_ANY of
-# the area counts, so stars, crescents and coats of arms are included and a
-# defensible guess is never rejected. flagMain is strict (>= FLAG_MAIN): the
-# colours of the flag's fields. Colours that are in one list but not the other
-# are written to the report; settle a wrong one in curated.json flag_color_overrides.
+# Any colour covering >= FLAG_ANY of the flag counts, so stars, crescents and
+# coats of arms are included. Colours below FLAG_MAIN are small details; they are
+# written to the report so a wrong one can be settled in curated.json.
 FLAG_MAIN = 0.03
 FLAG_ANY = 0.005
 FLAG_WIDTH = 480
@@ -242,7 +240,7 @@ def main():
         main = sorted(k for k, v in shares.items() if v >= FLAG_MAIN)
         override = curated["flag_color_overrides"].get(cid)
         if override is not None:
-            colors, main = sorted(override["any"]), sorted(override["main"])
+            colors = sorted(override)
         elif colors != main:
             minor = {k: round(shares[k], 3) for k in colors if k not in main}
             report.append(f"flag minor colours for {cid} ({c['name']['common']}): {minor}")
@@ -278,7 +276,6 @@ def main():
             "languages": sorted(c.get("languages", {}).values()),
             "currencies": sorted(c.get("currencies", {}).keys()),
             "flagColors": colors,
-            "flagMain": main,
             "sets": sorted(k for k, s in curated["sets"].items() if cid in s["members"]),
             "views": views,
         })

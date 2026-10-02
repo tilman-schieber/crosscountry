@@ -86,32 +86,12 @@
     }
   },
   "flag_color_overrides": {
-    "_format": {
-      "any": ["every colour on the flag"],
-      "main": ["field colours only"]
-    },
-    "_comment": "Flags the pixel count gets wrong: emblems too fine or too pale to register, and Armenia's stripe, which is officially orange.",
-    "AFG": {
-      "_note": "The internationally recognised tricolour (as the flag emoji shows), not the Taliban flag the source dataset ships.",
-      "any": ["black", "green", "red", "white"],
-      "main": ["black", "green", "red"]
-    },
-    "ARG": {
-      "any": ["blue", "white", "yellow"],
-      "main": ["blue", "white"]
-    },
-    "BRA": {
-      "any": ["blue", "green", "white", "yellow"],
-      "main": ["blue", "green", "yellow"]
-    },
-    "SSD": {
-      "any": ["black", "blue", "green", "red", "white", "yellow"],
-      "main": ["black", "blue", "green", "red", "white"]
-    },
-    "ARM": {
-      "any": ["blue", "orange", "red"],
-      "main": ["blue", "orange", "red"]
-    }
+    "_comment": "Flags the pixel count gets wrong: emblems too fine or too pale to register, Armenia's stripe (officially orange), and Afghanistan's flag (the recognised tricolour, not the Taliban flag the source dataset ships).",
+    "AFG": ["black", "green", "red", "white"],
+    "ARG": ["blue", "white", "yellow"],
+    "BRA": ["blue", "green", "white", "yellow"],
+    "SSD": ["black", "blue", "green", "red", "white", "yellow"],
+    "ARM": ["blue", "orange", "red"]
   },
   "stat_overrides": {
     "_comment": "Countries the World Bank has no figure for. Rough values; only which side of a category threshold they fall on matters.",

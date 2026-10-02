@@ -21,7 +21,7 @@ export const GROUPS = {
       "A colour counts if it covers at least 0.5% of the flag, so stars, crescents and coats of arms count. " +
       "Dark reds and maroons are red, gold is yellow, light and dark blues are blue. Teal counts as green, aquamarine as blue. Grey, purple and pink are ignored. " +
       "A few flags are corrected by hand where the count misses a fine emblem (the sun of Argentina, Brazil's white band). " +
-      "A flag's main colours are those covering at least 3% of it, which leaves out small emblems.",
+      "Emblems always count: Argentina is a blue, white and yellow flag.",
   },
   borders: {
     title: "Borders",
@@ -104,19 +104,15 @@ const flagOther = [
     id: "flag:two",
     label: "Flag has exactly 2 colours",
     group: "flag",
-    how:
-      "Qualifies if the flag has exactly two colours, read either way: counting every detail, or counting main colours only. " +
-      "So Japan qualifies outright, and Argentina qualifies too, because its main colours are blue and white even though the sun adds yellow. Germany does not qualify.",
-    test: (c) => c.flagColors.length === 2 || c.flagMain.length === 2,
+    how: "Exactly two colours, counting every detail: Japan or Ukraine, but not Argentina, whose sun is yellow.",
+    test: (c) => c.flagColors.length === 2,
   },
   {
     id: "flag:rwb",
     label: "Flag is only red, white and blue",
     group: "flag",
-    how:
-      "Red, white and blue are all present and nothing else, read either way: counting every detail, or counting main colours only. " +
-      "Australia qualifies outright. Fiji qualifies through its main colours, since only the small shield adds yellow. Sweden does not qualify.",
-    test: (c) => [c.flagColors, c.flagMain].some((f) => f.join() === "blue,red,white"),
+    how: "All three colours present and no other, counting every detail: Australia or France, but not Fiji, whose shield adds yellow.",
+    test: (c) => c.flagColors.join() === "blue,red,white",
   },
   {
     id: "flag:four-plus",

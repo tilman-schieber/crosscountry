@@ -43,11 +43,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "black",
-   "green",
-   "red"
-  ],
   "sets": [
    "desert"
   ],
@@ -90,10 +85,6 @@
    "ALL"
   ],
   "flagColors": [
-   "black",
-   "red"
-  ],
-  "flagMain": [
    "black",
    "red"
   ],
@@ -145,11 +136,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "arab_league",
    "desert",
@@ -190,11 +176,6 @@
    "EUR"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "yellow"
@@ -244,11 +225,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert"
   ],
@@ -282,13 +258,6 @@
    "XCD"
   ],
   "flagColors": [
-   "black",
-   "blue",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "blue",
    "red",
@@ -343,10 +312,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "white"
-  ],
   "sets": [
    "desert",
    "g20",
@@ -394,11 +359,6 @@
    "orange",
    "red"
   ],
-  "flagMain": [
-   "blue",
-   "orange",
-   "red"
-  ],
   "sets": [
    "ottoman",
    "ussr"
@@ -434,11 +394,6 @@
    "AUD"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -497,10 +452,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "olympics_host",
@@ -550,11 +501,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "red"
-  ],
   "sets": [
    "ottoman",
    "ussr"
@@ -591,11 +537,6 @@
    "USD"
   ],
   "flagColors": [
-   "black",
-   "blue",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "blue",
    "yellow"
@@ -637,10 +578,6 @@
    "BHD"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -687,10 +624,6 @@
    "green",
    "red"
   ],
-  "flagMain": [
-   "green",
-   "red"
-  ],
   "sets": [
    "commonwealth",
    "drives_left"
@@ -725,11 +658,6 @@
    "BBD"
   ],
   "flagColors": [
-   "black",
-   "blue",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "blue",
    "yellow"
@@ -783,10 +711,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "red"
-  ],
   "sets": [
    "ussr"
   ],
@@ -839,11 +763,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "capital_metro_1m",
    "eu",
@@ -892,12 +811,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "commonwealth",
    "monarchy"
@@ -943,11 +856,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [],
   "views": 1024164
  },
@@ -984,11 +892,6 @@
    "INR"
   ],
   "flagColors": [
-   "orange",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "orange",
    "white",
    "yellow"
@@ -1048,11 +951,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert"
   ],
@@ -1098,10 +996,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "yellow"
-  ],
   "sets": [
    "olympics_host",
    "ottoman"
@@ -1144,11 +1038,6 @@
    "BWP"
   ],
   "flagColors": [
-   "black",
-   "blue",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "blue",
    "white"
@@ -1206,11 +1095,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "yellow"
-  ],
   "sets": [
    "equator",
    "g20",
@@ -1254,12 +1138,6 @@
    "SGD"
   ],
   "flagColors": [
-   "black",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "red",
    "white",
@@ -1314,11 +1192,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato",
@@ -1365,10 +1238,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red"
-  ],
   "sets": [],
   "views": 1800300
  },
@@ -1408,11 +1277,6 @@
    "BIF"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "red",
    "white"
@@ -1457,10 +1321,6 @@
    "blue",
    "red",
    "white"
-  ],
-  "flagMain": [
-   "blue",
-   "red"
   ],
   "sets": [
    "asean",
@@ -1510,11 +1370,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "commonwealth"
   ],
@@ -1551,10 +1406,6 @@
    "CAD"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -1605,11 +1456,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [],
   "views": 1881432
  },
@@ -1650,13 +1496,6 @@
    "XAF"
   ],
   "flagColors": [
-   "blue",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "green",
    "red",
@@ -1709,11 +1548,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert"
   ],
@@ -1753,11 +1587,6 @@
    "CLP"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -1821,9 +1650,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "red"
-  ],
   "sets": [
    "apec",
    "desert",
@@ -1874,11 +1700,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert",
    "equator"
@@ -1919,13 +1740,6 @@
    "KMF"
   ],
   "flagColors": [
-   "blue",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "green",
    "red",
@@ -1979,11 +1793,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "equator"
   ],
@@ -2022,11 +1831,6 @@
    "CRC"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -2077,11 +1881,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato",
@@ -2124,11 +1923,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [],
   "views": 1893084
  },
@@ -2167,10 +1961,6 @@
   ],
   "flagColors": [
    "green",
-   "orange",
-   "white"
-  ],
-  "flagMain": [
    "orange",
    "white"
   ],
@@ -2219,11 +2009,6 @@
    "CZK"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -2285,11 +2070,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "equator"
   ],
@@ -2328,10 +2108,6 @@
    "DKK"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -2386,11 +2162,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "white"
-  ],
   "sets": [
    "arab_league",
    "desert"
@@ -2428,13 +2199,6 @@
    "XCD"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
@@ -2481,11 +2245,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [],
   "views": 1582968
  },
@@ -2522,11 +2281,6 @@
    "USD"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "yellow"
@@ -2575,11 +2329,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "white"
-  ],
   "sets": [
    "arab_league",
    "desert",
@@ -2620,10 +2369,6 @@
    "USD"
   ],
   "flagColors": [
-   "blue",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "white"
   ],
@@ -2669,12 +2414,6 @@
    "XAF"
   ],
   "flagColors": [
-   "blue",
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "green",
    "red",
@@ -2727,12 +2466,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert",
    "ottoman"
@@ -2773,11 +2506,6 @@
    "EUR"
   ],
   "flagColors": [
-   "black",
-   "blue",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "blue",
    "white"
@@ -2834,13 +2562,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "blue",
-   "red",
-   "white",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "drives_left",
@@ -2891,12 +2612,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert"
   ],
@@ -2941,11 +2656,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "commonwealth",
    "drives_left"
@@ -2989,10 +2699,6 @@
    "EUR"
   ],
   "flagColors": [
-   "blue",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "white"
   ],
@@ -3046,11 +2752,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "g20",
@@ -3100,11 +2801,6 @@
    "green",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "equator"
@@ -3142,12 +2838,6 @@
    "GMD"
   ],
   "flagColors": [
-   "blue",
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "green",
    "red",
@@ -3192,10 +2882,6 @@
    "GEL"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -3249,11 +2935,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "eu",
    "g20",
@@ -3302,11 +2983,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "commonwealth"
   ],
@@ -3351,10 +3027,6 @@
    "blue",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato",
@@ -3392,11 +3064,6 @@
    "XCD"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "red",
    "yellow"
@@ -3447,10 +3114,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "white"
-  ],
   "sets": [],
   "views": 1055532
  },
@@ -3491,11 +3154,6 @@
    "GNF"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "red",
    "yellow"
@@ -3542,11 +3200,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [],
   "views": 627804
  },
@@ -3583,13 +3236,6 @@
    "GYD"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
@@ -3640,10 +3286,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red"
-  ],
   "sets": [],
   "views": 1455612
  },
@@ -3681,10 +3323,6 @@
    "HNL"
   ],
   "flagColors": [
-   "blue",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "white"
   ],
@@ -3731,11 +3369,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato",
@@ -3774,11 +3407,6 @@
    "ISK"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -3834,11 +3462,6 @@
    "orange",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "orange",
-   "white"
-  ],
   "sets": [
    "capital_metro_1m",
    "commonwealth",
@@ -3883,10 +3506,6 @@
    "IDR"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -3942,11 +3561,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "desert"
   ],
@@ -3996,11 +3610,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "white"
-  ],
   "sets": [
    "arab_league",
    "desert",
@@ -4042,11 +3651,6 @@
    "EUR"
   ],
   "flagColors": [
-   "green",
-   "orange",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "orange",
    "white"
@@ -4098,10 +3702,6 @@
    "blue",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "white"
-  ],
   "sets": [
    "desert",
    "nuclear_weapons",
@@ -4146,11 +3746,6 @@
    "EUR"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "red",
    "white"
@@ -4207,11 +3802,6 @@
    "orange",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "orange",
-   "white"
-  ],
   "sets": [],
   "views": 1204164
  },
@@ -4244,11 +3834,6 @@
    "JMD"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "green",
    "yellow"
@@ -4290,10 +3875,6 @@
    "JPY"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -4344,12 +3925,6 @@
    "JOD"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
@@ -4408,10 +3983,6 @@
    "blue",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "yellow"
-  ],
   "sets": [
    "desert",
    "ussr"
@@ -4460,12 +4031,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "black",
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "commonwealth",
    "desert",
@@ -4507,12 +4072,6 @@
    "KID"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white",
@@ -4565,10 +4124,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "yellow"
-  ],
   "sets": [
    "ottoman"
   ],
@@ -4607,12 +4162,6 @@
    "KWD"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
@@ -4667,10 +4216,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "red",
-   "yellow"
-  ],
   "sets": [
    "ussr"
   ],
@@ -4713,11 +4258,6 @@
    "LAK"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -4765,10 +4305,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato",
@@ -4810,11 +4346,6 @@
    "LBP"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "red",
    "white"
@@ -4864,11 +4395,6 @@
    "green",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "white"
-  ],
   "sets": [
    "commonwealth",
    "drives_left",
@@ -4909,11 +4435,6 @@
    "LRD"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -4963,11 +4484,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "black",
-   "green",
-   "red"
-  ],
   "sets": [
    "arab_league",
    "desert",
@@ -5012,10 +4528,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red"
-  ],
   "sets": [
    "monarchy"
   ],
@@ -5056,11 +4568,6 @@
    "EUR"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "red",
    "yellow"
@@ -5114,11 +4621,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "monarchy",
@@ -5158,11 +4660,6 @@
    "MGA"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "red",
    "white"
@@ -5208,11 +4705,6 @@
    "green",
    "red"
   ],
-  "flagMain": [
-   "black",
-   "green",
-   "red"
-  ],
   "sets": [
    "commonwealth",
    "drives_left"
@@ -5252,12 +4744,6 @@
    "MYR"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white",
@@ -5308,10 +4794,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "red"
-  ],
   "sets": [
    "commonwealth",
    "drives_left",
@@ -5361,11 +4843,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert"
   ],
@@ -5402,10 +4879,6 @@
    "EUR"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -5451,11 +4924,6 @@
    "orange",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "orange",
-   "white"
-  ],
   "sets": [],
   "views": 709956
  },
@@ -5493,11 +4961,6 @@
    "MRU"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "red",
    "yellow"
@@ -5540,12 +5003,6 @@
    "MUR"
   ],
   "flagColors": [
-   "blue",
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "green",
    "red",
@@ -5597,11 +5054,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "apec",
    "desert",
@@ -5643,9 +5095,6 @@
    "blue",
    "white"
   ],
-  "flagMain": [
-   "blue"
-  ],
   "sets": [],
   "views": 498828
  },
@@ -5683,11 +5132,6 @@
    "MDL"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "yellow"
@@ -5733,10 +5177,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "red",
-   "white"
-  ],
   "sets": [
    "monarchy"
   ],
@@ -5773,11 +5213,6 @@
    "MNT"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "yellow"
@@ -5825,10 +5260,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "red",
-   "yellow"
-  ],
   "sets": [
    "nato",
    "ottoman"
@@ -5870,9 +5301,6 @@
   ],
   "flagColors": [
    "green",
-   "red"
-  ],
-  "flagMain": [
    "red"
   ],
   "sets": [
@@ -5926,13 +5354,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "drives_left"
@@ -5976,12 +5397,6 @@
    "MMK"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "red",
    "white",
@@ -6042,12 +5457,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "commonwealth",
    "desert",
@@ -6092,10 +5501,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "drives_left"
@@ -6135,11 +5540,6 @@
    "NPR"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -6188,11 +5588,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "monarchy",
@@ -6233,11 +5628,6 @@
    "NZD"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -6286,10 +5676,6 @@
    "blue",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "white"
-  ],
   "sets": [],
   "views": 1111944
  },
@@ -6335,11 +5721,6 @@
    "orange",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "orange",
-   "white"
-  ],
   "sets": [
    "desert"
   ],
@@ -6381,10 +5762,6 @@
    "NGN"
   ],
   "flagColors": [
-   "green",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "white"
   ],
@@ -6436,11 +5813,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "nuclear_weapons"
   ],
@@ -6485,10 +5857,6 @@
    "MKD"
   ],
   "flagColors": [
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "red",
    "yellow"
   ],
@@ -6541,11 +5909,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "monarchy",
    "nato",
@@ -6587,11 +5950,6 @@
    "OMR"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "red",
    "white"
@@ -6643,10 +6001,6 @@
    "green",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "white"
-  ],
   "sets": [
    "commonwealth",
    "desert",
@@ -6686,10 +6040,6 @@
    "USD"
   ],
   "flagColors": [
-   "blue",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "yellow"
   ],
@@ -6733,12 +6083,6 @@
    "JOD"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
@@ -6789,11 +6133,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [],
   "views": 948336
  },
@@ -6834,11 +6173,6 @@
    "black",
    "red",
    "white",
-   "yellow"
-  ],
-  "flagMain": [
-   "black",
-   "red",
    "yellow"
   ],
   "sets": [
@@ -6885,11 +6219,6 @@
    "PYG"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -6942,10 +6271,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "red",
-   "white"
-  ],
   "sets": [
    "apec",
    "desert"
@@ -6987,11 +6312,6 @@
    "red",
    "white",
    "yellow"
-  ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
   ],
   "sets": [
    "apec",
@@ -7040,10 +6360,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato",
@@ -7089,11 +6405,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "capital_metro_1m",
    "eu",
@@ -7134,10 +6445,6 @@
    "QAR"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -7187,11 +6494,6 @@
    "RON"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "yellow"
@@ -7252,11 +6554,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "apec",
    "g20",
@@ -7310,11 +6607,6 @@
    "green",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "yellow"
-  ],
   "sets": [
    "commonwealth"
   ],
@@ -7353,12 +6645,6 @@
    "green",
    "red",
    "white",
-   "yellow"
-  ],
-  "flagMain": [
-   "black",
-   "green",
-   "red",
    "yellow"
   ],
   "sets": [
@@ -7401,11 +6687,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "blue",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "drives_left",
@@ -7441,11 +6722,6 @@
    "XCD"
   ],
   "flagColors": [
-   "blue",
-   "green",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "green",
    "yellow"
@@ -7492,10 +6768,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red"
-  ],
   "sets": [
    "commonwealth",
    "drives_left"
@@ -7540,10 +6812,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "white"
-  ],
   "sets": [],
   "views": 1116156
  },
@@ -7586,10 +6854,6 @@
    "SAR"
   ],
   "flagColors": [
-   "green",
-   "white"
-  ],
-  "flagMain": [
    "green",
    "white"
   ],
@@ -7639,11 +6903,6 @@
    "XOF"
   ],
   "flagColors": [
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "red",
    "yellow"
@@ -7698,11 +6957,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "ottoman"
   ],
@@ -7741,13 +6995,6 @@
    "SCR"
   ],
   "flagColors": [
-   "blue",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "green",
    "red",
@@ -7796,11 +7043,6 @@
    "green",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "white"
-  ],
   "sets": [
    "commonwealth"
   ],
@@ -7841,10 +7083,6 @@
    "SGD"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -7896,11 +7134,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato",
@@ -7947,11 +7180,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "eu",
    "nato"
@@ -7989,11 +7217,6 @@
    "blue",
    "green",
    "white",
-   "yellow"
-  ],
-  "flagMain": [
-   "blue",
-   "green",
    "yellow"
   ],
   "sets": [
@@ -8040,10 +7263,6 @@
    "SOS"
   ],
   "flagColors": [
-   "blue",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "white"
   ],
@@ -8109,14 +7328,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "blue",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "desert",
@@ -8160,12 +7371,6 @@
    "KRW"
   ],
   "flagColors": [
-   "black",
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "blue",
    "red",
@@ -8222,13 +7427,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "blue",
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [],
   "views": 1147920
  },
@@ -8267,10 +7465,6 @@
    "EUR"
   ],
   "flagColors": [
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "red",
    "yellow"
   ],
@@ -8318,12 +7512,6 @@
    "LKR"
   ],
   "flagColors": [
-   "green",
-   "orange",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "orange",
    "red",
@@ -8379,12 +7567,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "black",
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "arab_league",
    "desert",
@@ -8432,11 +7614,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "white"
-  ],
   "sets": [
    "drives_left"
   ],
@@ -8475,10 +7652,6 @@
    "SEK"
   ],
   "flagColors": [
-   "blue",
-   "yellow"
-  ],
-  "flagMain": [
    "blue",
    "yellow"
   ],
@@ -8536,10 +7709,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "red",
-   "white"
-  ],
   "sets": [
    "olympics_host",
    "world_cup_host"
@@ -8587,11 +7756,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "white"
-  ],
   "sets": [
    "arab_league",
    "desert",
@@ -8631,11 +7795,6 @@
   ],
   "flagColors": [
    "black",
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "green",
    "red",
    "yellow"
@@ -8682,10 +7841,6 @@
    "blue",
    "red",
    "white"
-  ],
-  "flagMain": [
-   "blue",
-   "red"
   ],
   "sets": [
    "apec"
@@ -8734,11 +7889,6 @@
    "red",
    "white",
    "yellow"
-  ],
-  "flagMain": [
-   "green",
-   "red",
-   "white"
   ],
   "sets": [
    "ussr"
@@ -8791,12 +7941,6 @@
    "green",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "blue",
-   "green",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "drives_left"
@@ -8841,11 +7985,6 @@
    "THB"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -8902,11 +8041,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "asean",
    "drives_left"
@@ -8953,11 +8087,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "green",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "commonwealth"
   ],
@@ -8993,10 +8122,6 @@
    "TOP"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -9036,11 +8161,6 @@
    "TTD"
   ],
   "flagColors": [
-   "black",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "red",
    "white"
@@ -9085,10 +8205,6 @@
    "TND"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -9138,10 +8254,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "green",
-   "red"
-  ],
   "sets": [
    "desert",
    "ussr"
@@ -9182,11 +8294,6 @@
    "red",
    "white",
    "yellow"
-  ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
   ],
   "sets": [
    "commonwealth",
@@ -9236,10 +8343,6 @@
    "TRY"
   ],
   "flagColors": [
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "red",
    "white"
   ],
@@ -9293,12 +8396,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "black",
-   "red",
-   "white",
-   "yellow"
-  ],
   "sets": [
    "commonwealth",
    "drives_left",
@@ -9346,10 +8443,6 @@
    "blue",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "yellow"
-  ],
   "sets": [
    "ottoman",
    "ussr"
@@ -9389,12 +8482,6 @@
    "AED"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
@@ -9441,11 +8528,6 @@
    "GBP"
   ],
   "flagColors": [
-   "blue",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "blue",
    "red",
    "white"
@@ -9500,11 +8582,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "white"
-  ],
   "sets": [
    "apec",
    "desert",
@@ -9554,10 +8631,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "white"
-  ],
   "sets": [
    "world_cup_host"
   ],
@@ -9606,11 +8679,6 @@
    "red",
    "white"
   ],
-  "flagMain": [
-   "blue",
-   "green",
-   "white"
-  ],
   "sets": [
    "desert",
    "ussr"
@@ -9650,12 +8718,6 @@
    "VUV"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
@@ -9704,10 +8766,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "white",
-   "yellow"
-  ],
   "sets": [
    "monarchy"
   ],
@@ -9753,11 +8811,6 @@
    "white",
    "yellow"
   ],
-  "flagMain": [
-   "blue",
-   "red",
-   "yellow"
-  ],
   "sets": [
    "desert"
   ],
@@ -9801,10 +8854,6 @@
    "red",
    "yellow"
   ],
-  "flagMain": [
-   "red",
-   "yellow"
-  ],
   "sets": [
    "apec",
    "asean"
@@ -9845,11 +8894,6 @@
    "YER"
   ],
   "flagColors": [
-   "black",
-   "red",
-   "white"
-  ],
-  "flagMain": [
    "black",
    "red",
    "white"
@@ -9899,12 +8943,6 @@
    "ZMW"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "orange",
-   "red"
-  ],
-  "flagMain": [
    "black",
    "green",
    "orange",
@@ -9972,13 +9010,6 @@
    "ZWB"
   ],
   "flagColors": [
-   "black",
-   "green",
-   "red",
-   "white",
-   "yellow"
-  ],
-  "flagMain": [
    "black",
    "green",
    "red",
