@@ -76,7 +76,8 @@ function openDay(d) {
   updateMatch();
   setMessage("");
   render();
-  if (!game.over) $("guess").focus();
+  // Not when embedded as a preview: focusing would pull the host page's keyboard and scroll.
+  if (!game.over && window.self === window.top) $("guess").focus();
 }
 
 function persist() {
