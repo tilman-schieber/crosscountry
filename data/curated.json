@@ -1,0 +1,121 @@
+{
+  "_comment": "Hand-curated closed sets (ISO 3166-1 alpha-3). build.py asserts the expected counts, so an accidental edit fails loudly. Update here when the world changes.",
+  "extra_countries": ["PSE", "UNK", "TWN"],
+  "sets": {
+    "eu": {
+      "expect": 27,
+      "members": ["AUT", "BEL", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FIN", "FRA", "DEU", "GRC", "HUN", "IRL", "ITA", "LVA", "LTU", "LUX", "MLT", "NLD", "POL", "PRT", "ROU", "SVK", "SVN", "ESP", "SWE"]
+    },
+    "nato": {
+      "expect": 32,
+      "members": ["ALB", "BEL", "BGR", "CAN", "HRV", "CZE", "DNK", "EST", "FIN", "FRA", "DEU", "GRC", "HUN", "ISL", "ITA", "LVA", "LTU", "LUX", "MNE", "NLD", "MKD", "NOR", "POL", "PRT", "ROU", "SVK", "SVN", "ESP", "SWE", "TUR", "GBR", "USA"]
+    },
+    "commonwealth": {
+      "expect": 56,
+      "members": ["BWA", "CMR", "GAB", "GMB", "GHA", "KEN", "SWZ", "LSO", "MWI", "MUS", "MOZ", "NAM", "NGA", "RWA", "SYC", "SLE", "ZAF", "TGO", "UGA", "TZA", "ZMB", "BGD", "BRN", "IND", "MYS", "MDV", "PAK", "SGP", "LKA", "ATG", "BHS", "BRB", "BLZ", "CAN", "DMA", "GRD", "GUY", "JAM", "KNA", "LCA", "VCT", "TTO", "CYP", "MLT", "GBR", "AUS", "FJI", "KIR", "NRU", "NZL", "PNG", "WSM", "SLB", "TON", "TUV", "VUT"]
+    },
+    "asean": {
+      "expect": 11,
+      "members": ["BRN", "KHM", "IDN", "LAO", "MYS", "MMR", "PHL", "SGP", "THA", "VNM", "TLS"]
+    },
+    "g20": {
+      "expect": 19,
+      "members": ["ARG", "AUS", "BRA", "CAN", "CHN", "FRA", "DEU", "IND", "IDN", "ITA", "JPN", "MEX", "RUS", "SAU", "ZAF", "KOR", "TUR", "GBR", "USA"]
+    },
+    "arab_league": {
+      "expect": 22,
+      "members": ["DZA", "BHR", "COM", "DJI", "EGY", "IRQ", "JOR", "KWT", "LBN", "LBY", "MRT", "MAR", "OMN", "PSE", "QAT", "SAU", "SOM", "SDN", "SYR", "TUN", "ARE", "YEM"]
+    },
+    "monarchy": {
+      "expect": 43,
+      "members": ["ATG", "AUS", "BHS", "BLZ", "CAN", "GRD", "JAM", "NZL", "PNG", "KNA", "LCA", "VCT", "SLB", "TUV", "GBR", "AND", "BHR", "BEL", "BTN", "BRN", "KHM", "DNK", "SWZ", "JPN", "JOR", "KWT", "LSO", "LIE", "LUX", "MYS", "MCO", "MAR", "NLD", "NOR", "OMN", "QAT", "SAU", "ESP", "SWE", "THA", "TON", "ARE", "VAT"]
+    },
+    "drives_left": {
+      "expect": 54,
+      "members": ["GBR", "IRL", "MLT", "CYP", "IND", "PAK", "BGD", "LKA", "NPL", "BTN", "MDV", "THA", "MYS", "SGP", "IDN", "BRN", "TLS", "JPN", "ZAF", "NAM", "BWA", "ZWE", "ZMB", "MWI", "MOZ", "TZA", "KEN", "UGA", "LSO", "SWZ", "MUS", "SYC", "AUS", "NZL", "PNG", "FJI", "SLB", "KIR", "TUV", "NRU", "TON", "WSM", "GUY", "SUR", "JAM", "BHS", "BRB", "TTO", "ATG", "DMA", "GRD", "KNA", "LCA", "VCT"]
+    },
+    "ussr": {
+      "expect": 15,
+      "note": "Former Soviet republics.",
+      "members": ["RUS", "UKR", "BLR", "MDA", "EST", "LVA", "LTU", "GEO", "ARM", "AZE", "KAZ", "UZB", "TKM", "KGZ", "TJK"]
+    },
+    "ottoman": {
+      "expect": 36,
+      "note": "Modern countries with territory once under Ottoman rule or vassalage. Lenient: brief or partial control counts (Slovakia, Armenia, Azerbaijan, Russia, Sudan, Eritrea).",
+      "members": ["TUR", "GRC", "BGR", "ROU", "SRB", "BIH", "MNE", "MKD", "ALB", "UNK", "HRV", "HUN", "MDA", "UKR", "CYP", "SYR", "LBN", "ISR", "PSE", "JOR", "IRQ", "KWT", "SAU", "YEM", "QAT", "EGY", "LBY", "TUN", "DZA", "SDN", "ERI", "GEO", "ARM", "AZE", "RUS", "SVK"]
+    },
+    "desert": {
+      "expect": 50,
+      "note": "Contains a named desert. Lenient: small or semi-arid deserts count (Tabernas in Spain, La Guajira in Colombia, Medanos de Coro in Venezuela). Left out as too doubtful: Canada, New Zealand, Brazil, Senegal.",
+      "members": ["DZA", "EGY", "LBY", "MAR", "TUN", "MRT", "MLI", "NER", "TCD", "SDN", "ERI", "DJI", "SOM", "ETH", "KEN", "NAM", "BWA", "ZAF", "AGO", "SAU", "YEM", "OMN", "ARE", "QAT", "KWT", "BHR", "IRQ", "SYR", "JOR", "ISR", "PSE", "IRN", "AFG", "PAK", "IND", "CHN", "MNG", "KAZ", "UZB", "TKM", "USA", "MEX", "CHL", "PER", "ARG", "BOL", "COL", "VEN", "AUS", "ESP"]
+    },
+    "equator": {
+      "expect": 13,
+      "note": "The equator crosses the country's land or its waters between its islands (Maldives, Kiribati).",
+      "members": ["ECU", "COL", "BRA", "STP", "GAB", "COG", "COD", "UGA", "KEN", "SOM", "IDN", "MDV", "KIR"]
+    },
+    "olympics_host": {
+      "expect": 23,
+      "note": "Has hosted Summer or Winter Olympics. Sarajevo 1984 counts for Bosnia, Moscow 1980 for Russia.",
+      "members": ["GRC", "FRA", "USA", "GBR", "SWE", "BEL", "NLD", "DEU", "FIN", "AUS", "ITA", "JPN", "MEX", "CAN", "RUS", "KOR", "ESP", "CHN", "BRA", "CHE", "NOR", "AUT", "BIH"]
+    },
+    "world_cup_host": {
+      "expect": 19,
+      "note": "Has hosted the men's FIFA World Cup, through 2026. England counts for the United Kingdom.",
+      "members": ["URY", "ITA", "FRA", "BRA", "CHE", "SWE", "CHL", "GBR", "MEX", "DEU", "ARG", "ESP", "USA", "KOR", "JPN", "ZAF", "RUS", "QAT", "CAN"]
+    },
+    "nuclear_weapons": {
+      "expect": 9,
+      "note": "States with nuclear weapons.",
+      "members": ["USA", "RUS", "GBR", "FRA", "CHN", "IND", "PAK", "PRK", "ISR"]
+    },
+    "apec": {
+      "expect": 20,
+      "note": "APEC members among the 197 countries (Hong Kong is a member but not in the game).",
+      "members": ["AUS", "BRN", "CAN", "CHL", "CHN", "IDN", "JPN", "KOR", "MYS", "MEX", "NZL", "PNG", "PER", "PHL", "RUS", "SGP", "TWN", "THA", "USA", "VNM"]
+    },
+    "tourism_top20": {
+      "expect": 20,
+      "note": "Roughly the 20 most-visited countries by international tourist arrivals (UN Tourism, 2024). The first 17 are clear; Canada, UAE and Poland are close calls against Vietnam, Morocco and Croatia.",
+      "members": ["FRA", "ESP", "USA", "CHN", "TUR", "ITA", "MEX", "GBR", "DEU", "JPN", "GRC", "THA", "AUT", "SAU", "PRT", "MYS", "NLD", "CAN", "ARE", "POL"]
+    },
+    "capital_metro_1m": {
+      "expect": 9,
+      "note": "Capitals whose metro area exceeds 1M although Wikidata's city-proper figure is small (Brussels, New Delhi, Lisbon ...). Added to the population-based test.",
+      "members": ["BEL", "CRI", "SLV", "IND", "IRL", "MAR", "PRY", "PRT", "TUN"]
+    }
+  },
+  "flag_color_overrides": {
+    "_format": {
+      "any": [
+        "every colour on the flag"
+      ],
+      "main": [
+        "field colours only"
+      ]
+    }
+  },
+  "stat_overrides": {
+    "_comment": "Countries the World Bank has no figure for. Rough values; only which side of a category threshold they fall on matters.",
+    "TWN": {
+      "population": 23400000,
+      "gdpPerCapita": 34000,
+      "urbanPct": 80,
+      "over65Pct": 19,
+      "forestPct": 60,
+      "density": 650
+    },
+    "VAT": {
+      "population": 800,
+      "urbanPct": 100,
+      "density": 1800
+    },
+    "PRK": {
+      "gdpPerCapita": 640
+    },
+    "UNK": {
+      "forestPct": 44,
+      "density": 145
+    }
+  }
+}

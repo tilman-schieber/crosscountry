@@ -1,0 +1,10028 @@
+[
+ {
+  "id": "AFG",
+  "name": "Afghanistan",
+  "alt": [
+   "AF",
+   "Afġānistān",
+   "Islamic Republic of Afghanistan"
+  ],
+  "emoji": "🇦🇫",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Kabul",
+  "borders": [
+   "CHN",
+   "IRN",
+   "PAK",
+   "TJK",
+   "TKM",
+   "UZB"
+  ],
+  "landlocked": true,
+  "area": 652230,
+  "population": 43844111,
+  "gdpPerCapita": 417,
+  "urbanPct": 25.9401644699898,
+  "over65Pct": 2.42557886023075,
+  "forestPct": 1.85278199408184,
+  "density": 63.5585008355948,
+  "capitalPopulation": 5333284,
+  "olympicMedals": 2,
+  "languages": [
+   "Dari",
+   "Pashto",
+   "Turkmen"
+  ],
+  "currencies": [
+   "AFN"
+  ],
+  "flagColors": [
+   "black",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "white"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 2590440
+ },
+ {
+  "id": "ALB",
+  "name": "Albania",
+  "alt": [
+   "AL",
+   "Republic of Albania",
+   "Shqipnia",
+   "Shqipëri",
+   "Shqipëria"
+  ],
+  "emoji": "🇦🇱",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Tirana",
+  "borders": [
+   "GRC",
+   "MKD",
+   "MNE",
+   "UNK"
+  ],
+  "landlocked": false,
+  "area": 28748,
+  "population": 2349580,
+  "gdpPerCapita": 12998,
+  "urbanPct": 58.871474331067,
+  "over65Pct": 17.6221063807332,
+  "forestPct": 28.7919708029197,
+  "density": 88.0167153284672,
+  "capitalPopulation": 389323,
+  "olympicMedals": 2,
+  "languages": [
+   "Albanian"
+  ],
+  "currencies": [
+   "ALL"
+  ],
+  "flagColors": [
+   "black",
+   "red"
+  ],
+  "flagMain": [
+   "black",
+   "red"
+  ],
+  "sets": [
+   "nato",
+   "ottoman"
+  ],
+  "views": 2149764
+ },
+ {
+  "id": "DZA",
+  "name": "Algeria",
+  "alt": [
+   "Algérie",
+   "DZ",
+   "Dzayer",
+   "People's Democratic Republic of Algeria"
+  ],
+  "emoji": "🇩🇿",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capital": "Algiers",
+  "borders": [
+   "LBY",
+   "MAR",
+   "MLI",
+   "MRT",
+   "NER",
+   "TUN"
+  ],
+  "landlocked": false,
+  "area": 2381741,
+  "population": 47435312,
+  "gdpPerCapita": 6051,
+  "urbanPct": 75.8187358069877,
+  "over65Pct": 6.80593085174533,
+  "forestPct": 0.830314224054683,
+  "density": 19.3825602290762,
+  "capitalPopulation": 2364230,
+  "olympicMedals": 20,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "DZD"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 1908672
+ },
+ {
+  "id": "AND",
+  "name": "Andorra",
+  "alt": [
+   "AD",
+   "Principality of Andorra",
+   "Principat d'Andorra"
+  ],
+  "emoji": "🇦🇩",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Andorra la Vella",
+  "borders": [
+   "ESP",
+   "FRA"
+  ],
+  "landlocked": true,
+  "area": 468,
+  "population": 82904,
+  "gdpPerCapita": 54292,
+  "urbanPct": 88.9492672283129,
+  "over65Pct": 16.5624302661496,
+  "forestPct": 34.0425531914894,
+  "density": 172.034042553191,
+  "capitalPopulation": 24042,
+  "olympicMedals": 0,
+  "languages": [
+   "Catalan"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "monarchy"
+  ],
+  "views": 1417668
+ },
+ {
+  "id": "AGO",
+  "name": "Angola",
+  "alt": [
+   "AO",
+   "Republic of Angola",
+   "República de Angola",
+   "ʁɛpublika de an'ɡɔla"
+  ],
+  "emoji": "🇦🇴",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Luanda",
+  "borders": [
+   "COD",
+   "COG",
+   "NAM",
+   "ZMB"
+  ],
+  "landlocked": false,
+  "area": 1246700,
+  "population": 39040039,
+  "gdpPerCapita": 3129,
+  "urbanPct": 71.4615915176085,
+  "over65Pct": 2.89492414306917,
+  "forestPct": 52.0912696719339,
+  "density": 29.4777460495709,
+  "capitalPopulation": 2487444,
+  "olympicMedals": 0,
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "AOA"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 1111656
+ },
+ {
+  "id": "ATG",
+  "name": "Antigua and Barbuda",
+  "alt": [
+   "AG"
+  ],
+  "emoji": "🇦🇬",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Saint John's",
+  "borders": [],
+  "landlocked": false,
+  "area": 442,
+  "population": 94209,
+  "gdpPerCapita": 24819,
+  "urbanPct": 24.3334834700661,
+  "over65Pct": 12.3369971923977,
+  "forestPct": 18.0134090909091,
+  "density": 212.081818181818,
+  "capitalPopulation": 21394,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "XCD"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 556020
+ },
+ {
+  "id": "ARG",
+  "name": "Argentina",
+  "alt": [
+   "AR",
+   "Argentine Republic",
+   "República Argentina"
+  ],
+  "emoji": "🇦🇷",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Buenos Aires",
+  "borders": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "PRY",
+   "URY"
+  ],
+  "landlocked": false,
+  "area": 2780400,
+  "population": 45851378,
+  "gdpPerCapita": 14898,
+  "urbanPct": 92.3519221615173,
+  "over65Pct": 12.634433938217,
+  "forestPct": 10.3212951412107,
+  "density": 16.6399559321662,
+  "capitalPopulation": 3121707,
+  "olympicMedals": 80,
+  "languages": [
+   "Guaraní",
+   "Spanish"
+  ],
+  "currencies": [
+   "ARS"
+  ],
+  "flagColors": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "desert",
+   "g20",
+   "world_cup_host"
+  ],
+  "views": 2291340
+ },
+ {
+  "id": "ARM",
+  "name": "Armenia",
+  "alt": [
+   "AM",
+   "Hayastan",
+   "Republic of Armenia",
+   "Հայաստանի Հանրապետություն"
+  ],
+  "emoji": "🇦🇲",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Yerevan",
+  "borders": [
+   "AZE",
+   "GEO",
+   "IRN",
+   "TUR"
+  ],
+  "landlocked": true,
+  "area": 29743,
+  "population": 3086700,
+  "gdpPerCapita": 9474,
+  "urbanPct": 65.9287015589872,
+  "over65Pct": 14.4428643549941,
+  "forestPct": 11.6183158247114,
+  "density": 105.119108748259,
+  "capitalPopulation": 1106300,
+  "olympicMedals": 22,
+  "languages": [
+   "Armenian"
+  ],
+  "currencies": [
+   "AMD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "ottoman",
+   "ussr"
+  ],
+  "views": 2248440
+ },
+ {
+  "id": "AUS",
+  "name": "Australia",
+  "alt": [
+   "AU",
+   "Commonwealth of Australia"
+  ],
+  "emoji": "🇦🇺",
+  "continent": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "capital": "Canberra",
+  "borders": [],
+  "landlocked": false,
+  "area": 7692024,
+  "population": 27614411,
+  "gdpPerCapita": 65130,
+  "urbanPct": 87.7192672666333,
+  "over65Pct": 18.0930147394386,
+  "forestPct": 17.4213145571644,
+  "density": 3.46591948538875,
+  "capitalPopulation": 381488,
+  "olympicMedals": 619,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "AUD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "commonwealth",
+   "desert",
+   "drives_left",
+   "g20",
+   "monarchy",
+   "olympics_host"
+  ],
+  "views": 4465068
+ },
+ {
+  "id": "AUT",
+  "name": "Austria",
+  "alt": [
+   "AT",
+   "Oesterreich",
+   "Osterreich",
+   "Republic of Austria"
+  ],
+  "emoji": "🇦🇹",
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capital": "Vienna",
+  "borders": [
+   "CHE",
+   "CZE",
+   "DEU",
+   "HUN",
+   "ITA",
+   "LIE",
+   "SVK",
+   "SVN"
+  ],
+  "landlocked": true,
+  "area": 83871,
+  "population": 9208163,
+  "gdpPerCapita": 62930,
+  "urbanPct": 69.7152152366353,
+  "over65Pct": 21.094709934873,
+  "forestPct": 47.2402653902084,
+  "density": 110.661185167232,
+  "capitalPopulation": 2028289,
+  "olympicMedals": 367,
+  "languages": [
+   "Austro-Bavarian German"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "olympics_host",
+   "tourism_top20"
+  ],
+  "views": 1921944
+ },
+ {
+  "id": "AZE",
+  "name": "Azerbaijan",
+  "alt": [
+   "AZ",
+   "Azərbaycan Respublikası",
+   "Republic of Azerbaijan"
+  ],
+  "emoji": "🇦🇿",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Baku",
+  "borders": [
+   "ARM",
+   "GEO",
+   "IRN",
+   "RUS",
+   "TUR"
+  ],
+  "landlocked": true,
+  "area": 86600,
+  "population": 10246996,
+  "gdpPerCapita": 7411,
+  "urbanPct": 58.6371024281175,
+  "over65Pct": 9.16837192948103,
+  "forestPct": 14.1119540229885,
+  "density": 122.854906231095,
+  "capitalPopulation": 2300500,
+  "olympicMedals": 56,
+  "languages": [
+   "Azerbaijani",
+   "Russian"
+  ],
+  "currencies": [
+   "AZN"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red"
+  ],
+  "sets": [
+   "ottoman",
+   "ussr"
+  ],
+  "views": 1873824
+ },
+ {
+  "id": "BHS",
+  "name": "Bahamas",
+  "alt": [
+   "BS",
+   "Commonwealth of the Bahamas"
+  ],
+  "emoji": "🇧🇸",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Nassau",
+  "borders": [],
+  "landlocked": false,
+  "area": 13943,
+  "population": 403033,
+  "gdpPerCapita": 39455,
+  "urbanPct": 81.3309172016028,
+  "over65Pct": 12.094434071694,
+  "forestPct": 50.9350649350649,
+  "density": 39.9040959040959,
+  "capitalPopulation": 227940,
+  "olympicMedals": 16,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "BSD",
+   "USD"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 1290948
+ },
+ {
+  "id": "BHR",
+  "name": "Bahrain",
+  "alt": [
+   "BH",
+   "Kingdom of Bahrain",
+   "Mamlakat al-Baḥrayn"
+  ],
+  "emoji": "🇧🇭",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Manama",
+  "borders": [],
+  "landlocked": false,
+  "area": 765,
+  "population": 1600366,
+  "gdpPerCapita": 30597,
+  "urbanPct": 100,
+  "over65Pct": 4.01595782713348,
+  "forestPct": 0.95,
+  "density": 1971.32375,
+  "capitalPopulation": 297502,
+  "olympicMedals": 8,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "BHD"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "monarchy"
+  ],
+  "views": 1695324
+ },
+ {
+  "id": "BGD",
+  "name": "Bangladesh",
+  "alt": [
+   "BD",
+   "Gônôprôjatôntri Bangladesh",
+   "People's Republic of Bangladesh"
+  ],
+  "emoji": "🇧🇩",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Dhaka",
+  "borders": [
+   "IND",
+   "MMR"
+  ],
+  "landlocked": false,
+  "area": 147570,
+  "population": 175686899,
+  "gdpPerCapita": 2597,
+  "urbanPct": 33.2395847043975,
+  "over65Pct": 6.66842350416686,
+  "forestPct": 14.4899215263887,
+  "density": 1319.17979689183,
+  "capitalPopulation": 16800000,
+  "olympicMedals": 0,
+  "languages": [
+   "Bengali"
+  ],
+  "currencies": [
+   "BDT"
+  ],
+  "flagColors": [
+   "green",
+   "red"
+  ],
+  "flagMain": [
+   "green",
+   "red"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 2616684
+ },
+ {
+  "id": "BRB",
+  "name": "Barbados",
+  "alt": [
+   "BB"
+  ],
+  "emoji": "🇧🇧",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Bridgetown",
+  "borders": [],
+  "landlocked": false,
+  "area": 430,
+  "population": 282623,
+  "gdpPerCapita": 28365,
+  "urbanPct": 59.6996239887007,
+  "over65Pct": 17.0865126219157,
+  "forestPct": 14.6511627906977,
+  "density": 656.595348837209,
+  "capitalPopulation": 98511,
+  "olympicMedals": 1,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "BBD"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 1235352
+ },
+ {
+  "id": "BLR",
+  "name": "Belarus",
+  "alt": [
+   "BY",
+   "Bielaruś",
+   "Republic of Belarus",
+   "Белоруссия",
+   "Республика Белоруссия"
+  ],
+  "emoji": "🇧🇾",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capital": "Minsk",
+  "borders": [
+   "LTU",
+   "LVA",
+   "POL",
+   "RUS",
+   "UKR"
+  ],
+  "landlocked": true,
+  "area": 207600,
+  "population": 9085991,
+  "gdpPerCapita": 10279,
+  "urbanPct": 79.4945820380127,
+  "over65Pct": 18.2845697904208,
+  "forestPct": 43.4080686559958,
+  "density": 45.217077292187,
+  "capitalPopulation": 1995091,
+  "olympicMedals": 105,
+  "languages": [
+   "Belarusian",
+   "Russian"
+  ],
+  "currencies": [
+   "BYN"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "ussr"
+  ],
+  "views": 1876296
+ },
+ {
+  "id": "BEL",
+  "name": "Belgium",
+  "alt": [
+   "BE",
+   "Belgie",
+   "Belgien",
+   "Belgique",
+   "België",
+   "Kingdom of Belgium",
+   "Koninkrijk België",
+   "Königreich Belgien",
+   "Royaume de Belgique"
+  ],
+  "emoji": "🇧🇪",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Brussels",
+  "borders": [
+   "DEU",
+   "FRA",
+   "LUX",
+   "NLD"
+  ],
+  "landlocked": false,
+  "area": 30528,
+  "population": 11941781,
+  "gdpPerCapita": 60750,
+  "urbanPct": 87.6726083114649,
+  "over65Pct": 20.9608828531757,
+  "forestPct": 22.604446776415,
+  "density": 386.303731881682,
+  "capitalPopulation": 195546,
+  "olympicMedals": 177,
+  "languages": [
+   "Dutch",
+   "French",
+   "German"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "capital_metro_1m",
+   "eu",
+   "monarchy",
+   "nato",
+   "olympics_host"
+  ],
+  "views": 1983624
+ },
+ {
+  "id": "BLZ",
+  "name": "Belize",
+  "alt": [
+   "BZ"
+  ],
+  "emoji": "🇧🇿",
+  "continent": "North America",
+  "subregion": "Central America",
+  "capital": "Belmopan",
+  "borders": [
+   "GTM",
+   "MEX"
+  ],
+  "landlocked": false,
+  "area": 22966,
+  "population": 422924,
+  "gdpPerCapita": 7865,
+  "urbanPct": 41.5621435428272,
+  "over65Pct": 5.22800786902611,
+  "forestPct": 54.5186321788689,
+  "density": 18.0230600613766,
+  "capitalPopulation": 20754,
+  "olympicMedals": 0,
+  "languages": [
+   "Belizean Creole",
+   "English",
+   "Spanish"
+  ],
+  "currencies": [
+   "BZD"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "monarchy"
+  ],
+  "views": 1288584
+ },
+ {
+  "id": "BEN",
+  "name": "Benin",
+  "alt": [
+   "BJ",
+   "Republic of Benin",
+   "République du Bénin"
+  ],
+  "emoji": "🇧🇯",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Porto-Novo",
+  "borders": [
+   "BFA",
+   "NER",
+   "NGA",
+   "TGO"
+  ],
+  "landlocked": false,
+  "area": 112622,
+  "population": 14814460,
+  "gdpPerCapita": 1658,
+  "urbanPct": 53.3620073968188,
+  "over65Pct": 3.15305462207379,
+  "forestPct": 26.4734835047889,
+  "density": 125.142195814118,
+  "capitalPopulation": 234168,
+  "olympicMedals": 0,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [],
+  "views": 1024164
+ },
+ {
+  "id": "BTN",
+  "name": "Bhutan",
+  "alt": [
+   "BT",
+   "Kingdom of Bhutan"
+  ],
+  "emoji": "🇧🇹",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Thimphu",
+  "borders": [
+   "CHN",
+   "IND"
+  ],
+  "landlocked": true,
+  "area": 38394,
+  "population": 796682,
+  "gdpPerCapita": 4493,
+  "urbanPct": 43.4301832473753,
+  "over65Pct": 6.62730338284496,
+  "forestPct": 71.60513896172,
+  "density": 20.6183796539067,
+  "capitalPopulation": 114551,
+  "olympicMedals": 0,
+  "languages": [
+   "Dzongkha"
+  ],
+  "currencies": [
+   "BTN",
+   "INR"
+  ],
+  "flagColors": [
+   "orange",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "orange",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 1455672
+ },
+ {
+  "id": "BOL",
+  "name": "Bolivia",
+  "alt": [
+   "BO",
+   "Bolivia, Plurinational State of",
+   "Buliwya",
+   "Buliwya Mamallaqta",
+   "Estado Plurinacional de Bolivia",
+   "Plurinational State of Bolivia",
+   "Tetã Volívia",
+   "Wuliwya",
+   "Wuliwya Suyu"
+  ],
+  "emoji": "🇧🇴",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Sucre",
+  "borders": [
+   "ARG",
+   "BRA",
+   "CHL",
+   "PER",
+   "PRY"
+  ],
+  "landlocked": true,
+  "area": 1098581,
+  "population": 12581843,
+  "gdpPerCapita": 5148,
+  "urbanPct": 71.5631037265869,
+  "over65Pct": 5.74004562527309,
+  "forestPct": 46.3457431920982,
+  "density": 11.3026483891812,
+  "capitalPopulation": 755732,
+  "olympicMedals": 0,
+  "languages": [
+   "Aymara",
+   "Guaraní",
+   "Quechua",
+   "Spanish"
+  ],
+  "currencies": [
+   "BOB"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 1242696
+ },
+ {
+  "id": "BIH",
+  "name": "Bosnia and Herzegovina",
+  "alt": [
+   "BA",
+   "Bosnia-Herzegovina",
+   "Босна и Херцеговина"
+  ],
+  "emoji": "🇧🇦",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Sarajevo",
+  "borders": [
+   "HRV",
+   "MNE",
+   "SRB"
+  ],
+  "landlocked": false,
+  "area": 51209,
+  "population": 3140095,
+  "gdpPerCapita": 10382,
+  "urbanPct": 52.6915440779561,
+  "over65Pct": 22.8598779877873,
+  "forestPct": 42.7326171875,
+  "density": 62.20845703125,
+  "capitalPopulation": 275524,
+  "olympicMedals": 0,
+  "languages": [
+   "Bosnian",
+   "Croatian",
+   "Serbian"
+  ],
+  "currencies": [
+   "BAM"
+  ],
+  "flagColors": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "olympics_host",
+   "ottoman"
+  ],
+  "views": 1898616
+ },
+ {
+  "id": "BWA",
+  "name": "Botswana",
+  "alt": [
+   "BW",
+   "Lefatshe la Botswana",
+   "Republic of Botswana"
+  ],
+  "emoji": "🇧🇼",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capital": "Gaborone",
+  "borders": [
+   "NAM",
+   "ZAF",
+   "ZMB",
+   "ZWE"
+  ],
+  "landlocked": true,
+  "area": 582000,
+  "population": 2562122,
+  "gdpPerCapita": 7778,
+  "urbanPct": 67.9559561532102,
+  "over65Pct": 4.08292423233554,
+  "forestPct": 26.2908263194114,
+  "density": 4.37641204806522,
+  "capitalPopulation": 235884,
+  "olympicMedals": 4,
+  "languages": [
+   "English",
+   "Tswana"
+  ],
+  "currencies": [
+   "BWP"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "desert",
+   "drives_left"
+  ],
+  "views": 957456
+ },
+ {
+  "id": "BRA",
+  "name": "Brazil",
+  "alt": [
+   "BR",
+   "Brasil",
+   "Federative Republic of Brazil",
+   "República Federativa do Brasil"
+  ],
+  "emoji": "🇧🇷",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Brasília",
+  "borders": [
+   "ARG",
+   "BOL",
+   "COL",
+   "GUY",
+   "PER",
+   "PRY",
+   "SUR",
+   "URY",
+   "VEN"
+  ],
+  "landlocked": false,
+  "area": 8515767,
+  "population": 212812405,
+  "gdpPerCapita": 10713,
+  "urbanPct": 88.1772996487898,
+  "over65Pct": 11.4803394567154,
+  "forestPct": 58.9818729765235,
+  "density": 25.2616884857157,
+  "capitalPopulation": 2996899,
+  "olympicMedals": 171,
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "BRL"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "equator",
+   "g20",
+   "olympics_host",
+   "world_cup_host"
+  ],
+  "views": 3073872
+ },
+ {
+  "id": "BRN",
+  "name": "Brunei",
+  "alt": [
+   "BN",
+   "Brunei Darussalam",
+   "Nation of Brunei",
+   "Nation of Brunei, Abode of Peace",
+   "the Abode of Peace"
+  ],
+  "emoji": "🇧🇳",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Bandar Seri Begawan",
+  "borders": [
+   "MYS"
+  ],
+  "landlocked": false,
+  "area": 5765,
+  "population": 466330,
+  "gdpPerCapita": 32235,
+  "urbanPct": 75.0109886586819,
+  "over65Pct": 7.23853575950962,
+  "forestPct": 72.1062618595825,
+  "density": 87.0870967741936,
+  "capitalPopulation": 50000,
+  "olympicMedals": 0,
+  "languages": [
+   "Malay"
+  ],
+  "currencies": [
+   "BND",
+   "SGD"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "apec",
+   "asean",
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 1401252
+ },
+ {
+  "id": "BGR",
+  "name": "Bulgaria",
+  "alt": [
+   "BG",
+   "Republic of Bulgaria",
+   "Република България"
+  ],
+  "emoji": "🇧🇬",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Sofia",
+  "borders": [
+   "GRC",
+   "MKD",
+   "ROU",
+   "SRB",
+   "TUR"
+  ],
+  "landlocked": false,
+  "area": 110879,
+  "population": 6433302,
+  "gdpPerCapita": 20328,
+  "urbanPct": 74.1727501848475,
+  "over65Pct": 22.2355986271326,
+  "forestPct": 36.2196020633751,
+  "density": 59.3827929255711,
+  "capitalPopulation": 1213134,
+  "olympicMedals": 239,
+  "languages": [
+   "Bulgarian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ottoman"
+  ],
+  "views": 1632144
+ },
+ {
+  "id": "BFA",
+  "name": "Burkina Faso",
+  "alt": [
+   "BF"
+  ],
+  "emoji": "🇧🇫",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Ouagadougou",
+  "borders": [
+   "BEN",
+   "CIV",
+   "GHA",
+   "MLI",
+   "NER",
+   "TGO"
+  ],
+  "landlocked": true,
+  "area": 272967,
+  "population": 24074580,
+  "gdpPerCapita": 1148,
+  "urbanPct": 28.9226360719085,
+  "over65Pct": 2.68420882108847,
+  "forestPct": 22.172514619883,
+  "density": 84.1585380116959,
+  "capitalPopulation": 2453496,
+  "olympicMedals": 1,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red"
+  ],
+  "sets": [],
+  "views": 1800300
+ },
+ {
+  "id": "BDI",
+  "name": "Burundi",
+  "alt": [
+   "BI",
+   "Republic of Burundi",
+   "Republika y'Uburundi",
+   "République du Burundi"
+  ],
+  "emoji": "🇧🇮",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Gitega",
+  "borders": [
+   "COD",
+   "RWA",
+   "TZA"
+  ],
+  "landlocked": true,
+  "area": 27834,
+  "population": 14390003,
+  "gdpPerCapita": 234,
+  "urbanPct": 25.6870184681663,
+  "over65Pct": 2.54810935578364,
+  "forestPct": 10.8894080996885,
+  "density": 533.078271028037,
+  "capitalPopulation": 135467,
+  "olympicMedals": 2,
+  "languages": [
+   "French",
+   "Kirundi"
+  ],
+  "currencies": [
+   "BIF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 801288
+ },
+ {
+  "id": "KHM",
+  "name": "Cambodia",
+  "alt": [
+   "KH",
+   "Kingdom of Cambodia"
+  ],
+  "emoji": "🇰🇭",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Phnom Penh",
+  "borders": [
+   "LAO",
+   "THA",
+   "VNM"
+  ],
+  "landlocked": false,
+  "area": 181035,
+  "population": 17847982,
+  "gdpPerCapita": 2872,
+  "urbanPct": 41.10561939401,
+  "over65Pct": 6.37709648006975,
+  "forestPct": 43.0619759800589,
+  "density": 98.7076818490823,
+  "capitalPopulation": 2129371,
+  "olympicMedals": 0,
+  "languages": [
+   "Khmer"
+  ],
+  "currencies": [
+   "KHR",
+   "USD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "asean",
+   "monarchy"
+  ],
+  "views": 1488804
+ },
+ {
+  "id": "CMR",
+  "name": "Cameroon",
+  "alt": [
+   "CM",
+   "Republic of Cameroon",
+   "République du Cameroun"
+  ],
+  "emoji": "🇨🇲",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Yaoundé",
+  "borders": [
+   "CAF",
+   "COG",
+   "GAB",
+   "GNQ",
+   "NGA",
+   "TCD"
+  ],
+  "landlocked": false,
+  "area": 475442,
+  "population": 29879337,
+  "gdpPerCapita": 1972,
+  "urbanPct": 55.6692041661323,
+  "over65Pct": 2.81759096595751,
+  "forestPct": 42.6741130925938,
+  "density": 60.0213386642973,
+  "capitalPopulation": 2440462,
+  "olympicMedals": 6,
+  "languages": [
+   "English",
+   "French"
+  ],
+  "currencies": [
+   "XAF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 1115412
+ },
+ {
+  "id": "CAN",
+  "name": "Canada",
+  "alt": [
+   "CA"
+  ],
+  "emoji": "🇨🇦",
+  "continent": "North America",
+  "subregion": "North America",
+  "capital": "Ottawa",
+  "borders": [
+   "USA"
+  ],
+  "landlocked": false,
+  "area": 9984670,
+  "population": 41651653,
+  "gdpPerCapita": 55698,
+  "urbanPct": 82.8757020253886,
+  "over65Pct": 20.2603673865917,
+  "forestPct": 39.4617117321106,
+  "density": 4.5568841808231,
+  "capitalPopulation": 1017449,
+  "olympicMedals": 597,
+  "languages": [
+   "English",
+   "French"
+  ],
+  "currencies": [
+   "CAD"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "commonwealth",
+   "g20",
+   "monarchy",
+   "nato",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 4330944
+ },
+ {
+  "id": "CPV",
+  "name": "Cape Verde",
+  "alt": [
+   "CV",
+   "Republic of Cabo Verde",
+   "República de Cabo Verde"
+  ],
+  "emoji": "🇨🇻",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Praia",
+  "borders": [],
+  "landlocked": false,
+  "area": 4033,
+  "population": 527326,
+  "gdpPerCapita": 5796,
+  "urbanPct": 77.6300668010068,
+  "over65Pct": 7.15393054195179,
+  "forestPct": 11.5682382133995,
+  "density": 129.610669975186,
+  "capitalPopulation": 159050,
+  "olympicMedals": 1,
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "CVE"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 1881432
+ },
+ {
+  "id": "CAF",
+  "name": "Central African Republic",
+  "alt": [
+   "CF",
+   "République centrafricaine"
+  ],
+  "emoji": "🇨🇫",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Bangui",
+  "borders": [
+   "CMR",
+   "COD",
+   "COG",
+   "SDN",
+   "SSD",
+   "TCD"
+  ],
+  "landlocked": true,
+  "area": 622984,
+  "population": 5513282,
+  "gdpPerCapita": 556,
+  "urbanPct": 44.5532156681816,
+  "over65Pct": 2.19798298001082,
+  "forestPct": 35.6560403223217,
+  "density": 8.27060419275097,
+  "capitalPopulation": 889231,
+  "olympicMedals": 0,
+  "languages": [
+   "French",
+   "Sango"
+  ],
+  "currencies": [
+   "XAF"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [],
+  "views": 850836
+ },
+ {
+  "id": "TCD",
+  "name": "Chad",
+  "alt": [
+   "Republic of Chad",
+   "République du Tchad",
+   "TD",
+   "Tchad"
+  ],
+  "emoji": "🇹🇩",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "N'Djamena",
+  "borders": [
+   "CAF",
+   "CMR",
+   "LBY",
+   "NER",
+   "NGA",
+   "SDN"
+  ],
+  "landlocked": true,
+  "area": 1284000,
+  "population": 21003705,
+  "gdpPerCapita": 1022,
+  "urbanPct": 27.5658786336865,
+  "over65Pct": 2.11894758567596,
+  "forestPct": 3.16103105146125,
+  "density": 15.342331639136,
+  "capitalPopulation": 1092066,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "currencies": [
+   "XAF"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 852804
+ },
+ {
+  "id": "CHL",
+  "name": "Chile",
+  "alt": [
+   "CL",
+   "Republic of Chile",
+   "República de Chile"
+  ],
+  "emoji": "🇨🇱",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Santiago",
+  "borders": [
+   "ARG",
+   "BOL",
+   "PER"
+  ],
+  "landlocked": false,
+  "area": 756102,
+  "population": 19859921,
+  "gdpPerCapita": 17995,
+  "urbanPct": 89.1772830019223,
+  "over65Pct": 14.5897458504493,
+  "forestPct": 25.0116461113584,
+  "density": 26.4647249005172,
+  "capitalPopulation": 6257516,
+  "olympicMedals": 15,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "CLP"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "desert",
+   "world_cup_host"
+  ],
+  "views": 1512636
+ },
+ {
+  "id": "CHN",
+  "name": "China",
+  "alt": [
+   "CN",
+   "People's Republic of China",
+   "Zhongguo",
+   "Zhonghua",
+   "Zhōngguó",
+   "Zhōnghuá Rénmín Gònghéguó",
+   "中华人民共和国"
+  ],
+  "emoji": "🇨🇳",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capital": "Beijing",
+  "borders": [
+   "AFG",
+   "BTN",
+   "IND",
+   "KAZ",
+   "KGZ",
+   "LAO",
+   "MMR",
+   "MNG",
+   "NPL",
+   "PAK",
+   "PRK",
+   "RUS",
+   "TJK",
+   "VNM"
+  ],
+  "landlocked": false,
+  "area": 9706961,
+  "population": 1406585000,
+  "gdpPerCapita": 13862,
+  "urbanPct": 66.3429910348272,
+  "over65Pct": 14.9114314271952,
+  "forestPct": 24.0319389958256,
+  "density": 150.264001337848,
+  "capitalPopulation": 21893095,
+  "olympicMedals": 819,
+  "languages": [
+   "Chinese"
+  ],
+  "currencies": [
+   "CNY"
+  ],
+  "flagColors": [
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "apec",
+   "desert",
+   "g20",
+   "nuclear_weapons",
+   "olympics_host",
+   "tourism_top20"
+  ],
+  "views": 5064372
+ },
+ {
+  "id": "COL",
+  "name": "Colombia",
+  "alt": [
+   "CO",
+   "Republic of Colombia",
+   "República de Colombia"
+  ],
+  "emoji": "🇨🇴",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Bogotá",
+  "borders": [
+   "BRA",
+   "ECU",
+   "PAN",
+   "PER",
+   "VEN"
+  ],
+  "landlocked": false,
+  "area": 1141748,
+  "population": 53425635,
+  "gdpPerCapita": 8562,
+  "urbanPct": 78.7827914751151,
+  "over65Pct": 10.2001032818786,
+  "forestPct": 52.7661596214511,
+  "density": 47.1574150518251,
+  "capitalPopulation": 8034649,
+  "olympicMedals": 38,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "COP"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert",
+   "equator"
+  ],
+  "views": 1992012
+ },
+ {
+  "id": "COM",
+  "name": "Comoros",
+  "alt": [
+   "KM",
+   "Udzima wa Komori",
+   "Union des Comores",
+   "Union of the Comoros",
+   "al-Ittiḥād al-Qumurī"
+  ],
+  "emoji": "🇰🇲",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Moroni",
+  "borders": [],
+  "landlocked": false,
+  "area": 1862,
+  "population": 882847,
+  "gdpPerCapita": 2056,
+  "urbanPct": 33.941547481361,
+  "over65Pct": 4.45428004270273,
+  "forestPct": 16.9801182160129,
+  "density": 456.951638903815,
+  "capitalPopulation": 85400,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic",
+   "Comorian",
+   "French"
+  ],
+  "currencies": [
+   "KMF"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "arab_league"
+  ],
+  "views": 657480
+ },
+ {
+  "id": "COG",
+  "name": "Congo",
+  "alt": [
+   "CG",
+   "Congo-Brazzaville",
+   "Republic of the Congo"
+  ],
+  "emoji": "🇨🇬",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Brazzaville",
+  "borders": [
+   "AGO",
+   "CAF",
+   "CMR",
+   "COD",
+   "GAB"
+  ],
+  "landlocked": false,
+  "area": 342000,
+  "population": 6484437,
+  "gdpPerCapita": 2515,
+  "urbanPct": 64.1236534817412,
+  "over65Pct": 3.06138374079353,
+  "forestPct": 64.1317715959004,
+  "density": 18.1050805270864,
+  "capitalPopulation": 2145783,
+  "olympicMedals": 0,
+  "languages": [
+   "French",
+   "Kikongo",
+   "Lingala"
+  ],
+  "currencies": [
+   "XAF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "equator"
+  ],
+  "views": 706632
+ },
+ {
+  "id": "CRI",
+  "name": "Costa Rica",
+  "alt": [
+   "CR",
+   "Republic of Costa Rica",
+   "República de Costa Rica"
+  ],
+  "emoji": "🇨🇷",
+  "continent": "North America",
+  "subregion": "Central America",
+  "capital": "San José",
+  "borders": [
+   "NIC",
+   "PAN"
+  ],
+  "landlocked": false,
+  "area": 51100,
+  "population": 5152950,
+  "gdpPerCapita": 19970,
+  "urbanPct": 79.7268137993004,
+  "over65Pct": 12.7519673196907,
+  "forestPct": 60.3991382687035,
+  "density": 99.9906972189581,
+  "capitalPopulation": 335007,
+  "olympicMedals": 4,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "CRC"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "capital_metro_1m"
+  ],
+  "views": 1063788
+ },
+ {
+  "id": "HRV",
+  "name": "Croatia",
+  "alt": [
+   "HR",
+   "Hrvatska",
+   "Republic of Croatia",
+   "Republika Hrvatska"
+  ],
+  "emoji": "🇭🇷",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Zagreb",
+  "borders": [
+   "BIH",
+   "HUN",
+   "MNE",
+   "SRB",
+   "SVN"
+  ],
+  "landlocked": false,
+  "area": 56594,
+  "population": 3876200,
+  "gdpPerCapita": 27104,
+  "urbanPct": 57.8144543604143,
+  "over65Pct": 23.6095692486799,
+  "forestPct": 34.785739814153,
+  "density": 68.9722301644031,
+  "capitalPopulation": 767131,
+  "olympicMedals": 60,
+  "languages": [
+   "Croatian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ottoman"
+  ],
+  "views": 2094648
+ },
+ {
+  "id": "CUB",
+  "name": "Cuba",
+  "alt": [
+   "CU",
+   "Republic of Cuba",
+   "República de Cuba"
+  ],
+  "emoji": "🇨🇺",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Havana",
+  "borders": [],
+  "landlocked": false,
+  "area": 109884,
+  "population": 10937203,
+  "gdpPerCapita": 9605,
+  "urbanPct": 77.2270774821152,
+  "over65Pct": 17.0350080804476,
+  "forestPct": 31.233140655106,
+  "density": 106.165038535645,
+  "capitalPopulation": 2492618,
+  "olympicMedals": 244,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "CUC",
+   "CUP"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 1893084
+ },
+ {
+  "id": "CYP",
+  "name": "Cyprus",
+  "alt": [
+   "CY",
+   "Kýpros",
+   "Kıbrıs",
+   "Kıbrıs Cumhuriyeti",
+   "Republic of Cyprus",
+   "Κυπριακή Δημοκρατία"
+  ],
+  "emoji": "🇨🇾",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Nicosia",
+  "borders": [],
+  "landlocked": false,
+  "area": 9251,
+  "population": 1370754,
+  "gdpPerCapita": 41783,
+  "urbanPct": 66.6950270703775,
+  "over65Pct": 14.9323292144324,
+  "forestPct": 18.6655844155844,
+  "density": 145.560173160173,
+  "capitalPopulation": 56848,
+  "olympicMedals": 2,
+  "languages": [
+   "Greek",
+   "Turkish"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "flagMain": [
+   "orange",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "eu",
+   "ottoman"
+  ],
+  "views": 2401872
+ },
+ {
+  "id": "CZE",
+  "name": "Czechia",
+  "alt": [
+   "CZ",
+   "Czech Republic",
+   "Česko",
+   "Česká republika"
+  ],
+  "emoji": "🇨🇿",
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capital": "Prague",
+  "borders": [
+   "AUT",
+   "DEU",
+   "POL",
+   "SVK"
+  ],
+  "landlocked": true,
+  "area": 78865,
+  "population": 10886878,
+  "gdpPerCapita": 35917,
+  "urbanPct": 72.8754367116112,
+  "over65Pct": 21.1800713896599,
+  "forestPct": 34.7623883740408,
+  "density": 140.785547662605,
+  "capitalPopulation": 1397880,
+  "olympicMedals": 111,
+  "languages": [
+   "Czech",
+   "Slovak"
+  ],
+  "currencies": [
+   "CZK"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato"
+  ],
+  "views": 2835300
+ },
+ {
+  "id": "COD",
+  "name": "DR Congo",
+  "alt": [
+   "CD",
+   "Congo, the Democratic Republic of the",
+   "Congo-Kinshasa",
+   "DRC",
+   "Democratic Republic of Congo",
+   "Democratic Republic of the Congo"
+  ],
+  "emoji": "🇨🇩",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Kinshasa",
+  "borders": [
+   "AGO",
+   "BDI",
+   "CAF",
+   "COG",
+   "RWA",
+   "SSD",
+   "TZA",
+   "UGA",
+   "ZMB"
+  ],
+  "landlocked": false,
+  "area": 2344858,
+  "population": 112832473,
+  "gdpPerCapita": 807,
+  "urbanPct": 45.1135633042151,
+  "over65Pct": 3.08388348450007,
+  "forestPct": 54.1898572594341,
+  "density": 46.6640484329856,
+  "capitalPopulation": 14565700,
+  "olympicMedals": 0,
+  "languages": [
+   "French",
+   "Kikongo",
+   "Lingala",
+   "Swahili",
+   "Tshiluba"
+  ],
+  "currencies": [
+   "CDF"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "equator"
+  ],
+  "views": 2102508
+ },
+ {
+  "id": "DNK",
+  "name": "Denmark",
+  "alt": [
+   "DK",
+   "Danmark",
+   "Kingdom of Denmark",
+   "Kongeriget Danmark"
+  ],
+  "emoji": "🇩🇰",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Copenhagen",
+  "borders": [
+   "DEU"
+  ],
+  "landlocked": false,
+  "area": 43094,
+  "population": 6009169,
+  "gdpPerCapita": 76970,
+  "urbanPct": 88.8458435892689,
+  "over65Pct": 21.1189674580971,
+  "forestPct": 15.7815,
+  "density": 148.6738,
+  "capitalPopulation": 667099,
+  "olympicMedals": 216,
+  "languages": [
+   "Danish"
+  ],
+  "currencies": [
+   "DKK"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "monarchy",
+   "nato"
+  ],
+  "views": 1944396
+ },
+ {
+  "id": "DJI",
+  "name": "Djibouti",
+  "alt": [
+   "DJ",
+   "Gabuuti",
+   "Gabuutih Ummuuno",
+   "Jabuuti",
+   "Jamhuuriyadda Jabuuti",
+   "Republic of Djibouti",
+   "République de Djibouti"
+  ],
+  "emoji": "🇩🇯",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Djibouti",
+  "borders": [
+   "ERI",
+   "ETH",
+   "SOM"
+  ],
+  "landlocked": false,
+  "area": 23200,
+  "population": 1184076,
+  "gdpPerCapita": 3906,
+  "urbanPct": 72.9758660686475,
+  "over65Pct": 4.97206050453666,
+  "forestPct": 0.260724762726488,
+  "density": 49.7387402933563,
+  "capitalPopulation": 603900,
+  "olympicMedals": 1,
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "currencies": [
+   "DJF"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert"
+  ],
+  "views": 820824
+ },
+ {
+  "id": "DMA",
+  "name": "Dominica",
+  "alt": [
+   "Commonwealth of Dominica",
+   "DM",
+   "Dominique",
+   "Wai‘tu kubuli"
+  ],
+  "emoji": "🇩🇲",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Roseau",
+  "borders": [],
+  "landlocked": false,
+  "area": 751,
+  "population": 65871,
+  "gdpPerCapita": 10989,
+  "urbanPct": 73.9861616678942,
+  "over65Pct": 13.1984242047016,
+  "forestPct": 63.8266666666667,
+  "density": 88.68,
+  "capitalPopulation": 16571,
+  "olympicMedals": 1,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "XCD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 762828
+ },
+ {
+  "id": "DOM",
+  "name": "Dominican Republic",
+  "alt": [
+   "DO"
+  ],
+  "emoji": "🇩🇴",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Santo Domingo",
+  "borders": [
+   "HTI"
+  ],
+  "landlocked": false,
+  "area": 48671,
+  "population": 11520487,
+  "gdpPerCapita": 11059,
+  "urbanPct": 72.517694062591,
+  "over65Pct": 8.1878526489375,
+  "forestPct": 44.9887775472934,
+  "density": 235.098143035751,
+  "capitalPopulation": 2201941,
+  "olympicMedals": 15,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "DOP"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 1582968
+ },
+ {
+  "id": "ECU",
+  "name": "Ecuador",
+  "alt": [
+   "EC",
+   "Republic of Ecuador",
+   "República del Ecuador"
+  ],
+  "emoji": "🇪🇨",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Quito",
+  "borders": [
+   "COL",
+   "PER"
+  ],
+  "landlocked": false,
+  "area": 276841,
+  "population": 18289896,
+  "gdpPerCapita": 7125,
+  "urbanPct": 63.3918189058262,
+  "over65Pct": 8.59643215029763,
+  "forestPct": 49.5450958286359,
+  "density": 72.3952448059269,
+  "capitalPopulation": 1763275,
+  "olympicMedals": 10,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "USD"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "equator"
+  ],
+  "views": 1053108
+ },
+ {
+  "id": "EGY",
+  "name": "Egypt",
+  "alt": [
+   "Arab Republic of Egypt",
+   "EG"
+  ],
+  "emoji": "🇪🇬",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capital": "Cairo",
+  "borders": [
+   "ISR",
+   "LBY",
+   "PSE",
+   "SDN"
+  ],
+  "landlocked": false,
+  "area": 1002450,
+  "population": 118365995,
+  "gdpPerCapita": 3086,
+  "urbanPct": 42.9043204925248,
+  "over65Pct": 5.27119509818337,
+  "forestPct": 0.0451855944547692,
+  "density": 115.059291777588,
+  "capitalPopulation": 9801536,
+  "olympicMedals": 41,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "EGP"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 2311296
+ },
+ {
+  "id": "SLV",
+  "name": "El Salvador",
+  "alt": [
+   "Republic of El Salvador",
+   "República de El Salvador",
+   "SV"
+  ],
+  "emoji": "🇸🇻",
+  "continent": "North America",
+  "subregion": "Central America",
+  "capital": "San Salvador",
+  "borders": [
+   "GTM",
+   "HND"
+  ],
+  "landlocked": false,
+  "area": 21041,
+  "population": 6365503,
+  "gdpPerCapita": 5767,
+  "urbanPct": 75.5237123209951,
+  "over65Pct": 8.30913126582456,
+  "forestPct": 27.5279922779923,
+  "density": 304.518532818533,
+  "capitalPopulation": 330543,
+  "olympicMedals": 0,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "USD"
+  ],
+  "flagColors": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "capital_metro_1m"
+  ],
+  "views": 1323264
+ },
+ {
+  "id": "GNQ",
+  "name": "Equatorial Guinea",
+  "alt": [
+   "GQ",
+   "Republic of Equatorial Guinea",
+   "República da Guiné Equatorial",
+   "República de Guinea Ecuatorial",
+   "République de Guinée équatoriale"
+  ],
+  "emoji": "🇬🇶",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Malabo",
+  "borders": [
+   "CMR",
+   "GAB"
+  ],
+  "landlocked": false,
+  "area": 28051,
+  "population": 1938431,
+  "gdpPerCapita": 6615,
+  "urbanPct": 71.5761028458697,
+  "over65Pct": 3.76410096619379,
+  "forestPct": 86.3935828877005,
+  "density": 65.8662745098039,
+  "capitalPopulation": 2000,
+  "olympicMedals": 0,
+  "languages": [
+   "French",
+   "Portuguese",
+   "Spanish"
+  ],
+  "currencies": [
+   "XAF"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 946980
+ },
+ {
+  "id": "ERI",
+  "name": "Eritrea",
+  "alt": [
+   "Dawlat Iritriyá",
+   "ER",
+   "Iritriyā",
+   "State of Eritrea",
+   "ʾErtrā",
+   "ሃገረ ኤርትራ"
+  ],
+  "emoji": "🇪🇷",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Asmara",
+  "borders": [
+   "DJI",
+   "ETH",
+   "SDN"
+  ],
+  "landlocked": false,
+  "area": 117600,
+  "population": 3607003,
+  "gdpPerCapita": 689,
+  "urbanPct": 34.5404504255216,
+  "over65Pct": 4.2581056905137,
+  "forestPct": 8.63010013352237,
+  "density": 28.638732049164,
+  "capitalPopulation": 963000,
+  "olympicMedals": 1,
+  "languages": [
+   "Arabic",
+   "English",
+   "Tigrinya"
+  ],
+  "currencies": [
+   "ERN"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert",
+   "ottoman"
+  ],
+  "views": 1521036
+ },
+ {
+  "id": "EST",
+  "name": "Estonia",
+  "alt": [
+   "EE",
+   "Eesti",
+   "Eesti Vabariik",
+   "Republic of Estonia"
+  ],
+  "emoji": "🇪🇪",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Tallinn",
+  "borders": [
+   "LVA",
+   "RUS"
+  ],
+  "landlocked": false,
+  "area": 45227,
+  "population": 1366475,
+  "gdpPerCapita": 34418,
+  "urbanPct": 70.7208526598129,
+  "over65Pct": 21.8016309684638,
+  "forestPct": 57.0652937046572,
+  "density": 32.0684764802247,
+  "capitalPopulation": 457572,
+  "olympicMedals": 45,
+  "languages": [
+   "Estonian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ussr"
+  ],
+  "views": 1419840
+ },
+ {
+  "id": "SWZ",
+  "name": "Eswatini",
+  "alt": [
+   "Kingdom of Eswatini",
+   "Ngwane",
+   "SZ",
+   "Swatini",
+   "Swaziland",
+   "Umbuso weSwatini",
+   "weSwatini"
+  ],
+  "emoji": "🇸🇿",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capital": "Lobamba",
+  "borders": [
+   "MOZ",
+   "ZAF"
+  ],
+  "landlocked": true,
+  "area": 17364,
+  "population": 1256174,
+  "gdpPerCapita": 4108,
+  "urbanPct": 26.7213709706525,
+  "over65Pct": 4.34585495321508,
+  "forestPct": 29.1389534883721,
+  "density": 71.5410465116279,
+  "capitalPopulation": 114585,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Swazi"
+  ],
+  "currencies": [
+   "SZL",
+   "ZAR"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 1351524
+ },
+ {
+  "id": "ETH",
+  "name": "Ethiopia",
+  "alt": [
+   "ET",
+   "Federal Democratic Republic of Ethiopia",
+   "ʾĪtyōṗṗyā",
+   "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+  ],
+  "emoji": "🇪🇹",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Addis Ababa",
+  "borders": [
+   "DJI",
+   "ERI",
+   "KEN",
+   "SDN",
+   "SOM",
+   "SSD"
+  ],
+  "landlocked": true,
+  "area": 1104300,
+  "population": 135472051,
+  "gdpPerCapita": 933,
+  "urbanPct": 24.1096952088946,
+  "over65Pct": 3.2957318380591,
+  "forestPct": 14.9308975782695,
+  "density": 114.037952012,
+  "capitalPopulation": 5704000,
+  "olympicMedals": 62,
+  "languages": [
+   "Amharic"
+  ],
+  "currencies": [
+   "ETB"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 1906356
+ },
+ {
+  "id": "FJI",
+  "name": "Fiji",
+  "alt": [
+   "FJ",
+   "Fijī Gaṇarājya",
+   "Matanitu ko Viti",
+   "Republic of Fiji",
+   "Viti"
+  ],
+  "emoji": "🇫🇯",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capital": "Suva",
+  "borders": [],
+  "landlocked": false,
+  "area": 18272,
+  "population": 933154,
+  "gdpPerCapita": 6642,
+  "urbanPct": 59.5444551836369,
+  "over65Pct": 6.63486057239182,
+  "forestPct": 63.4953475643131,
+  "density": 50.5826491516147,
+  "capitalPopulation": 88271,
+  "olympicMedals": 4,
+  "languages": [
+   "English",
+   "Fiji Hindi",
+   "Fijian"
+  ],
+  "currencies": [
+   "FJD"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 1351980
+ },
+ {
+  "id": "FIN",
+  "name": "Finland",
+  "alt": [
+   "FI",
+   "Republic of Finland",
+   "Republiken Finland",
+   "Suomen tasavalta",
+   "Suomi"
+  ],
+  "emoji": "🇫🇮",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Helsinki",
+  "borders": [
+   "NOR",
+   "RUS",
+   "SWE"
+  ],
+  "landlocked": false,
+  "area": 338424,
+  "population": 5646436,
+  "gdpPerCapita": 56149,
+  "urbanPct": 74.5247844319848,
+  "over65Pct": 24.2018896456272,
+  "forestPct": 73.7235162521384,
+  "density": 18.3705454665088,
+  "capitalPopulation": 694392,
+  "olympicMedals": 486,
+  "languages": [
+   "Finnish",
+   "Swedish"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "olympics_host"
+  ],
+  "views": 1926612
+ },
+ {
+  "id": "FRA",
+  "name": "France",
+  "alt": [
+   "FR",
+   "French Republic",
+   "République française"
+  ],
+  "emoji": "🇫🇷",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Paris",
+  "borders": [
+   "AND",
+   "BEL",
+   "CHE",
+   "DEU",
+   "ESP",
+   "ITA",
+   "LUX",
+   "MCO"
+  ],
+  "landlocked": false,
+  "area": 551695,
+  "population": 68720337,
+  "gdpPerCapita": 48986,
+  "urbanPct": 78.8449650563584,
+  "over65Pct": 22.5418906984086,
+  "forestPct": 32.4764820484275,
+  "density": 126.862020595603,
+  "capitalPopulation": 2103778,
+  "olympicMedals": 985,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "g20",
+   "nato",
+   "nuclear_weapons",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 3558864
+ },
+ {
+  "id": "GAB",
+  "name": "Gabon",
+  "alt": [
+   "GA",
+   "Gabonese Republic",
+   "République Gabonaise"
+  ],
+  "emoji": "🇬🇦",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Libreville",
+  "borders": [
+   "CMR",
+   "COG",
+   "GNQ"
+  ],
+  "landlocked": false,
+  "area": 267668,
+  "population": 2593130,
+  "gdpPerCapita": 8263,
+  "urbanPct": 92.0876666682068,
+  "over65Pct": 4.13008683137499,
+  "forestPct": 91.1823650405558,
+  "density": 9.64329956921644,
+  "capitalPopulation": 899000,
+  "olympicMedals": 1,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XAF"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "equator"
+  ],
+  "views": 705168
+ },
+ {
+  "id": "GMB",
+  "name": "Gambia",
+  "alt": [
+   "GM",
+   "Republic of the Gambia"
+  ],
+  "emoji": "🇬🇲",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Banjul",
+  "borders": [
+   "SEN"
+  ],
+  "landlocked": false,
+  "area": 10689,
+  "population": 2822093,
+  "gdpPerCapita": 919,
+  "urbanPct": 64.9884861325581,
+  "over65Pct": 3.18495882311462,
+  "forestPct": 22.2792391304348,
+  "density": 266.5854743083,
+  "capitalPopulation": 31356,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "GMD"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 799704
+ },
+ {
+  "id": "GEO",
+  "name": "Georgia",
+  "alt": [
+   "GE",
+   "Sakartvelo"
+  ],
+  "emoji": "🇬🇪",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Tbilisi",
+  "borders": [
+   "ARM",
+   "AZE",
+   "RUS",
+   "TUR"
+  ],
+  "landlocked": false,
+  "area": 69700,
+  "population": 3935766,
+  "gdpPerCapita": 9692,
+  "urbanPct": 61.1781364090406,
+  "over65Pct": 15.9913346858712,
+  "forestPct": 40.6159159591308,
+  "density": 65.0037265124742,
+  "capitalPopulation": 1331485,
+  "olympicMedals": 48,
+  "languages": [
+   "Georgian"
+  ],
+  "currencies": [
+   "GEL"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "ottoman",
+   "ussr"
+  ],
+  "views": 2366052
+ },
+ {
+  "id": "DEU",
+  "name": "Germany",
+  "alt": [
+   "Bundesrepublik Deutschland",
+   "DE",
+   "Federal Republic of Germany"
+  ],
+  "emoji": "🇩🇪",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Berlin",
+  "borders": [
+   "AUT",
+   "BEL",
+   "CHE",
+   "CZE",
+   "DNK",
+   "FRA",
+   "LUX",
+   "NLD",
+   "POL"
+  ],
+  "landlocked": false,
+  "area": 357114,
+  "population": 83491249,
+  "gdpPerCapita": 60496,
+  "urbanPct": 82.13822205362,
+  "over65Pct": 23.7031981458429,
+  "forestPct": 32.6789342643734,
+  "density": 238.351810090719,
+  "capitalPopulation": 3700577,
+  "olympicMedals": 980,
+  "languages": [
+   "German"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "eu",
+   "g20",
+   "nato",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 3958848
+ },
+ {
+  "id": "GHA",
+  "name": "Ghana",
+  "alt": [
+   "GH",
+   "Republic of Ghana"
+  ],
+  "emoji": "🇬🇭",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Accra",
+  "borders": [
+   "BFA",
+   "CIV",
+   "TGO"
+  ],
+  "landlocked": false,
+  "area": 238533,
+  "population": 35064272,
+  "gdpPerCapita": 3257,
+  "urbanPct": 58.9246861473125,
+  "over65Pct": 3.78769586621254,
+  "forestPct": 35.1921958573042,
+  "density": 148.49676310689,
+  "capitalPopulation": 1782150,
+  "olympicMedals": 5,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "GHS"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 1509924
+ },
+ {
+  "id": "GRC",
+  "name": "Greece",
+  "alt": [
+   "Elláda",
+   "GR",
+   "Hellenic Republic",
+   "Ελληνική Δημοκρατία"
+  ],
+  "emoji": "🇬🇷",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Athens",
+  "borders": [
+   "ALB",
+   "BGR",
+   "MKD",
+   "TUR"
+  ],
+  "landlocked": false,
+  "area": 131990,
+  "population": 10413962,
+  "gdpPerCapita": 26948,
+  "urbanPct": 79.2246082848537,
+  "over65Pct": 24.3998585549859,
+  "forestPct": 30.2699767261443,
+  "density": 80.7397284716835,
+  "capitalPopulation": 643452,
+  "olympicMedals": 129,
+  "languages": [
+   "Greek"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "olympics_host",
+   "ottoman",
+   "tourism_top20"
+  ],
+  "views": 1967064
+ },
+ {
+  "id": "GRD",
+  "name": "Grenada",
+  "alt": [
+   "GD"
+  ],
+  "emoji": "🇬🇩",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "St. George's",
+  "borders": [],
+  "landlocked": false,
+  "area": 344,
+  "population": 117303,
+  "gdpPerCapita": 12107,
+  "urbanPct": 36.6708064336827,
+  "over65Pct": 12.6253692345071,
+  "forestPct": 52.0588235294118,
+  "density": 344.355882352941,
+  "capitalPopulation": 33734,
+  "olympicMedals": 5,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "XCD"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 868116
+ },
+ {
+  "id": "GTM",
+  "name": "Guatemala",
+  "alt": [
+   "GT",
+   "Republic of Guatemala"
+  ],
+  "emoji": "🇬🇹",
+  "continent": "North America",
+  "subregion": "Central America",
+  "capital": "Guatemala City",
+  "borders": [
+   "BLZ",
+   "HND",
+   "MEX",
+   "SLV"
+  ],
+  "landlocked": false,
+  "area": 108889,
+  "population": 18687881,
+  "gdpPerCapita": 6598,
+  "urbanPct": 56.2972033013999,
+  "over65Pct": 4.9632752647752,
+  "forestPct": 32.5961179544606,
+  "density": 169.138092571855,
+  "capitalPopulation": 994938,
+  "olympicMedals": 3,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "GTQ"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [],
+  "views": 1055532
+ },
+ {
+  "id": "GIN",
+  "name": "Guinea",
+  "alt": [
+   "GN",
+   "Republic of Guinea",
+   "République de Guinée"
+  ],
+  "emoji": "🇬🇳",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Conakry",
+  "borders": [
+   "CIV",
+   "GNB",
+   "LBR",
+   "MLI",
+   "SEN",
+   "SLE"
+  ],
+  "landlocked": false,
+  "area": 245857,
+  "population": 15099727,
+  "gdpPerCapita": 1877,
+  "urbanPct": 38.5165334466562,
+  "over65Pct": 3.47302636663564,
+  "forestPct": 24.6988442129253,
+  "density": 58.6255412664822,
+  "capitalPopulation": 1667864,
+  "olympicMedals": 0,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "GNF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [],
+  "views": 764508
+ },
+ {
+  "id": "GNB",
+  "name": "Guinea-Bissau",
+  "alt": [
+   "GW",
+   "Republic of Guinea-Bissau",
+   "República da Guiné-Bissau"
+  ],
+  "emoji": "🇬🇼",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Bissau",
+  "borders": [
+   "GIN",
+   "SEN"
+  ],
+  "landlocked": false,
+  "area": 36125,
+  "population": 2249515,
+  "gdpPerCapita": 1124,
+  "urbanPct": 46.6510315281292,
+  "over65Pct": 3.23723113648942,
+  "forestPct": 69.5124466571835,
+  "density": 76.5767780938834,
+  "capitalPopulation": 492004,
+  "olympicMedals": 0,
+  "languages": [
+   "Portuguese",
+   "Upper Guinea Creole"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [],
+  "views": 627804
+ },
+ {
+  "id": "GUY",
+  "name": "Guyana",
+  "alt": [
+   "Co-operative Republic of Guyana",
+   "GY"
+  ],
+  "emoji": "🇬🇾",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Georgetown",
+  "borders": [
+   "BRA",
+   "SUR",
+   "VEN"
+  ],
+  "landlocked": false,
+  "area": 214969,
+  "population": 835986,
+  "gdpPerCapita": 32414,
+  "urbanPct": 26.4913876548981,
+  "over65Pct": 6.98073891189565,
+  "forestPct": 87.0878369802027,
+  "density": 3.91376811594203,
+  "capitalPopulation": 235017,
+  "olympicMedals": 1,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "GYD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 1952064
+ },
+ {
+  "id": "HTI",
+  "name": "Haiti",
+  "alt": [
+   "HT",
+   "Repiblik Ayiti",
+   "Republic of Haiti",
+   "République d'Haïti"
+  ],
+  "emoji": "🇭🇹",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Port-au-Prince",
+  "borders": [
+   "DOM"
+  ],
+  "landlocked": false,
+  "area": 27750,
+  "population": 11906095,
+  "gdpPerCapita": 2694,
+  "urbanPct": 55.6148855859942,
+  "over65Pct": 4.79172202171568,
+  "forestPct": 12.2630624092888,
+  "density": 422.256821480406,
+  "capitalPopulation": 987310,
+  "olympicMedals": 2,
+  "languages": [
+   "French",
+   "Haitian Creole"
+  ],
+  "currencies": [
+   "HTG"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red"
+  ],
+  "sets": [],
+  "views": 1455612
+ },
+ {
+  "id": "HND",
+  "name": "Honduras",
+  "alt": [
+   "HN",
+   "Republic of Honduras",
+   "República de Honduras"
+  ],
+  "emoji": "🇭🇳",
+  "continent": "North America",
+  "subregion": "Central America",
+  "capital": "Tegucigalpa",
+  "borders": [
+   "GTM",
+   "NIC",
+   "SLV"
+  ],
+  "landlocked": false,
+  "area": 112492,
+  "population": 11005850,
+  "gdpPerCapita": 3598,
+  "urbanPct": 59.2517075900659,
+  "over65Pct": 4.54210281541647,
+  "forestPct": 56.2732147645008,
+  "density": 95.1367503798373,
+  "capitalPopulation": 1055729,
+  "olympicMedals": 0,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "HNL"
+  ],
+  "flagColors": [
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [],
+  "views": 860808
+ },
+ {
+  "id": "HUN",
+  "name": "Hungary",
+  "alt": [
+   "HU"
+  ],
+  "emoji": "🇭🇺",
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capital": "Budapest",
+  "borders": [
+   "AUT",
+   "HRV",
+   "ROU",
+   "SRB",
+   "SVK",
+   "SVN",
+   "UKR"
+  ],
+  "landlocked": true,
+  "area": 93028,
+  "population": 9514251,
+  "gdpPerCapita": 25907,
+  "urbanPct": 70.6936831786278,
+  "over65Pct": 21.1574623970403,
+  "forestPct": 22.4484341442034,
+  "density": 105.108327854482,
+  "capitalPopulation": 1685209,
+  "olympicMedals": 540,
+  "languages": [
+   "Hungarian"
+  ],
+  "currencies": [
+   "HUF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ottoman"
+  ],
+  "views": 1774308
+ },
+ {
+  "id": "ISL",
+  "name": "Iceland",
+  "alt": [
+   "IS",
+   "Island",
+   "Lýðveldið Ísland",
+   "Republic of Iceland"
+  ],
+  "emoji": "🇮🇸",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Reykjavik",
+  "borders": [],
+  "landlocked": false,
+  "area": 103000,
+  "population": 392404,
+  "gdpPerCapita": 98323,
+  "urbanPct": 94.2179320191117,
+  "over65Pct": 15.9770103398231,
+  "forestPct": 0.528744421303184,
+  "density": 3.82488346722206,
+  "capitalPopulation": 138772,
+  "olympicMedals": 4,
+  "languages": [
+   "Icelandic"
+  ],
+  "currencies": [
+   "ISK"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "nato"
+  ],
+  "views": 1985172
+ },
+ {
+  "id": "IND",
+  "name": "India",
+  "alt": [
+   "Bharat Ganrajya",
+   "Bhārat",
+   "IN",
+   "Republic of India",
+   "இந்தியா"
+  ],
+  "emoji": "🇮🇳",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "New Delhi",
+  "borders": [
+   "BGD",
+   "BTN",
+   "CHN",
+   "MMR",
+   "NPL",
+   "PAK"
+  ],
+  "landlocked": false,
+  "area": 3287590,
+  "population": 1463865525,
+  "gdpPerCapita": 2702,
+  "urbanPct": 35.689155772396,
+  "over65Pct": 7.37657146047502,
+  "forestPct": 24.5390304689576,
+  "density": 483.679010086809,
+  "capitalPopulation": 249998,
+  "olympicMedals": 41,
+  "languages": [
+   "English",
+   "Hindi",
+   "Tamil"
+  ],
+  "currencies": [
+   "INR"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "orange",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "sets": [
+   "capital_metro_1m",
+   "commonwealth",
+   "desert",
+   "drives_left",
+   "g20",
+   "nuclear_weapons"
+  ],
+  "views": 6677244
+ },
+ {
+  "id": "IDN",
+  "name": "Indonesia",
+  "alt": [
+   "ID",
+   "Republic of Indonesia",
+   "Republik Indonesia"
+  ],
+  "emoji": "🇮🇩",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Jakarta",
+  "borders": [
+   "MYS",
+   "PNG",
+   "TLS"
+  ],
+  "landlocked": false,
+  "area": 1904569,
+  "population": 285721236,
+  "gdpPerCapita": 5060,
+  "urbanPct": 59.3929063969984,
+  "over65Pct": 7.542769252795,
+  "forestPct": 47.7220336902463,
+  "density": 148.57692229227,
+  "capitalPopulation": 11135191,
+  "olympicMedals": 40,
+  "languages": [
+   "Indonesian"
+  ],
+  "currencies": [
+   "IDR"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "asean",
+   "drives_left",
+   "equator",
+   "g20"
+  ],
+  "views": 3199440
+ },
+ {
+  "id": "IRN",
+  "name": "Iran",
+  "alt": [
+   "IR",
+   "Iran, Islamic Republic of",
+   "Islamic Republic of Iran",
+   "Jomhuri-ye Eslāmi-ye Irān"
+  ],
+  "emoji": "🇮🇷",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Tehran",
+  "borders": [
+   "AFG",
+   "ARM",
+   "AZE",
+   "IRQ",
+   "PAK",
+   "TKM",
+   "TUR"
+  ],
+  "landlocked": false,
+  "area": 1648195,
+  "population": 92417681,
+  "gdpPerCapita": 3924,
+  "urbanPct": 77.3761530941751,
+  "over65Pct": 8.58114314727287,
+  "forestPct": 6.64923611710324,
+  "density": 55.8451198767334,
+  "capitalPopulation": 8693706,
+  "olympicMedals": 88,
+  "languages": [
+   "Persian (Farsi)"
+  ],
+  "currencies": [
+   "IRR"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 4077000
+ },
+ {
+  "id": "IRQ",
+  "name": "Iraq",
+  "alt": [
+   "IQ",
+   "Jumhūriyyat al-‘Irāq",
+   "Republic of Iraq"
+  ],
+  "emoji": "🇮🇶",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Baghdad",
+  "borders": [
+   "IRN",
+   "JOR",
+   "KWT",
+   "SAU",
+   "SYR",
+   "TUR"
+  ],
+  "landlocked": false,
+  "area": 438317,
+  "population": 47020774,
+  "gdpPerCapita": 5410,
+  "urbanPct": 69.9396739468105,
+  "over65Pct": 3.44918716140232,
+  "forestPct": 1.90035242899592,
+  "density": 103.826155759795,
+  "capitalPopulation": 8126755,
+  "olympicMedals": 1,
+  "languages": [
+   "Arabic",
+   "Aramaic",
+   "Sorani"
+  ],
+  "currencies": [
+   "IQD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 1678128
+ },
+ {
+  "id": "IRL",
+  "name": "Ireland",
+  "alt": [
+   "IE",
+   "Poblacht na hÉireann",
+   "Republic of Ireland",
+   "Éire"
+  ],
+  "emoji": "🇮🇪",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Dublin",
+  "borders": [
+   "GBR"
+  ],
+  "landlocked": false,
+  "area": 70273,
+  "population": 5484367,
+  "gdpPerCapita": 131592,
+  "urbanPct": 64.5875793756168,
+  "over65Pct": 16.2081043488942,
+  "forestPct": 11.5259108724053,
+  "density": 77.1017273914937,
+  "capitalPopulation": 592713,
+  "olympicMedals": 42,
+  "languages": [
+   "English",
+   "Irish"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "sets": [
+   "capital_metro_1m",
+   "drives_left",
+   "eu"
+  ],
+  "views": 1928676
+ },
+ {
+  "id": "ISR",
+  "name": "Israel",
+  "alt": [
+   "IL",
+   "Medīnat Yisrā'el",
+   "State of Israel"
+  ],
+  "emoji": "🇮🇱",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Jerusalem",
+  "borders": [
+   "EGY",
+   "JOR",
+   "LBN",
+   "PSE",
+   "SYR"
+  ],
+  "landlocked": false,
+  "area": 20770,
+  "population": 10122800,
+  "gdpPerCapita": 60337,
+  "urbanPct": 91.5783060866328,
+  "over65Pct": 12.6916264748788,
+  "forestPct": 6.46950092421442,
+  "density": 455.129390018484,
+  "capitalPopulation": 1050151,
+  "olympicMedals": 20,
+  "languages": [
+   "Arabic",
+   "Hebrew"
+  ],
+  "currencies": [
+   "ILS"
+  ],
+  "flagColors": [
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "desert",
+   "nuclear_weapons",
+   "ottoman"
+  ],
+  "views": 4174992
+ },
+ {
+  "id": "ITA",
+  "name": "Italy",
+  "alt": [
+   "IT",
+   "Italian Republic",
+   "Repubblica italiana"
+  ],
+  "emoji": "🇮🇹",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Rome",
+  "borders": [
+   "AUT",
+   "CHE",
+   "FRA",
+   "SMR",
+   "SVN",
+   "VAT"
+  ],
+  "landlocked": false,
+  "area": 301336,
+  "population": 58915656,
+  "gdpPerCapita": 43309,
+  "urbanPct": 69.680861801678,
+  "over65Pct": 25.0981380733118,
+  "forestPct": 32.8944947923712,
+  "density": 199.459678073854,
+  "capitalPopulation": 2748109,
+  "olympicMedals": 829,
+  "languages": [
+   "Italian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "g20",
+   "nato",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 2864136
+ },
+ {
+  "id": "CIV",
+  "name": "Ivory Coast",
+  "alt": [
+   "CI",
+   "Cote d'Ivoire",
+   "Côte d'Ivoire",
+   "Republic of Côte d'Ivoire",
+   "République de Côte d'Ivoire"
+  ],
+  "emoji": "🇨🇮",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Yamoussoukro",
+  "borders": [
+   "BFA",
+   "GHA",
+   "GIN",
+   "LBR",
+   "MLI"
+  ],
+  "landlocked": false,
+  "area": 322463,
+  "population": 32711547,
+  "gdpPerCapita": 3050,
+  "urbanPct": 54.5489501450761,
+  "over65Pct": 2.65345754900338,
+  "forestPct": 7.85551603773585,
+  "density": 98.0052012578616,
+  "capitalPopulation": 340234,
+  "olympicMedals": 5,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "sets": [],
+  "views": 1204164
+ },
+ {
+  "id": "JAM",
+  "name": "Jamaica",
+  "alt": [
+   "JM"
+  ],
+  "emoji": "🇯🇲",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Kingston",
+  "borders": [],
+  "landlocked": false,
+  "area": 10991,
+  "population": 2837077,
+  "gdpPerCapita": 8003,
+  "urbanPct": 59.4254051751628,
+  "over65Pct": 8.57907476972342,
+  "forestPct": 56.190757156048,
+  "density": 262.214773776547,
+  "capitalPopulation": 937700,
+  "olympicMedals": 94,
+  "languages": [
+   "English",
+   "Jamaican Patois"
+  ],
+  "currencies": [
+   "JMD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 1336944
+ },
+ {
+  "id": "JPN",
+  "name": "Japan",
+  "alt": [
+   "JP",
+   "Nihon",
+   "Nippon"
+  ],
+  "emoji": "🇯🇵",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capital": "Tokyo",
+  "borders": [],
+  "landlocked": false,
+  "area": 377930,
+  "population": 123366734,
+  "gdpPerCapita": 35951,
+  "urbanPct": 92.3001449420786,
+  "over65Pct": 29.9940966737423,
+  "forestPct": 68.3957811364628,
+  "density": 341.54455749932,
+  "capitalPopulation": 14264798,
+  "olympicMedals": 642,
+  "languages": [
+   "Japanese"
+  ],
+  "currencies": [
+   "JPY"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "drives_left",
+   "g20",
+   "monarchy",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 4517580
+ },
+ {
+  "id": "JOR",
+  "name": "Jordan",
+  "alt": [
+   "Hashemite Kingdom of Jordan",
+   "JO",
+   "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+  ],
+  "emoji": "🇯🇴",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Amman",
+  "borders": [
+   "IRQ",
+   "ISR",
+   "PSE",
+   "SAU",
+   "SYR"
+  ],
+  "landlocked": false,
+  "area": 89342,
+  "population": 11520684,
+  "gdpPerCapita": 5348,
+  "urbanPct": 93.2085150119551,
+  "over65Pct": 4.75359341712725,
+  "forestPct": 1.09804716534901,
+  "density": 128.828670856139,
+  "capitalPopulation": 4007526,
+  "olympicMedals": 4,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "JOD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "monarchy",
+   "ottoman"
+  ],
+  "views": 1571904
+ },
+ {
+  "id": "KAZ",
+  "name": "Kazakhstan",
+  "alt": [
+   "KZ",
+   "Qazaqstan",
+   "Qazaqstan Respublïkası",
+   "Republic of Kazakhstan",
+   "Respublika Kazakhstan",
+   "Казахстан",
+   "Республика Казахстан",
+   "Қазақстан Республикасы"
+  ],
+  "emoji": "🇰🇿",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capital": "Astana",
+  "borders": [
+   "CHN",
+   "KGZ",
+   "RUS",
+   "TKM",
+   "UZB"
+  ],
+  "landlocked": true,
+  "area": 2724900,
+  "population": 20843754,
+  "gdpPerCapita": 14692,
+  "urbanPct": 62.3855569507987,
+  "over65Pct": 9.00270150466414,
+  "forestPct": 1.31214516427751,
+  "density": 7.53050487091158,
+  "capitalPopulation": 1078362,
+  "olympicMedals": 87,
+  "languages": [
+   "Kazakh",
+   "Russian"
+  ],
+  "currencies": [
+   "KZT"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "desert",
+   "ussr"
+  ],
+  "views": 2625852
+ },
+ {
+  "id": "KEN",
+  "name": "Kenya",
+  "alt": [
+   "Jamhuri ya Kenya",
+   "KE",
+   "Republic of Kenya"
+  ],
+  "emoji": "🇰🇪",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Nairobi",
+  "borders": [
+   "ETH",
+   "SOM",
+   "SSD",
+   "TZA",
+   "UGA"
+  ],
+  "landlocked": false,
+  "area": 580367,
+  "population": 57532493,
+  "gdpPerCapita": 2363,
+  "urbanPct": 32.2121192871745,
+  "over65Pct": 3.02095116077232,
+  "forestPct": 6.21662477880402,
+  "density": 95.2681371231706,
+  "capitalPopulation": 5545000,
+  "olympicMedals": 124,
+  "languages": [
+   "English",
+   "Swahili"
+  ],
+  "currencies": [
+   "KES"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "desert",
+   "drives_left",
+   "equator"
+  ],
+  "views": 1277100
+ },
+ {
+  "id": "KIR",
+  "name": "Kiribati",
+  "alt": [
+   "Independent and Sovereign Republic of Kiribati",
+   "KI",
+   "Republic of Kiribati",
+   "Ribaberiki Kiribati"
+  ],
+  "emoji": "🇰🇮",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capital": "South Tarawa",
+  "borders": [],
+  "landlocked": false,
+  "area": 811,
+  "population": 136488,
+  "gdpPerCapita": 2559,
+  "urbanPct": 63.3850857782871,
+  "over65Pct": 4.37509387237753,
+  "forestPct": 1.45679012345679,
+  "density": 163.617283950617,
+  "capitalPopulation": 63439,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Gilbertese"
+  ],
+  "currencies": [
+   "AUD",
+   "KID"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "equator"
+  ],
+  "views": 1222008
+ },
+ {
+  "id": "UNK",
+  "name": "Kosovo",
+  "alt": [
+   "Republic of Kosovo",
+   "XK",
+   "Република Косово"
+  ],
+  "emoji": "🇽🇰",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Pristina",
+  "borders": [
+   "ALB",
+   "MKD",
+   "MNE",
+   "SRB"
+  ],
+  "landlocked": true,
+  "area": 10908,
+  "population": 1576876,
+  "gdpPerCapita": 7899,
+  "urbanPct": 50.9260971650398,
+  "over65Pct": 10.5099678936758,
+  "forestPct": 44,
+  "density": 145,
+  "capitalPopulation": null,
+  "olympicMedals": 5,
+  "languages": [
+   "Albanian",
+   "Serbian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "yellow"
+  ],
+  "sets": [
+   "ottoman"
+  ],
+  "views": 2009916
+ },
+ {
+  "id": "KWT",
+  "name": "Kuwait",
+  "alt": [
+   "Dawlat al-Kuwait",
+   "KW",
+   "State of Kuwait"
+  ],
+  "emoji": "🇰🇼",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Kuwait City",
+  "borders": [
+   "IRQ",
+   "SAU"
+  ],
+  "landlocked": false,
+  "area": 17818,
+  "population": 4865298,
+  "gdpPerCapita": 32312,
+  "urbanPct": 100,
+  "over65Pct": 3.17490130225807,
+  "forestPct": 0.350729517396184,
+  "density": 272.358024691358,
+  "capitalPopulation": 2989000,
+  "olympicMedals": 3,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "KWD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "monarchy",
+   "ottoman"
+  ],
+  "views": 1366692
+ },
+ {
+  "id": "KGZ",
+  "name": "Kyrgyzstan",
+  "alt": [
+   "KG",
+   "Kyrgyz Republic",
+   "Kyrgyz Respublikasy",
+   "Киргизия",
+   "Кыргыз Республикасы"
+  ],
+  "emoji": "🇰🇬",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capital": "Bishkek",
+  "borders": [
+   "CHN",
+   "KAZ",
+   "TJK",
+   "UZB"
+  ],
+  "landlocked": true,
+  "area": 199951,
+  "population": 7343064,
+  "gdpPerCapita": 3081,
+  "urbanPct": 34.7463537261057,
+  "over65Pct": 5.96557151306138,
+  "forestPct": 7.14337851929093,
+  "density": 37.0164233576642,
+  "capitalPopulation": 1191000,
+  "olympicMedals": 13,
+  "languages": [
+   "Kyrgyz",
+   "Russian"
+  ],
+  "currencies": [
+   "KGS"
+  ],
+  "flagColors": [
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "ussr"
+  ],
+  "views": 1727532
+ },
+ {
+  "id": "LAO",
+  "name": "Laos",
+  "alt": [
+   "LA",
+   "Lao",
+   "Lao People's Democratic Republic",
+   "Sathalanalat Paxathipatai Paxaxon Lao"
+  ],
+  "emoji": "🇱🇦",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Vientiane",
+  "borders": [
+   "CHN",
+   "KHM",
+   "MMR",
+   "THA",
+   "VNM"
+  ],
+  "landlocked": true,
+  "area": 236800,
+  "population": 7873046,
+  "gdpPerCapita": 2325,
+  "urbanPct": 40.3129835040701,
+  "over65Pct": 4.80805045518916,
+  "forestPct": 71.4558058925477,
+  "density": 33.2105415944541,
+  "capitalPopulation": 948487,
+  "olympicMedals": 0,
+  "languages": [
+   "Lao"
+  ],
+  "currencies": [
+   "LAK"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "asean"
+  ],
+  "views": 1235976
+ },
+ {
+  "id": "LVA",
+  "name": "Latvia",
+  "alt": [
+   "LV",
+   "Latvijas Republika",
+   "Republic of Latvia"
+  ],
+  "emoji": "🇱🇻",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Riga",
+  "borders": [
+   "BLR",
+   "EST",
+   "LTU",
+   "RUS"
+  ],
+  "landlocked": false,
+  "area": 64559,
+  "population": 1847785,
+  "gdpPerCapita": 26312,
+  "urbanPct": 68.6325719753517,
+  "over65Pct": 22.1950582635891,
+  "forestPct": 54.9959826450265,
+  "density": 30.2701269484172,
+  "capitalPopulation": 588911,
+  "olympicMedals": 33,
+  "languages": [
+   "Latvian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ussr"
+  ],
+  "views": 1540536
+ },
+ {
+  "id": "LBN",
+  "name": "Lebanon",
+  "alt": [
+   "Al-Jumhūrīyah Al-Libnānīyah",
+   "LB",
+   "Lebanese Republic"
+  ],
+  "emoji": "🇱🇧",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Beirut",
+  "borders": [
+   "ISR",
+   "SYR"
+  ],
+  "landlocked": false,
+  "area": 10452,
+  "population": 5849421,
+  "gdpPerCapita": 4473,
+  "urbanPct": 90.9602314263044,
+  "over65Pct": 10.4430002937898,
+  "forestPct": 14.1867057673509,
+  "density": 564.368817204301,
+  "capitalPopulation": 2421354,
+  "olympicMedals": 4,
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "currencies": [
+   "LBP"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "ottoman"
+  ],
+  "views": 1878708
+ },
+ {
+  "id": "LSO",
+  "name": "Lesotho",
+  "alt": [
+   "Kingdom of Lesotho",
+   "LS",
+   "Muso oa Lesotho"
+  ],
+  "emoji": "🇱🇸",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capital": "Maseru",
+  "borders": [
+   "ZAF"
+  ],
+  "landlocked": true,
+  "area": 30355,
+  "population": 2363325,
+  "gdpPerCapita": 1089,
+  "urbanPct": 44.6695855817109,
+  "over65Pct": 3.88046584377219,
+  "forestPct": 1.13702239789196,
+  "density": 76.135441370224,
+  "capitalPopulation": 343541,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Sotho"
+  ],
+  "currencies": [
+   "LSL",
+   "ZAR"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "green",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 827700
+ },
+ {
+  "id": "LBR",
+  "name": "Liberia",
+  "alt": [
+   "LR",
+   "Republic of Liberia"
+  ],
+  "emoji": "🇱🇷",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Monrovia",
+  "borders": [
+   "CIV",
+   "GIN",
+   "SLE"
+  ],
+  "landlocked": false,
+  "area": 111369,
+  "population": 5731206,
+  "gdpPerCapita": 915,
+  "urbanPct": 56.0819747159338,
+  "over65Pct": 3.33493509045042,
+  "forestPct": 78.1422342192691,
+  "density": 57.0289763289037,
+  "capitalPopulation": 1761032,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "LRD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 1366164
+ },
+ {
+  "id": "LBY",
+  "name": "Libya",
+  "alt": [
+   "Dawlat Libya",
+   "LY",
+   "State of Libya"
+  ],
+  "emoji": "🇱🇾",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capital": "Tripoli",
+  "borders": [
+   "DZA",
+   "EGY",
+   "NER",
+   "SDN",
+   "TCD",
+   "TUN"
+  ],
+  "landlocked": false,
+  "area": 1759540,
+  "population": 7458555,
+  "gdpPerCapita": 6449,
+  "urbanPct": 87.9112413015221,
+  "over65Pct": 5.19156895615632,
+  "forestPct": 0.123327687918433,
+  "density": 4.15202780272117,
+  "capitalPopulation": 1293016,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "LYD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 1451592
+ },
+ {
+  "id": "LIE",
+  "name": "Liechtenstein",
+  "alt": [
+   "Fürstentum Liechtenstein",
+   "LI",
+   "Principality of Liechtenstein"
+  ],
+  "emoji": "🇱🇮",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Vaduz",
+  "borders": [
+   "AUT",
+   "CHE"
+  ],
+  "landlocked": true,
+  "area": 160,
+  "population": 41024,
+  "gdpPerCapita": 220167,
+  "urbanPct": 14.6298998993293,
+  "over65Pct": 21.3753488835726,
+  "forestPct": 41.875,
+  "density": 249.0375,
+  "capitalPopulation": 5668,
+  "olympicMedals": 10,
+  "languages": [
+   "German"
+  ],
+  "currencies": [
+   "CHF"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "monarchy"
+  ],
+  "views": 1649772
+ },
+ {
+  "id": "LTU",
+  "name": "Lithuania",
+  "alt": [
+   "LT",
+   "Lietuvos Respublika",
+   "Republic of Lithuania"
+  ],
+  "emoji": "🇱🇹",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Vilnius",
+  "borders": [
+   "BLR",
+   "LVA",
+   "POL",
+   "RUS"
+  ],
+  "landlocked": false,
+  "area": 65300,
+  "population": 2888774,
+  "gdpPerCapita": 32959,
+  "urbanPct": 69.0816381352764,
+  "over65Pct": 20.7219454695688,
+  "forestPct": 35.2301501597444,
+  "density": 45.87196485623,
+  "capitalPopulation": 581475,
+  "olympicMedals": 30,
+  "languages": [
+   "Lithuanian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ussr"
+  ],
+  "views": 1793412
+ },
+ {
+  "id": "LUX",
+  "name": "Luxembourg",
+  "alt": [
+   "Grand Duchy of Luxembourg",
+   "Grand-Duché de Luxembourg",
+   "Groussherzogtum Lëtzebuerg",
+   "Großherzogtum Luxemburg",
+   "LU"
+  ],
+  "emoji": "🇱🇺",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Luxembourg",
+  "borders": [
+   "BEL",
+   "DEU",
+   "FRA"
+  ],
+  "landlocked": true,
+  "area": 2586,
+  "population": 686970,
+  "gdpPerCapita": 147252,
+  "urbanPct": 94.8841729598587,
+  "over65Pct": 15.8123957037476,
+  "forestPct": 34.4538272103664,
+  "density": 258.862052624628,
+  "capitalPopulation": 137678,
+  "olympicMedals": 4,
+  "languages": [
+   "French",
+   "German",
+   "Luxembourgish"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "monarchy",
+   "nato"
+  ],
+  "views": 1617876
+ },
+ {
+  "id": "MDG",
+  "name": "Madagascar",
+  "alt": [
+   "MG",
+   "Repoblikan'i Madagasikara",
+   "Republic of Madagascar",
+   "République de Madagascar"
+  ],
+  "emoji": "🇲🇬",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Antananarivo",
+  "borders": [],
+  "landlocked": false,
+  "area": 587041,
+  "population": 32740678,
+  "gdpPerCapita": 599,
+  "urbanPct": 32.9017070836898,
+  "over65Pct": 3.47289998087395,
+  "forestPct": 21.2962600550017,
+  "density": 53.6196837401169,
+  "capitalPopulation": 1275207,
+  "olympicMedals": 0,
+  "languages": [
+   "French",
+   "Malagasy"
+  ],
+  "currencies": [
+   "MGA"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 1539876
+ },
+ {
+  "id": "MWI",
+  "name": "Malawi",
+  "alt": [
+   "MW",
+   "Republic of Malawi"
+  ],
+  "emoji": "🇲🇼",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Lilongwe",
+  "borders": [
+   "MOZ",
+   "TZA",
+   "ZMB"
+  ],
+  "landlocked": true,
+  "area": 118484,
+  "population": 22216120,
+  "gdpPerCapita": 672,
+  "urbanPct": 17.5949868386317,
+  "over65Pct": 2.58857988227872,
+  "forestPct": 22.4406024607552,
+  "density": 223.84898175647,
+  "capitalPopulation": 989318,
+  "olympicMedals": 0,
+  "languages": [
+   "Chewa",
+   "English"
+  ],
+  "currencies": [
+   "MWK"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 671868
+ },
+ {
+  "id": "MYS",
+  "name": "Malaysia",
+  "alt": [
+   "MY"
+  ],
+  "emoji": "🇲🇾",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Kuala Lumpur",
+  "borders": [
+   "BRN",
+   "IDN",
+   "THA"
+  ],
+  "landlocked": false,
+  "area": 330803,
+  "population": 35977838,
+  "gdpPerCapita": 13125,
+  "urbanPct": 77.3948812296229,
+  "over65Pct": 8.03318142685505,
+  "forestPct": 57.7190381981434,
+  "density": 106.913096941105,
+  "capitalPopulation": 9000280,
+  "olympicMedals": 15,
+  "languages": [
+   "English",
+   "Malay"
+  ],
+  "currencies": [
+   "MYR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "apec",
+   "asean",
+   "commonwealth",
+   "drives_left",
+   "monarchy",
+   "tourism_top20"
+  ],
+  "views": 2432304
+ },
+ {
+  "id": "MDV",
+  "name": "Maldives",
+  "alt": [
+   "Dhivehi Raajjeyge Jumhooriyya",
+   "MV",
+   "Maldive Islands",
+   "Republic of the Maldives"
+  ],
+  "emoji": "🇲🇻",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Malé",
+  "borders": [],
+  "landlocked": false,
+  "area": 300,
+  "population": 529676,
+  "gdpPerCapita": 14615,
+  "urbanPct": 42.5061567995467,
+  "over65Pct": 4.95821974187994,
+  "forestPct": 2.75167785234899,
+  "density": 1765.08053691275,
+  "capitalPopulation": 133019,
+  "olympicMedals": 0,
+  "languages": [
+   "Maldivian"
+  ],
+  "currencies": [
+   "MVR"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "equator"
+  ],
+  "views": 2031936
+ },
+ {
+  "id": "MLI",
+  "name": "Mali",
+  "alt": [
+   "ML",
+   "Republic of Mali",
+   "République du Mali"
+  ],
+  "emoji": "🇲🇱",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Bamako",
+  "borders": [
+   "BFA",
+   "CIV",
+   "DZA",
+   "GIN",
+   "MRT",
+   "NER",
+   "SEN"
+  ],
+  "landlocked": true,
+  "area": 1240192,
+  "population": 25198821,
+  "gdpPerCapita": 1193,
+  "urbanPct": 32.2127137183989,
+  "over65Pct": 2.36307876540972,
+  "forestPct": 10.896663634352,
+  "density": 19.4798572353486,
+  "capitalPopulation": 4227569,
+  "olympicMedals": 0,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 1219236
+ },
+ {
+  "id": "MLT",
+  "name": "Malta",
+  "alt": [
+   "MT",
+   "Repubblika ta' Malta",
+   "Republic of Malta"
+  ],
+  "emoji": "🇲🇹",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Valletta",
+  "borders": [],
+  "landlocked": false,
+  "area": 316,
+  "population": 579704,
+  "gdpPerCapita": 47907,
+  "urbanPct": 95.6805856649593,
+  "over65Pct": 20.5407907884966,
+  "forestPct": 1.4375,
+  "density": 1727.334375,
+  "capitalPopulation": 5197,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Maltese"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "eu"
+  ],
+  "views": 2270748
+ },
+ {
+  "id": "MHL",
+  "name": "Marshall Islands",
+  "alt": [
+   "Aolepān Aorōkin M̧ajeļ",
+   "MH",
+   "Republic of the Marshall Islands"
+  ],
+  "emoji": "🇲🇭",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capital": "Majuro",
+  "borders": [],
+  "landlocked": false,
+  "area": 181,
+  "population": 36282,
+  "gdpPerCapita": 8489,
+  "urbanPct": 79.105503091452,
+  "over65Pct": 4.87569593737942,
+  "forestPct": 52.2222222222222,
+  "density": 215.705555555556,
+  "capitalPopulation": 30000,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Marshallese"
+  ],
+  "currencies": [
+   "USD"
+  ],
+  "flagColors": [
+   "blue",
+   "orange",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "orange",
+   "white"
+  ],
+  "sets": [],
+  "views": 709956
+ },
+ {
+  "id": "MRT",
+  "name": "Mauritania",
+  "alt": [
+   "Islamic Republic of Mauritania",
+   "MR",
+   "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
+  ],
+  "emoji": "🇲🇷",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Nouakchott",
+  "borders": [
+   "DZA",
+   "MLI",
+   "SEN"
+  ],
+  "landlocked": false,
+  "area": 1030700,
+  "population": 5315065,
+  "gdpPerCapita": 2198,
+  "urbanPct": 61.4888190537696,
+  "over65Pct": 3.24673388253332,
+  "forestPct": 0.287611138061512,
+  "density": 4.87284466867178,
+  "capitalPopulation": 1446761,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "MRU"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "arab_league",
+   "desert"
+  ],
+  "views": 1404864
+ },
+ {
+  "id": "MUS",
+  "name": "Mauritius",
+  "alt": [
+   "MU",
+   "Republic of Mauritius",
+   "République de Maurice"
+  ],
+  "emoji": "🇲🇺",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Port Louis",
+  "borders": [],
+  "landlocked": false,
+  "area": 2040,
+  "population": 1243741,
+  "gdpPerCapita": 12991,
+  "urbanPct": 39.0369663368524,
+  "over65Pct": 14.1145544022434,
+  "forestPct": 19.4742113169755,
+  "density": 625.261392088132,
+  "capitalPopulation": 149194,
+  "olympicMedals": 1,
+  "languages": [
+   "English",
+   "French",
+   "Mauritian Creole"
+  ],
+  "currencies": [
+   "MUR"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 2687880
+ },
+ {
+  "id": "MEX",
+  "name": "Mexico",
+  "alt": [
+   "Estados Unidos Mexicanos",
+   "MX",
+   "Mexicanos",
+   "United Mexican States"
+  ],
+  "emoji": "🇲🇽",
+  "continent": "North America",
+  "subregion": "North America",
+  "capital": "Mexico City",
+  "borders": [
+   "BLZ",
+   "GTM",
+   "USA"
+  ],
+  "landlocked": false,
+  "area": 1964375,
+  "population": 131946900,
+  "gdpPerCapita": 13889,
+  "urbanPct": 80.0408930629723,
+  "over65Pct": 8.52143438004228,
+  "forestPct": 33.5959176419147,
+  "density": 66.7402757272564,
+  "capitalPopulation": 9209944,
+  "olympicMedals": 77,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "MXN"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "apec",
+   "desert",
+   "g20",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 3233916
+ },
+ {
+  "id": "FSM",
+  "name": "Micronesia",
+  "alt": [
+   "FM",
+   "Federated States of Micronesia",
+   "Micronesia, Federated States of"
+  ],
+  "emoji": "🇫🇲",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capital": "Palikir",
+  "borders": [],
+  "landlocked": false,
+  "area": 702,
+  "population": 113683,
+  "gdpPerCapita": 4414,
+  "urbanPct": 22.4809290622703,
+  "over65Pct": 6.18298250398037,
+  "forestPct": 92.1571428571429,
+  "density": 160.9,
+  "capitalPopulation": 6227,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [],
+  "flagColors": [
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "blue"
+  ],
+  "sets": [],
+  "views": 498828
+ },
+ {
+  "id": "MDA",
+  "name": "Moldova",
+  "alt": [
+   "MD",
+   "Moldova, Republic of",
+   "Republic of Moldova",
+   "Republica Moldova"
+  ],
+  "emoji": "🇲🇩",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capital": "Chișinău",
+  "borders": [
+   "ROU",
+   "UKR"
+  ],
+  "landlocked": true,
+  "area": 33846,
+  "population": 2360527,
+  "gdpPerCapita": 8622,
+  "urbanPct": 43.7336240404545,
+  "over65Pct": 16.8576673952236,
+  "forestPct": 11.7370179167932,
+  "density": 85.437584732506,
+  "capitalPopulation": 567038,
+  "olympicMedals": 10,
+  "languages": [
+   "Moldavian"
+  ],
+  "currencies": [
+   "MDL"
+  ],
+  "flagColors": [
+   "blue",
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "ottoman",
+   "ussr"
+  ],
+  "views": 1281084
+ },
+ {
+  "id": "MCO",
+  "name": "Monaco",
+  "alt": [
+   "MC",
+   "Principality of Monaco",
+   "Principauté de Monaco"
+  ],
+  "emoji": "🇲🇨",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Monaco",
+  "borders": [
+   "FRA"
+  ],
+  "landlocked": false,
+  "area": 2.02,
+  "population": 38341,
+  "gdpPerCapita": 288002,
+  "urbanPct": 100,
+  "over65Pct": 36.0110586578337,
+  "forestPct": 0,
+  "density": 18692.8982725528,
+  "capitalPopulation": 38857,
+  "olympicMedals": 0,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "monarchy"
+  ],
+  "views": 2386092
+ },
+ {
+  "id": "MNG",
+  "name": "Mongolia",
+  "alt": [
+   "MN"
+  ],
+  "emoji": "🇲🇳",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capital": "Ulan Bator",
+  "borders": [
+   "CHN",
+   "RUS"
+  ],
+  "landlocked": true,
+  "area": 1564110,
+  "population": 3568978,
+  "gdpPerCapita": 7108,
+  "urbanPct": 71.1450719126123,
+  "over65Pct": 5.43106536635296,
+  "forestPct": 9.09172405879304,
+  "density": 2.23365125312889,
+  "capitalPopulation": 1396288,
+  "olympicMedals": 31,
+  "languages": [
+   "Mongolian"
+  ],
+  "currencies": [
+   "MNT"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 1701948
+ },
+ {
+  "id": "MNE",
+  "name": "Montenegro",
+  "alt": [
+   "Crna Gora",
+   "ME"
+  ],
+  "emoji": "🇲🇪",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Podgorica",
+  "borders": [
+   "ALB",
+   "BIH",
+   "HRV",
+   "SRB",
+   "UNK"
+  ],
+  "landlocked": false,
+  "area": 13812,
+  "population": 623129,
+  "gdpPerCapita": 14817,
+  "urbanPct": 65.6085083521036,
+  "over65Pct": 18.2940089675043,
+  "forestPct": 61.4869888475836,
+  "density": 46.3590334572491,
+  "capitalPopulation": 150977,
+  "olympicMedals": 1,
+  "languages": [
+   "Montenegrin"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "nato",
+   "ottoman"
+  ],
+  "views": 1901196
+ },
+ {
+  "id": "MAR",
+  "name": "Morocco",
+  "alt": [
+   "Al-Mamlakah al-Maġribiyah",
+   "Kingdom of Morocco",
+   "MA"
+  ],
+  "emoji": "🇲🇦",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capital": "Rabat",
+  "borders": [
+   "DZA",
+   "ESP"
+  ],
+  "landlocked": false,
+  "area": 446550,
+  "population": 38430770,
+  "gdpPerCapita": 4672,
+  "urbanPct": 63.1278612260269,
+  "over65Pct": 8.45030687649506,
+  "forestPct": 12.9371068787811,
+  "density": 84.5003473000224,
+  "capitalPopulation": 515619,
+  "olympicMedals": 26,
+  "languages": [
+   "Arabic",
+   "Berber"
+  ],
+  "currencies": [
+   "MAD"
+  ],
+  "flagColors": [
+   "green",
+   "red"
+  ],
+  "flagMain": [
+   "red"
+  ],
+  "sets": [
+   "arab_league",
+   "capital_metro_1m",
+   "desert",
+   "monarchy"
+  ],
+  "views": 2405040
+ },
+ {
+  "id": "MOZ",
+  "name": "Mozambique",
+  "alt": [
+   "MZ",
+   "Republic of Mozambique",
+   "República de Moçambique"
+  ],
+  "emoji": "🇲🇿",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Maputo",
+  "borders": [
+   "MWI",
+   "SWZ",
+   "TZA",
+   "ZAF",
+   "ZMB",
+   "ZWE"
+  ],
+  "landlocked": false,
+  "area": 801590,
+  "population": 35631653,
+  "gdpPerCapita": 627,
+  "urbanPct": 37.2077944927189,
+  "over65Pct": 2.73388102426795,
+  "forestPct": 45.8130349195046,
+  "density": 42.7721457819375,
+  "capitalPopulation": 1133200,
+  "olympicMedals": 2,
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "MZN"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 912684
+ },
+ {
+  "id": "MMR",
+  "name": "Myanmar",
+  "alt": [
+   "Burma",
+   "MM",
+   "Pyidaunzu Thanmăda Myăma Nainngandaw",
+   "Republic of the Union of Myanmar"
+  ],
+  "emoji": "🇲🇲",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Naypyidaw",
+  "borders": [
+   "BGD",
+   "CHN",
+   "IND",
+   "LAO",
+   "THA"
+  ],
+  "landlocked": false,
+  "area": 676578,
+  "population": 54850648,
+  "gdpPerCapita": 1489,
+  "urbanPct": 30.5836915476767,
+  "over65Pct": 7.52222015681565,
+  "forestPct": 42.4023779245254,
+  "density": 82.9420656687147,
+  "capitalPopulation": 1160242,
+  "olympicMedals": 0,
+  "languages": [
+   "Burmese"
+  ],
+  "currencies": [
+   "MMK"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "asean"
+  ],
+  "views": 2264640
+ },
+ {
+  "id": "NAM",
+  "name": "Namibia",
+  "alt": [
+   "NA",
+   "Namibië",
+   "Republic of Namibia"
+  ],
+  "emoji": "🇳🇦",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capital": "Windhoek",
+  "borders": [
+   "AGO",
+   "BWA",
+   "ZAF",
+   "ZMB"
+  ],
+  "landlocked": false,
+  "area": 825615,
+  "population": 3092816,
+  "gdpPerCapita": 4876,
+  "urbanPct": 50.8666984399326,
+  "over65Pct": 3.79304753450455,
+  "forestPct": 7.80511120018463,
+  "density": 3.59909023551847,
+  "capitalPopulation": 486169,
+  "olympicMedals": 5,
+  "languages": [
+   "Afrikaans",
+   "English",
+   "German",
+   "Herero",
+   "Khoekhoe",
+   "Kwangali",
+   "Lozi",
+   "Ndonga",
+   "Tswana"
+  ],
+  "currencies": [
+   "NAD",
+   "ZAR"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "desert",
+   "drives_left"
+  ],
+  "views": 1362528
+ },
+ {
+  "id": "NRU",
+  "name": "Nauru",
+  "alt": [
+   "NR",
+   "Naoero",
+   "Pleasant Island",
+   "Republic of Nauru",
+   "Ripublik Naoero"
+  ],
+  "emoji": "🇳🇷",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capital": "Yaren",
+  "borders": [],
+  "landlocked": false,
+  "area": 21,
+  "population": 12025,
+  "gdpPerCapita": 14640,
+  "urbanPct": 100,
+  "over65Pct": 3.01026984324976,
+  "forestPct": 0,
+  "density": 593.75,
+  "capitalPopulation": 747,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Nauru"
+  ],
+  "currencies": [
+   "AUD"
+  ],
+  "flagColors": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 1078332
+ },
+ {
+  "id": "NPL",
+  "name": "Nepal",
+  "alt": [
+   "Federal Democratic Republic of Nepal",
+   "Loktāntrik Ganatantra Nepāl",
+   "NP"
+  ],
+  "emoji": "🇳🇵",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Kathmandu",
+  "borders": [
+   "CHN",
+   "IND"
+  ],
+  "landlocked": true,
+  "area": 147181,
+  "population": 29618118,
+  "gdpPerCapita": 1536,
+  "urbanPct": 66.999424884859,
+  "over65Pct": 6.62418872502616,
+  "forestPct": 41.5907220090687,
+  "density": 207.147638646669,
+  "capitalPopulation": 845767,
+  "olympicMedals": 0,
+  "languages": [
+   "Nepali"
+  ],
+  "currencies": [
+   "NPR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "drives_left"
+  ],
+  "views": 1932276
+ },
+ {
+  "id": "NLD",
+  "name": "Netherlands",
+  "alt": [
+   "Holland",
+   "Kingdom of the Netherlands",
+   "NL",
+   "Nederland",
+   "The Netherlands"
+  ],
+  "emoji": "🇳🇱",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Amsterdam",
+  "borders": [
+   "BEL",
+   "DEU"
+  ],
+  "landlocked": false,
+  "area": 41850,
+  "population": 18087633,
+  "gdpPerCapita": 73684,
+  "urbanPct": 95.9385903481191,
+  "over65Pct": 20.8687702211484,
+  "forestPct": 11.0574428274428,
+  "density": 530.950905850906,
+  "capitalPopulation": 921468,
+  "olympicMedals": 524,
+  "languages": [
+   "Dutch"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "monarchy",
+   "nato",
+   "olympics_host",
+   "tourism_top20"
+  ],
+  "views": 3068832
+ },
+ {
+  "id": "NZL",
+  "name": "New Zealand",
+  "alt": [
+   "Aotearoa",
+   "NZ"
+  ],
+  "emoji": "🇳🇿",
+  "continent": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "capital": "Wellington",
+  "borders": [],
+  "landlocked": false,
+  "area": 270467,
+  "population": 5324700,
+  "gdpPerCapita": 49591,
+  "urbanPct": 83.9978515774731,
+  "over65Pct": 17.6093066526984,
+  "forestPct": 37.7892841137822,
+  "density": 19.7485853176864,
+  "capitalPopulation": 216200,
+  "olympicMedals": 166,
+  "languages": [
+   "English",
+   "Māori",
+   "New Zealand Sign Language"
+  ],
+  "currencies": [
+   "NZD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 2972952
+ },
+ {
+  "id": "NIC",
+  "name": "Nicaragua",
+  "alt": [
+   "NI",
+   "Republic of Nicaragua",
+   "República de Nicaragua"
+  ],
+  "emoji": "🇳🇮",
+  "continent": "North America",
+  "subregion": "Central America",
+  "capital": "Managua",
+  "borders": [
+   "CRI",
+   "HND"
+  ],
+  "landlocked": false,
+  "area": 130373,
+  "population": 7007502,
+  "gdpPerCapita": 3173,
+  "urbanPct": 59.4435892957332,
+  "over65Pct": 5.69755099606108,
+  "forestPct": 25.8229183978727,
+  "density": 56.702783779292,
+  "capitalPopulation": 937489,
+  "olympicMedals": 0,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "NIO"
+  ],
+  "flagColors": [
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [],
+  "views": 1111944
+ },
+ {
+  "id": "NER",
+  "name": "Niger",
+  "alt": [
+   "NE",
+   "Nijar",
+   "Republic of Niger"
+  ],
+  "emoji": "🇳🇪",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Niamey",
+  "borders": [
+   "BEN",
+   "BFA",
+   "DZA",
+   "LBY",
+   "MLI",
+   "NGA",
+   "TCD"
+  ],
+  "landlocked": true,
+  "area": 1267000,
+  "population": 27917831,
+  "gdpPerCapita": 775,
+  "urbanPct": 18.3740697195469,
+  "over65Pct": 2.61799886961133,
+  "forestPct": 0.822957290597616,
+  "density": 20.6519831057077,
+  "capitalPopulation": 1496260,
+  "olympicMedals": 2,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "orange",
+   "white"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 946176
+ },
+ {
+  "id": "NGA",
+  "name": "Nigeria",
+  "alt": [
+   "Federal Republic of Nigeria",
+   "NG",
+   "Naíjíríà",
+   "Nijeriya"
+  ],
+  "emoji": "🇳🇬",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Abuja",
+  "borders": [
+   "BEN",
+   "CMR",
+   "NER",
+   "TCD"
+  ],
+  "landlocked": false,
+  "area": 923768,
+  "population": 237527782,
+  "gdpPerCapita": 1224,
+  "urbanPct": 63.7754180467872,
+  "over65Pct": 3.06953631021894,
+  "forestPct": 23.2078900271199,
+  "density": 250.20910328623,
+  "capitalPopulation": 1693400,
+  "olympicMedals": 27,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "NGN"
+  ],
+  "flagColors": [
+   "green",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "white"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 2234076
+ },
+ {
+  "id": "PRK",
+  "name": "North Korea",
+  "alt": [
+   "Chosŏn Minjujuŭi Inmin Konghwaguk",
+   "DPRK",
+   "Democratic People's Republic of Korea",
+   "KP",
+   "Korea, Democratic People's Republic of",
+   "북조선",
+   "북한",
+   "조선민주주의인민공화국"
+  ],
+  "emoji": "🇰🇵",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capital": "Pyongyang",
+  "borders": [
+   "CHN",
+   "KOR",
+   "RUS"
+  ],
+  "landlocked": false,
+  "area": 120538,
+  "population": 26571036,
+  "gdpPerCapita": 640,
+  "urbanPct": 64.1897858311258,
+  "over65Pct": 12.7100800151323,
+  "forestPct": 49.5507017689561,
+  "density": 219.402076239515,
+  "capitalPopulation": 2863000,
+  "olympicMedals": 63,
+  "languages": [
+   "Korean"
+  ],
+  "currencies": [
+   "KPW"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "nuclear_weapons"
+  ],
+  "views": 2613204
+ },
+ {
+  "id": "MKD",
+  "name": "North Macedonia",
+  "alt": [
+   "MK",
+   "Macedonia",
+   "Macedonia, The Former Yugoslav Republic of",
+   "Republic of North Macedonia",
+   "The former Yugoslav Republic of Macedonia",
+   "Република Северна Македонија"
+  ],
+  "emoji": "🇲🇰",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Skopje",
+  "borders": [
+   "ALB",
+   "BGR",
+   "GRC",
+   "SRB",
+   "UNK"
+  ],
+  "landlocked": true,
+  "area": 25713,
+  "population": 1820909,
+  "gdpPerCapita": 10490,
+  "urbanPct": 62.8909857826036,
+  "over65Pct": 18.5237163487965,
+  "forestPct": 39.7101506740682,
+  "density": 72.474861221253,
+  "capitalPopulation": 422540,
+  "olympicMedals": 2,
+  "languages": [
+   "Macedonian"
+  ],
+  "currencies": [
+   "MKD"
+  ],
+  "flagColors": [
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "nato",
+   "ottoman"
+  ],
+  "views": 1560384
+ },
+ {
+  "id": "NOR",
+  "name": "Norway",
+  "alt": [
+   "Kingdom of Norway",
+   "Kongeriket Noreg",
+   "Kongeriket Norge",
+   "NO",
+   "Noreg",
+   "Norge"
+  ],
+  "emoji": "🇳🇴",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Oslo",
+  "borders": [
+   "FIN",
+   "RUS",
+   "SWE"
+  ],
+  "landlocked": false,
+  "area": 323802,
+  "population": 5610870,
+  "gdpPerCapita": 94594,
+  "urbanPct": 83.5705787708326,
+  "over65Pct": 19.080223244558,
+  "forestPct": 33.5009745518434,
+  "density": 15.1524995195871,
+  "capitalPopulation": 717710,
+  "olympicMedals": 616,
+  "languages": [
+   "Norwegian Bokmål",
+   "Norwegian Nynorsk",
+   "Sami"
+  ],
+  "currencies": [
+   "NOK"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "monarchy",
+   "nato",
+   "olympics_host"
+  ],
+  "views": 2197272
+ },
+ {
+  "id": "OMN",
+  "name": "Oman",
+  "alt": [
+   "OM",
+   "Salṭanat ʻUmān",
+   "Sultanate of Oman"
+  ],
+  "emoji": "🇴🇲",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Muscat",
+  "borders": [
+   "ARE",
+   "SAU",
+   "YEM"
+  ],
+  "landlocked": false,
+  "area": 309500,
+  "population": 5494691,
+  "gdpPerCapita": 19947,
+  "urbanPct": 79.4781383307689,
+  "over65Pct": 2.6870391801832,
+  "forestPct": 0.00762261712439418,
+  "density": 16.3142778675283,
+  "capitalPopulation": 1421409,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "OMR"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "monarchy"
+  ],
+  "views": 1870680
+ },
+ {
+  "id": "PAK",
+  "name": "Pakistan",
+  "alt": [
+   "Islamic Republic of Pakistan",
+   "Islāmī Jumhūriya'eh Pākistān",
+   "PK",
+   "Pākistān"
+  ],
+  "emoji": "🇵🇰",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Islamabad",
+  "borders": [
+   "AFG",
+   "CHN",
+   "IND",
+   "IRN"
+  ],
+  "landlocked": false,
+  "area": 881912,
+  "population": 255219554,
+  "gdpPerCapita": 1596,
+  "urbanPct": 39.5256010979606,
+  "over65Pct": 4.36186248416949,
+  "forestPct": 4.67242631797426,
+  "density": 321.067474833956,
+  "capitalPopulation": 2098231,
+  "olympicMedals": 11,
+  "languages": [
+   "English",
+   "Urdu"
+  ],
+  "currencies": [
+   "PKR"
+  ],
+  "flagColors": [
+   "green",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "desert",
+   "drives_left",
+   "nuclear_weapons"
+  ],
+  "views": 3520464
+ },
+ {
+  "id": "PLW",
+  "name": "Palau",
+  "alt": [
+   "Beluu er a Belau",
+   "PW",
+   "Republic of Palau"
+  ],
+  "emoji": "🇵🇼",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capital": "Ngerulmud",
+  "borders": [],
+  "landlocked": false,
+  "area": 459,
+  "population": 17663,
+  "gdpPerCapita": 19532,
+  "urbanPct": 79.2835934246556,
+  "over65Pct": 11.8329794762916,
+  "forestPct": 90.5434782608696,
+  "density": 38.5369565217391,
+  "capitalPopulation": 0,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Palauan"
+  ],
+  "currencies": [
+   "USD"
+  ],
+  "flagColors": [
+   "blue",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "yellow"
+  ],
+  "sets": [],
+  "views": 872808
+ },
+ {
+  "id": "PSE",
+  "name": "Palestine",
+  "alt": [
+   "Dawlat Filasṭin",
+   "PS",
+   "Palestine, State of",
+   "State of Palestine"
+  ],
+  "emoji": "🇵🇸",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Ramallah",
+  "borders": [
+   "EGY",
+   "ISR",
+   "JOR"
+  ],
+  "landlocked": false,
+  "area": 6220,
+  "population": 5413596,
+  "gdpPerCapita": 3171,
+  "urbanPct": 87.3818962963393,
+  "over65Pct": 3.85167300191802,
+  "forestPct": 1.68298755186722,
+  "density": 857.390041493776,
+  "capitalPopulation": 236000,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "EGP",
+   "ILS",
+   "JOD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 2197428
+ },
+ {
+  "id": "PAN",
+  "name": "Panama",
+  "alt": [
+   "PA",
+   "Republic of Panama",
+   "República de Panamá"
+  ],
+  "emoji": "🇵🇦",
+  "continent": "North America",
+  "subregion": "Central America",
+  "capital": "Panama City",
+  "borders": [
+   "COL",
+   "CRI"
+  ],
+  "landlocked": false,
+  "area": 75417,
+  "population": 4571189,
+  "gdpPerCapita": 19790,
+  "urbanPct": 66.1500999418126,
+  "over65Pct": 9.65704983976816,
+  "forestPct": 56.3439727689404,
+  "density": 60.1072930709086,
+  "capitalPopulation": 1540000,
+  "olympicMedals": 4,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "PAB",
+   "USD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 948336
+ },
+ {
+  "id": "PNG",
+  "name": "Papua New Guinea",
+  "alt": [
+   "Independen Stet bilong Papua Niugini",
+   "Independent State of Papua New Guinea",
+   "PG"
+  ],
+  "emoji": "🇵🇬",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capital": "Port Moresby",
+  "borders": [
+   "IDN"
+  ],
+  "landlocked": false,
+  "area": 462840,
+  "population": 10762817,
+  "gdpPerCapita": 3020,
+  "urbanPct": 15.7797448680276,
+  "over65Pct": 3.58807085542753,
+  "forestPct": 78.9541359360509,
+  "density": 22.9422669257607,
+  "capitalPopulation": 317374,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Hiri Motu",
+   "Tok Pisin"
+  ],
+  "currencies": [
+   "PGK"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "apec",
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 1420608
+ },
+ {
+  "id": "PRY",
+  "name": "Paraguay",
+  "alt": [
+   "PY",
+   "Republic of Paraguay",
+   "República del Paraguay",
+   "Tetã Paraguái"
+  ],
+  "emoji": "🇵🇾",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Asunción",
+  "borders": [
+   "ARG",
+   "BOL",
+   "BRA"
+  ],
+  "landlocked": true,
+  "area": 406752,
+  "population": 7013078,
+  "gdpPerCapita": 7027,
+  "urbanPct": 70.3897639855864,
+  "over65Pct": 6.71858395975233,
+  "forestPct": 38.5449252640128,
+  "density": 17.282671943072,
+  "capitalPopulation": 462241,
+  "olympicMedals": 1,
+  "languages": [
+   "Guaraní",
+   "Spanish"
+  ],
+  "currencies": [
+   "PYG"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "capital_metro_1m"
+  ],
+  "views": 865884
+ },
+ {
+  "id": "PER",
+  "name": "Peru",
+  "alt": [
+   "PE",
+   "Republic of Peru",
+   "República del Perú"
+  ],
+  "emoji": "🇵🇪",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Lima",
+  "borders": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "COL",
+   "ECU"
+  ],
+  "landlocked": false,
+  "area": 1285216,
+  "population": 34576665,
+  "gdpPerCapita": 9684,
+  "urbanPct": 85.5963484845463,
+  "over65Pct": 9.46656075708863,
+  "forestPct": 56.103020234375,
+  "density": 26.44188828125,
+  "capitalPopulation": 9943800,
+  "olympicMedals": 5,
+  "languages": [
+   "Aymara",
+   "Quechua",
+   "Spanish"
+  ],
+  "currencies": [
+   "PEN"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "desert"
+  ],
+  "views": 1215492
+ },
+ {
+  "id": "PHL",
+  "name": "Philippines",
+  "alt": [
+   "PH",
+   "Republic of the Philippines",
+   "Repúblika ng Pilipinas"
+  ],
+  "emoji": "🇵🇭",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Manila",
+  "borders": [],
+  "landlocked": false,
+  "area": 342353,
+  "population": 116786962,
+  "gdpPerCapita": 4171,
+  "urbanPct": 55.7732907605332,
+  "over65Pct": 5.72400622201301,
+  "forestPct": 24.4600731126539,
+  "density": 385.321122178623,
+  "capitalPopulation": 1902590,
+  "olympicMedals": 18,
+  "languages": [
+   "English",
+   "Filipino"
+  ],
+  "currencies": [
+   "PHP"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "apec",
+   "asean"
+  ],
+  "views": 3321072
+ },
+ {
+  "id": "POL",
+  "name": "Poland",
+  "alt": [
+   "PL",
+   "Republic of Poland",
+   "Rzeczpospolita Polska"
+  ],
+  "emoji": "🇵🇱",
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capital": "Warsaw",
+  "borders": [
+   "BLR",
+   "CZE",
+   "DEU",
+   "LTU",
+   "RUS",
+   "SVK",
+   "UKR"
+  ],
+  "landlocked": false,
+  "area": 312679,
+  "population": 36435861,
+  "gdpPerCapita": 28420,
+  "urbanPct": 60.0853330309371,
+  "over65Pct": 20.75382733073,
+  "forestPct": 31.0804192379273,
+  "density": 119.787615502661,
+  "capitalPopulation": 1862402,
+  "olympicMedals": 335,
+  "languages": [
+   "Polish"
+  ],
+  "currencies": [
+   "PLN"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "tourism_top20"
+  ],
+  "views": 2572464
+ },
+ {
+  "id": "PRT",
+  "name": "Portugal",
+  "alt": [
+   "PT",
+   "Portuguesa",
+   "Portuguese Republic",
+   "República Portuguesa"
+  ],
+  "emoji": "🇵🇹",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Lisbon",
+  "borders": [
+   "ESP"
+  ],
+  "landlocked": false,
+  "area": 92090,
+  "population": 10804871,
+  "gdpPerCapita": 32082,
+  "urbanPct": 61.4953199318985,
+  "over65Pct": 24.9426193763087,
+  "forestPct": 36.154994891142,
+  "density": 115.475189289738,
+  "capitalPopulation": 545796,
+  "olympicMedals": 32,
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "capital_metro_1m",
+   "eu",
+   "nato",
+   "tourism_top20"
+  ],
+  "views": 2036232
+ },
+ {
+  "id": "QAT",
+  "name": "Qatar",
+  "alt": [
+   "Dawlat Qaṭar",
+   "QA",
+   "State of Qatar"
+  ],
+  "emoji": "🇶🇦",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Doha",
+  "borders": [
+   "SAU"
+  ],
+  "landlocked": false,
+  "area": 11586,
+  "population": 2972215,
+  "gdpPerCapita": 72525,
+  "urbanPct": 99.3593427696312,
+  "over65Pct": 1.70081503237359,
+  "forestPct": 0,
+  "density": 231.160313315927,
+  "capitalPopulation": 1186023,
+  "olympicMedals": 9,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "QAR"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "monarchy",
+   "ottoman",
+   "world_cup_host"
+  ],
+  "views": 1790940
+ },
+ {
+  "id": "ROU",
+  "name": "Romania",
+  "alt": [
+   "RO",
+   "România",
+   "Roumania",
+   "Rumania"
+  ],
+  "emoji": "🇷🇴",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Bucharest",
+  "borders": [
+   "BGR",
+   "HUN",
+   "MDA",
+   "SRB",
+   "UKR"
+  ],
+  "landlocked": false,
+  "area": 238391,
+  "population": 19020271,
+  "gdpPerCapita": 22538,
+  "urbanPct": 52.1728885041698,
+  "over65Pct": 20.1384043774039,
+  "forestPct": 30.1158292767733,
+  "density": 82.8453668289291,
+  "capitalPopulation": 1716961,
+  "olympicMedals": 318,
+  "languages": [
+   "Romanian"
+  ],
+  "currencies": [
+   "RON"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ottoman"
+  ],
+  "views": 2004816
+ },
+ {
+  "id": "RUS",
+  "name": "Russia",
+  "alt": [
+   "RU",
+   "Russian Federation",
+   "Российская Федерация"
+  ],
+  "emoji": "🇷🇺",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capital": "Moscow",
+  "borders": [
+   "AZE",
+   "BLR",
+   "CHN",
+   "EST",
+   "FIN",
+   "GEO",
+   "KAZ",
+   "LTU",
+   "LVA",
+   "MNG",
+   "NOR",
+   "POL",
+   "PRK",
+   "UKR"
+  ],
+  "landlocked": false,
+  "area": 17098242,
+  "population": 143513328,
+  "gdpPerCapita": 17547,
+  "urbanPct": 75.2506636608215,
+  "over65Pct": 17.7917873832619,
+  "forestPct": 49.7843605035639,
+  "density": 8.78227219242749,
+  "capitalPopulation": 13274285,
+  "olympicMedals": 539,
+  "languages": [
+   "Russian"
+  ],
+  "currencies": [
+   "RUB"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "g20",
+   "nuclear_weapons",
+   "olympics_host",
+   "ottoman",
+   "ussr",
+   "world_cup_host"
+  ],
+  "views": 4232208
+ },
+ {
+  "id": "RWA",
+  "name": "Rwanda",
+  "alt": [
+   "RW",
+   "Republic of Rwanda",
+   "Repubulika y'u Rwanda",
+   "République du Rwanda"
+  ],
+  "emoji": "🇷🇼",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Kigali",
+  "borders": [
+   "BDI",
+   "COD",
+   "TZA",
+   "UGA"
+  ],
+  "landlocked": true,
+  "area": 26338,
+  "population": 14569341,
+  "gdpPerCapita": 1124,
+  "urbanPct": 30.9133840928162,
+  "over65Pct": 4.02416636497719,
+  "forestPct": 11.3092825293879,
+  "density": 565.645358735306,
+  "capitalPopulation": 1745555,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "French",
+   "Kinyarwanda"
+  ],
+  "currencies": [
+   "RWF"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 1234116
+ },
+ {
+  "id": "KNA",
+  "name": "Saint Kitts and Nevis",
+  "alt": [
+   "Federation of Saint Christopher and Nevis",
+   "KN"
+  ],
+  "emoji": "🇰🇳",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Basseterre",
+  "borders": [],
+  "landlocked": false,
+  "area": 261,
+  "population": 46922,
+  "gdpPerCapita": 25223,
+  "urbanPct": 31.8987713138283,
+  "over65Pct": 11.720639791993,
+  "forestPct": 42.3076923076923,
+  "density": 179.838461538462,
+  "capitalPopulation": 12920,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "XCD"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 706980
+ },
+ {
+  "id": "LCA",
+  "name": "Saint Lucia",
+  "alt": [
+   "LC"
+  ],
+  "emoji": "🇱🇨",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Castries",
+  "borders": [],
+  "landlocked": false,
+  "area": 616,
+  "population": 180149,
+  "gdpPerCapita": 14746,
+  "urbanPct": 29.096571131107,
+  "over65Pct": 9.963696717717,
+  "forestPct": 34.0491803278688,
+  "density": 293.909836065574,
+  "capitalPopulation": 20000,
+  "olympicMedals": 2,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "XCD"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 863328
+ },
+ {
+  "id": "VCT",
+  "name": "Saint Vincent and the Grenadines",
+  "alt": [
+   "VC"
+  ],
+  "emoji": "🇻🇨",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Kingstown",
+  "borders": [],
+  "landlocked": false,
+  "area": 389,
+  "population": 99924,
+  "gdpPerCapita": 12562,
+  "urbanPct": 47.9810480381821,
+  "over65Pct": 12.2502489379482,
+  "forestPct": 73.1794871794872,
+  "density": 259.802564102564,
+  "capitalPopulation": 24518,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "XCD"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 537768
+ },
+ {
+  "id": "WSM",
+  "name": "Samoa",
+  "alt": [
+   "Independent State of Samoa",
+   "Malo Saʻoloto Tutoʻatasi o Sāmoa",
+   "WS"
+  ],
+  "emoji": "🇼🇸",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "capital": "Apia",
+  "borders": [],
+  "landlocked": false,
+  "area": 2842,
+  "population": 219306,
+  "gdpPerCapita": 5873,
+  "urbanPct": 17.5063874123422,
+  "over65Pct": 6.06890356646976,
+  "forestPct": 57.636690647482,
+  "density": 77.9363309352518,
+  "capitalPopulation": 37708,
+  "olympicMedals": 1,
+  "languages": [
+   "English",
+   "Samoan"
+  ],
+  "currencies": [
+   "WST"
+  ],
+  "flagColors": [
+   "blue",
+   "red"
+  ],
+  "flagMain": [
+   "blue",
+   "red"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 857964
+ },
+ {
+  "id": "SMR",
+  "name": "San Marino",
+  "alt": [
+   "Most Serene Republic of San Marino",
+   "Repubblica di San Marino",
+   "Republic of San Marino",
+   "SM"
+  ],
+  "emoji": "🇸🇲",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "City of San Marino",
+  "borders": [
+   "ITA"
+  ],
+  "landlocked": true,
+  "area": 61,
+  "population": 34109,
+  "gdpPerCapita": 59871,
+  "urbanPct": 97.1870254171573,
+  "over65Pct": 23.1484101571226,
+  "forestPct": 16.6666666666667,
+  "density": 564.333333333333,
+  "capitalPopulation": 4040,
+  "olympicMedals": 3,
+  "languages": [
+   "Italian"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "white",
+   "yellow"
+  ],
+  "sets": [],
+  "views": 1116156
+ },
+ {
+  "id": "SAU",
+  "name": "Saudi Arabia",
+  "alt": [
+   "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah",
+   "Kingdom of Saudi Arabia",
+   "SA",
+   "Saudi"
+  ],
+  "emoji": "🇸🇦",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Riyadh",
+  "borders": [
+   "ARE",
+   "IRQ",
+   "JOR",
+   "KWT",
+   "OMN",
+   "QAT",
+   "YEM"
+  ],
+  "landlocked": false,
+  "area": 2149690,
+  "population": 36973555,
+  "gdpPerCapita": 34537,
+  "urbanPct": 84.6123121062185,
+  "over65Pct": 3.05678115419144,
+  "forestPct": 0.454484134921779,
+  "density": 15.6779493787476,
+  "capitalPopulation": 7009100,
+  "olympicMedals": 4,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "SAR"
+  ],
+  "flagColors": [
+   "green",
+   "white"
+  ],
+  "flagMain": [
+   "green",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "g20",
+   "monarchy",
+   "ottoman",
+   "tourism_top20"
+  ],
+  "views": 3052752
+ },
+ {
+  "id": "SEN",
+  "name": "Senegal",
+  "alt": [
+   "Republic of Senegal",
+   "République du Sénégal",
+   "SN"
+  ],
+  "emoji": "🇸🇳",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Dakar",
+  "borders": [
+   "GIN",
+   "GMB",
+   "GNB",
+   "MLI",
+   "MRT"
+  ],
+  "landlocked": false,
+  "area": 196722,
+  "population": 18931966,
+  "gdpPerCapita": 1955,
+  "urbanPct": 55.7672494455246,
+  "over65Pct": 3.64616639269883,
+  "forestPct": 41.2827091881785,
+  "density": 93.8948371682335,
+  "capitalPopulation": 1438725,
+  "olympicMedals": 1,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [],
+  "views": 1179612
+ },
+ {
+  "id": "SRB",
+  "name": "Serbia",
+  "alt": [
+   "RS",
+   "Republic of Serbia",
+   "Republika Srbija",
+   "Srbija",
+   "Република Србија",
+   "Србија"
+  ],
+  "emoji": "🇷🇸",
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capital": "Belgrade",
+  "borders": [
+   "BGR",
+   "BIH",
+   "HRV",
+   "HUN",
+   "MKD",
+   "MNE",
+   "ROU",
+   "UNK"
+  ],
+  "landlocked": true,
+  "area": 88361,
+  "population": 6549143,
+  "gdpPerCapita": 15262,
+  "urbanPct": 62.6379872799333,
+  "over65Pct": 23.050411277315,
+  "forestPct": 32.3896349149721,
+  "density": 78.7630277084077,
+  "capitalPopulation": 1197714,
+  "olympicMedals": 28,
+  "languages": [
+   "Serbian"
+  ],
+  "currencies": [
+   "RSD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "ottoman"
+  ],
+  "views": 2062068
+ },
+ {
+  "id": "SYC",
+  "name": "Seychelles",
+  "alt": [
+   "Repiblik Sesel",
+   "Republic of Seychelles",
+   "République des Seychelles",
+   "SC"
+  ],
+  "emoji": "🇸🇨",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Victoria",
+  "borders": [],
+  "landlocked": false,
+  "area": 452,
+  "population": 122730,
+  "gdpPerCapita": 19449,
+  "urbanPct": 45.4828390704609,
+  "over65Pct": 8.74539176146741,
+  "forestPct": 73.2608695652174,
+  "density": 260.376086956522,
+  "capitalPopulation": 24701,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "French",
+   "Seychellois Creole"
+  ],
+  "currencies": [
+   "SCR"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 1410168
+ },
+ {
+  "id": "SLE",
+  "name": "Sierra Leone",
+  "alt": [
+   "Republic of Sierra Leone",
+   "SL"
+  ],
+  "emoji": "🇸🇱",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Freetown",
+  "borders": [
+   "GIN",
+   "LBR"
+  ],
+  "landlocked": false,
+  "area": 71740,
+  "population": 8819794,
+  "gdpPerCapita": 846,
+  "urbanPct": 45.9267781356681,
+  "over65Pct": 3.28364812148674,
+  "forestPct": 34.2988362427265,
+  "density": 117.214075921308,
+  "capitalPopulation": 951000,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "SLE"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "white"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 983160
+ },
+ {
+  "id": "SGP",
+  "name": "Singapore",
+  "alt": [
+   "Republic of Singapore",
+   "Republik Singapura",
+   "SG",
+   "Singapura",
+   "新加坡共和国"
+  ],
+  "emoji": "🇸🇬",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Singapore",
+  "borders": [],
+  "landlocked": false,
+  "area": 710,
+  "population": 6111175,
+  "gdpPerCapita": 98814,
+  "urbanPct": 100,
+  "over65Pct": 14.2110377720053,
+  "forestPct": 20.933147632312,
+  "density": 8241.8495821727,
+  "capitalPopulation": 5866139,
+  "olympicMedals": 6,
+  "languages": [
+   "Chinese",
+   "English",
+   "Malay",
+   "Tamil"
+  ],
+  "currencies": [
+   "SGD"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "asean",
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 4077912
+ },
+ {
+  "id": "SVK",
+  "name": "Slovakia",
+  "alt": [
+   "SK",
+   "Slovak Republic",
+   "Slovenská republika"
+  ],
+  "emoji": "🇸🇰",
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capital": "Bratislava",
+  "borders": [
+   "AUT",
+   "CZE",
+   "HUN",
+   "POL",
+   "UKR"
+  ],
+  "landlocked": true,
+  "area": 49037,
+  "population": 5413813,
+  "gdpPerCapita": 28544,
+  "urbanPct": 53.1940341971169,
+  "over65Pct": 19.0363041680723,
+  "forestPct": 40.05615640599,
+  "density": 112.868968386023,
+  "capitalPopulation": 480902,
+  "olympicMedals": 43,
+  "languages": [
+   "Slovak"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato",
+   "ottoman"
+  ],
+  "views": 1529772
+ },
+ {
+  "id": "SVN",
+  "name": "Slovenia",
+  "alt": [
+   "Republic of Slovenia",
+   "Republika Slovenija",
+   "SI"
+  ],
+  "emoji": "🇸🇮",
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capital": "Ljubljana",
+  "borders": [
+   "AUT",
+   "HRV",
+   "HUN",
+   "ITA"
+  ],
+  "landlocked": false,
+  "area": 20273,
+  "population": 2130986,
+  "gdpPerCapita": 37376,
+  "urbanPct": 55.9906997845822,
+  "over65Pct": 22.2111482273631,
+  "forestPct": 61.1748938389332,
+  "density": 105.31480791676,
+  "capitalPopulation": 284293,
+  "olympicMedals": 59,
+  "languages": [
+   "Slovene"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "eu",
+   "nato"
+  ],
+  "views": 1568628
+ },
+ {
+  "id": "SLB",
+  "name": "Solomon Islands",
+  "alt": [
+   "SB"
+  ],
+  "emoji": "🇸🇧",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capital": "Honiara",
+  "borders": [],
+  "landlocked": false,
+  "area": 28896,
+  "population": 838645,
+  "gdpPerCapita": 2086,
+  "urbanPct": 31.3093190325418,
+  "over65Pct": 3.66871341943646,
+  "forestPct": 90.0600214362272,
+  "density": 28.581814933905,
+  "capitalPopulation": 84520,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "SBD"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 591876
+ },
+ {
+  "id": "SOM",
+  "name": "Somalia",
+  "alt": [
+   "Federal Republic of Somalia",
+   "Jamhuuriyadda Federaalka Soomaaliya",
+   "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya",
+   "SO",
+   "aṣ-Ṣūmāl"
+  ],
+  "emoji": "🇸🇴",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Mogadishu",
+  "borders": [
+   "DJI",
+   "ETH",
+   "KEN"
+  ],
+  "landlocked": false,
+  "area": 637657,
+  "population": 19654739,
+  "gdpPerCapita": 661,
+  "urbanPct": 55.1399062872976,
+  "over65Pct": 2.61747052453864,
+  "forestPct": 9.16528517231485,
+  "density": 29.2642187649441,
+  "capitalPopulation": 2120000,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic",
+   "Somali"
+  ],
+  "currencies": [
+   "SOS"
+  ],
+  "flagColors": [
+   "blue",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "equator"
+  ],
+  "views": 1503576
+ },
+ {
+  "id": "ZAF",
+  "name": "South Africa",
+  "alt": [
+   "RSA",
+   "Republic of South Africa",
+   "Suid-Afrika",
+   "ZA"
+  ],
+  "emoji": "🇿🇦",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capital": "Pretoria",
+  "borders": [
+   "BWA",
+   "LSO",
+   "MOZ",
+   "NAM",
+   "SWZ",
+   "ZWE"
+  ],
+  "landlocked": false,
+  "area": 1221037,
+  "population": 64747319,
+  "gdpPerCapita": 6598,
+  "urbanPct": 63.8154011002522,
+  "over65Pct": 6.88503097027824,
+  "forestPct": 13.965072665672,
+  "density": 52.1085690262058,
+  "capitalPopulation": 3776313,
+  "olympicMedals": 95,
+  "languages": [
+   "Afrikaans",
+   "English",
+   "Northern Sotho",
+   "Southern Ndebele",
+   "Southern Sotho",
+   "Swazi",
+   "Tsonga",
+   "Tswana",
+   "Venda",
+   "Xhosa",
+   "Zulu"
+  ],
+  "currencies": [
+   "ZAR"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "desert",
+   "drives_left",
+   "g20",
+   "world_cup_host"
+  ],
+  "views": 2914356
+ },
+ {
+  "id": "KOR",
+  "name": "South Korea",
+  "alt": [
+   "KR",
+   "Korea, Republic of",
+   "Republic of Korea",
+   "남조선",
+   "남한"
+  ],
+  "emoji": "🇰🇷",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capital": "Seoul",
+  "borders": [
+   "PRK"
+  ],
+  "landlocked": false,
+  "area": 100210,
+  "population": 51684564,
+  "gdpPerCapita": 36227,
+  "urbanPct": 81.1740263306674,
+  "over65Pct": 20.3304188408974,
+  "forestPct": 64.108606557377,
+  "density": 529.842407786885,
+  "capitalPopulation": 9668465,
+  "olympicMedals": 409,
+  "languages": [
+   "Korean"
+  ],
+  "currencies": [
+   "KRW"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "g20",
+   "olympics_host",
+   "world_cup_host"
+  ],
+  "views": 2330556
+ },
+ {
+  "id": "SSD",
+  "name": "South Sudan",
+  "alt": [
+   "Republic of South Sudan",
+   "SS"
+  ],
+  "emoji": "🇸🇸",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "Juba",
+  "borders": [
+   "CAF",
+   "COD",
+   "ETH",
+   "KEN",
+   "SDN",
+   "UGA"
+  ],
+  "landlocked": true,
+  "area": 619745,
+  "population": 12188788,
+  "gdpPerCapita": 1080,
+  "urbanPct": 21.6843599017401,
+  "over65Pct": 3.07528935608692,
+  "forestPct": 11.3256215087114,
+  "density": 18.1719082809805,
+  "capitalPopulation": 500088,
+  "olympicMedals": 0,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "SSP"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [],
+  "views": 1147920
+ },
+ {
+  "id": "ESP",
+  "name": "Spain",
+  "alt": [
+   "ES",
+   "Kingdom of Spain",
+   "Reino de España"
+  ],
+  "emoji": "🇪🇸",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Madrid",
+  "borders": [
+   "AND",
+   "FRA",
+   "MAR",
+   "PRT"
+  ],
+  "landlocked": false,
+  "area": 505992,
+  "population": 49355143,
+  "gdpPerCapita": 38627,
+  "urbanPct": 80.5149251039138,
+  "over65Pct": 21.64208099744,
+  "forestPct": 37.1925889548355,
+  "density": 96.7636173412149,
+  "capitalPopulation": 3506730,
+  "olympicMedals": 195,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert",
+   "eu",
+   "monarchy",
+   "nato",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 3160656
+ },
+ {
+  "id": "LKA",
+  "name": "Sri Lanka",
+  "alt": [
+   "Democratic Socialist Republic of Sri Lanka",
+   "LK",
+   "ilaṅkai"
+  ],
+  "emoji": "🇱🇰",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Colombo",
+  "borders": [
+   "IND"
+  ],
+  "landlocked": false,
+  "area": 65610,
+  "population": 21756000,
+  "gdpPerCapita": 5002,
+  "urbanPct": 20.4501355167937,
+  "over65Pct": 12.4747139630238,
+  "forestPct": 34.0048496605238,
+  "density": 356.239896540576,
+  "capitalPopulation": 647557,
+  "olympicMedals": 2,
+  "languages": [
+   "Sinhala",
+   "Tamil"
+  ],
+  "currencies": [
+   "LKR"
+  ],
+  "flagColors": [
+   "green",
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "orange",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 2514408
+ },
+ {
+  "id": "SDN",
+  "name": "Sudan",
+  "alt": [
+   "Jumhūrīyat as-Sūdān",
+   "Republic of the Sudan",
+   "SD"
+  ],
+  "emoji": "🇸🇩",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capital": "Khartoum",
+  "borders": [
+   "CAF",
+   "EGY",
+   "ERI",
+   "ETH",
+   "LBY",
+   "SSD",
+   "TCD"
+  ],
+  "landlocked": false,
+  "area": 1886068,
+  "population": 51662147,
+  "gdpPerCapita": 1165,
+  "urbanPct": 34.9349444966605,
+  "over65Pct": 3.38701560944597,
+  "forestPct": 9.55196466809422,
+  "density": 26.7895026766595,
+  "capitalPopulation": 5345000,
+  "olympicMedals": 1,
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "currencies": [
+   "SDG"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 1417344
+ },
+ {
+  "id": "SUR",
+  "name": "Suriname",
+  "alt": [
+   "Republic of Suriname",
+   "Republiek Suriname",
+   "SR",
+   "Sarnam",
+   "Sranangron"
+  ],
+  "emoji": "🇸🇷",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Paramaribo",
+  "borders": [
+   "BRA",
+   "GUY"
+  ],
+  "landlocked": false,
+  "area": 163820,
+  "population": 639850,
+  "gdpPerCapita": 7070,
+  "urbanPct": 65.7886836406706,
+  "over65Pct": 8.19129483472689,
+  "forestPct": 94.44758351333,
+  "density": 3.91810706046897,
+  "capitalPopulation": 223757,
+  "olympicMedals": 2,
+  "languages": [
+   "Dutch"
+  ],
+  "currencies": [
+   "SRD"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "drives_left"
+  ],
+  "views": 1590888
+ },
+ {
+  "id": "SWE",
+  "name": "Sweden",
+  "alt": [
+   "Kingdom of Sweden",
+   "Konungariket Sverige",
+   "SE"
+  ],
+  "emoji": "🇸🇪",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "Stockholm",
+  "borders": [
+   "FIN",
+   "NOR"
+  ],
+  "landlocked": false,
+  "area": 450295,
+  "population": 10596620,
+  "gdpPerCapita": 63133,
+  "urbanPct": 89.0778677789555,
+  "over65Pct": 20.9127967529707,
+  "forestPct": 68.7013529108454,
+  "density": 25.8713678886243,
+  "capitalPopulation": 984748,
+  "olympicMedals": 709,
+  "languages": [
+   "Swedish"
+  ],
+  "currencies": [
+   "SEK"
+  ],
+  "flagColors": [
+   "blue",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "yellow"
+  ],
+  "sets": [
+   "eu",
+   "monarchy",
+   "nato",
+   "olympics_host",
+   "world_cup_host"
+  ],
+  "views": 2210100
+ },
+ {
+  "id": "CHE",
+  "name": "Switzerland",
+  "alt": [
+   "CH",
+   "Schweiz",
+   "Suisse",
+   "Svizra",
+   "Svizzera",
+   "Swiss Confederation"
+  ],
+  "emoji": "🇨🇭",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capital": "Bern",
+  "borders": [
+   "AUT",
+   "DEU",
+   "FRA",
+   "ITA",
+   "LIE"
+  ],
+  "landlocked": true,
+  "area": 41284,
+  "population": 9092436,
+  "gdpPerCapita": 114769,
+  "urbanPct": 85.7272157802756,
+  "over65Pct": 20.4321204316855,
+  "forestPct": 32.3827380818297,
+  "density": 224.978619136651,
+  "capitalPopulation": 136988,
+  "olympicMedals": 403,
+  "languages": [
+   "French",
+   "Italian",
+   "Romansh",
+   "Swiss German"
+  ],
+  "currencies": [
+   "CHF"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "olympics_host",
+   "world_cup_host"
+  ],
+  "views": 2711532
+ },
+ {
+  "id": "SYR",
+  "name": "Syria",
+  "alt": [
+   "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah",
+   "SY",
+   "Syrian Arab Republic"
+  ],
+  "emoji": "🇸🇾",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Damascus",
+  "borders": [
+   "IRQ",
+   "ISR",
+   "JOR",
+   "LBN",
+   "TUR"
+  ],
+  "landlocked": false,
+  "area": 185180,
+  "population": 25620427,
+  "gdpPerCapita": 1057,
+  "urbanPct": 72.0836286208518,
+  "over65Pct": 4.83918173649451,
+  "forestPct": 2.84310842454937,
+  "density": 128.490023416653,
+  "capitalPopulation": 2685360,
+  "olympicMedals": 4,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "SYP"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 2300448
+ },
+ {
+  "id": "STP",
+  "name": "São Tomé and Príncipe",
+  "alt": [
+   "Democratic Republic of São Tomé and Príncipe",
+   "República Democrática de São Tomé e Príncipe",
+   "ST",
+   "Sao Tome and Principe"
+  ],
+  "emoji": "🇸🇹",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capital": "São Tomé",
+  "borders": [],
+  "landlocked": false,
+  "area": 964,
+  "population": 240254,
+  "gdpPerCapita": 4084,
+  "urbanPct": 69.1721865415984,
+  "over65Pct": 3.94457532444829,
+  "forestPct": 52.125,
+  "density": 240.490625,
+  "capitalPopulation": 65468,
+  "olympicMedals": 0,
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "STN"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "equator"
+  ],
+  "views": 614796
+ },
+ {
+  "id": "TWN",
+  "name": "Taiwan",
+  "alt": [
+   "Chinese Taipei",
+   "Republic of China",
+   "Republic of China (Taiwan)",
+   "TW",
+   "Táiwān",
+   "Zhōnghuá Mínguó",
+   "中華民國"
+  ],
+  "emoji": "🇹🇼",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capital": "Taipei",
+  "borders": [],
+  "landlocked": false,
+  "area": 36193,
+  "population": 23400000,
+  "gdpPerCapita": 34000,
+  "urbanPct": 80,
+  "over65Pct": 19,
+  "forestPct": 60,
+  "density": 650,
+  "capitalPopulation": 2442991,
+  "olympicMedals": 43,
+  "languages": [
+   "Chinese"
+  ],
+  "currencies": [
+   "TWD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red"
+  ],
+  "sets": [
+   "apec"
+  ],
+  "views": 3771360
+ },
+ {
+  "id": "TJK",
+  "name": "Tajikistan",
+  "alt": [
+   "Republic of Tajikistan",
+   "TJ",
+   "Toçikiston",
+   "Çumhuriyi Toçikiston",
+   "Ҷумҳурии Тоҷикистон"
+  ],
+  "emoji": "🇹🇯",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capital": "Dushanbe",
+  "borders": [
+   "AFG",
+   "CHN",
+   "KGZ",
+   "UZB"
+  ],
+  "landlocked": true,
+  "area": 143100,
+  "population": 10786734,
+  "gdpPerCapita": 1637,
+  "urbanPct": 26.16476270853,
+  "over65Pct": 4.06783017305471,
+  "forestPct": 3.07514950644859,
+  "density": 74.8598530153469,
+  "capitalPopulation": 948251,
+  "olympicMedals": 7,
+  "languages": [
+   "Russian",
+   "Tajik"
+  ],
+  "currencies": [
+   "TJS"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "ussr"
+  ],
+  "views": 1142868
+ },
+ {
+  "id": "TZA",
+  "name": "Tanzania",
+  "alt": [
+   "Jamhuri ya Muungano wa Tanzania",
+   "TZ",
+   "Tanzania, United Republic of",
+   "United Republic of Tanzania"
+  ],
+  "emoji": "🇹🇿",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Dodoma",
+  "borders": [
+   "BDI",
+   "COD",
+   "KEN",
+   "MOZ",
+   "MWI",
+   "RWA",
+   "UGA",
+   "ZMB"
+  ],
+  "landlocked": false,
+  "area": 945087,
+  "population": 70545865,
+  "gdpPerCapita": 1319,
+  "urbanPct": 36.8833115936643,
+  "over65Pct": 3.04176368097549,
+  "forestPct": 50.0541883043576,
+  "density": 75.2061481146986,
+  "capitalPopulation": 213636,
+  "olympicMedals": 2,
+  "languages": [
+   "English",
+   "Swahili"
+  ],
+  "currencies": [
+   "TZS"
+  ],
+  "flagColors": [
+   "black",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 1445364
+ },
+ {
+  "id": "THA",
+  "name": "Thailand",
+  "alt": [
+   "Kingdom of Thailand",
+   "Prathet",
+   "Ratcha Anachak Thai",
+   "TH",
+   "Thai",
+   "ราชอาณาจักรไทย"
+  ],
+  "emoji": "🇹🇭",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Bangkok",
+  "borders": [
+   "KHM",
+   "LAO",
+   "MMR",
+   "MYS"
+  ],
+  "landlocked": false,
+  "area": 513120,
+  "population": 71619863,
+  "gdpPerCapita": 8057,
+  "urbanPct": 62.7993377136296,
+  "over65Pct": 16.017421033045,
+  "forestPct": 38.6873886746658,
+  "density": 140.348088629646,
+  "capitalPopulation": 5676648,
+  "olympicMedals": 41,
+  "languages": [
+   "Thai"
+  ],
+  "currencies": [
+   "THB"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "asean",
+   "drives_left",
+   "monarchy",
+   "tourism_top20"
+  ],
+  "views": 2240040
+ },
+ {
+  "id": "TLS",
+  "name": "Timor-Leste",
+  "alt": [
+   "Democratic Republic of Timor-Leste",
+   "East Timor",
+   "República Democrática de Timor-Leste",
+   "Repúblika Demokrátika Timór-Leste",
+   "TL",
+   "Timor",
+   "Timor Lorosae",
+   "Timór Lorosa'e"
+  ],
+  "emoji": "🇹🇱",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Dili",
+  "borders": [
+   "IDN"
+  ],
+  "landlocked": false,
+  "area": 14874,
+  "population": 1418517,
+  "gdpPerCapita": 1341,
+  "urbanPct": 28.7864318960935,
+  "over65Pct": 5.22929748839898,
+  "forestPct": 61.6610625420309,
+  "density": 93.0925353059852,
+  "capitalPopulation": 222323,
+  "olympicMedals": 0,
+  "languages": [
+   "Portuguese",
+   "Tetum"
+  ],
+  "currencies": [
+   "USD"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "asean",
+   "drives_left"
+  ],
+  "views": 1054836
+ },
+ {
+  "id": "TGO",
+  "name": "Togo",
+  "alt": [
+   "République Togolaise",
+   "TG",
+   "Togolese",
+   "Togolese Republic"
+  ],
+  "emoji": "🇹🇬",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capital": "Lomé",
+  "borders": [
+   "BEN",
+   "BFA",
+   "GHA"
+  ],
+  "landlocked": false,
+  "area": 56785,
+  "population": 8591626,
+  "gdpPerCapita": 1384,
+  "urbanPct": 44.3949892074399,
+  "over65Pct": 3.4768505984781,
+  "forestPct": 22.0700496414782,
+  "density": 151.201507630079,
+  "capitalPopulation": 2188376,
+  "olympicMedals": 1,
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "XOF"
+  ],
+  "flagColors": [
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 599304
+ },
+ {
+  "id": "TON",
+  "name": "Tonga",
+  "alt": [
+   "Kingdom of Tonga",
+   "TO"
+  ],
+  "emoji": "🇹🇴",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "capital": "Nuku'alofa",
+  "borders": [],
+  "landlocked": false,
+  "area": 747,
+  "population": 103742,
+  "gdpPerCapita": 6547,
+  "urbanPct": 21.1561406217448,
+  "over65Pct": 6.85064872472094,
+  "forestPct": 12.4305555555556,
+  "density": 145.273611111111,
+  "capitalPopulation": 23221,
+  "olympicMedals": 1,
+  "languages": [
+   "English",
+   "Tongan"
+  ],
+  "currencies": [
+   "TOP"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 747684
+ },
+ {
+  "id": "TTO",
+  "name": "Trinidad and Tobago",
+  "alt": [
+   "Republic of Trinidad and Tobago",
+   "TT"
+  ],
+  "emoji": "🇹🇹",
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capital": "Port of Spain",
+  "borders": [],
+  "landlocked": false,
+  "area": 5130,
+  "population": 1367764,
+  "gdpPerCapita": 18967,
+  "urbanPct": 53.9696087417106,
+  "over65Pct": 12.9254775320864,
+  "forestPct": 44.2358674463938,
+  "density": 266.571150097466,
+  "capitalPopulation": 49031,
+  "olympicMedals": 19,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "TTD"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 1245996
+ },
+ {
+  "id": "TUN",
+  "name": "Tunisia",
+  "alt": [
+   "Republic of Tunisia",
+   "TN",
+   "Tunisian Republic",
+   "al-Jumhūriyyah at-Tūnisiyyah"
+  ],
+  "emoji": "🇹🇳",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capital": "Tunis",
+  "borders": [
+   "DZA",
+   "LBY"
+  ],
+  "landlocked": false,
+  "area": 163610,
+  "population": 12348573,
+  "gdpPerCapita": 4657,
+  "urbanPct": 70.7029326009864,
+  "over65Pct": 9.9376502855836,
+  "forestPct": 4.55278063851699,
+  "density": 78.530065653965,
+  "capitalPopulation": 602560,
+  "olympicMedals": 18,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "TND"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "capital_metro_1m",
+   "desert",
+   "ottoman"
+  ],
+  "views": 1305480
+ },
+ {
+  "id": "TKM",
+  "name": "Turkmenistan",
+  "alt": [
+   "TM"
+  ],
+  "emoji": "🇹🇲",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capital": "Ashgabat",
+  "borders": [
+   "AFG",
+   "IRN",
+   "KAZ",
+   "UZB"
+  ],
+  "landlocked": true,
+  "area": 488100,
+  "population": 7618847,
+  "gdpPerCapita": 6540,
+  "urbanPct": 47.1053608253747,
+  "over65Pct": 4.80778752954433,
+  "forestPct": 8.78215904496414,
+  "density": 15.6713510522844,
+  "capitalPopulation": 1030063,
+  "olympicMedals": 1,
+  "languages": [
+   "Russian",
+   "Turkmen"
+  ],
+  "currencies": [
+   "TMT"
+  ],
+  "flagColors": [
+   "green",
+   "orange",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "green",
+   "orange",
+   "red"
+  ],
+  "sets": [
+   "desert",
+   "ussr"
+  ],
+  "views": 1434084
+ },
+ {
+  "id": "TUV",
+  "name": "Tuvalu",
+  "alt": [
+   "TV"
+  ],
+  "emoji": "🇹🇻",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "capital": "Funafuti",
+  "borders": [],
+  "landlocked": false,
+  "area": 26,
+  "population": 9492,
+  "gdpPerCapita": 6041,
+  "urbanPct": 65.4480709525093,
+  "over65Pct": 7.04277286135693,
+  "forestPct": 33.3333333333333,
+  "density": 327.2,
+  "capitalPopulation": 6025,
+  "olympicMedals": 0,
+  "languages": [
+   "English",
+   "Tuvaluan"
+  ],
+  "currencies": [
+   "AUD",
+   "TVD"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "monarchy"
+  ],
+  "views": 788232
+ },
+ {
+  "id": "TUR",
+  "name": "Türkiye",
+  "alt": [
+   "Republic of Turkey",
+   "Republic of Türkiye",
+   "TR",
+   "Turkiye",
+   "Türkiye Cumhuriyeti"
+  ],
+  "emoji": "🇹🇷",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Ankara",
+  "borders": [
+   "ARM",
+   "AZE",
+   "BGR",
+   "GEO",
+   "GRC",
+   "IRN",
+   "IRQ",
+   "SYR"
+  ],
+  "landlocked": false,
+  "area": 783562,
+  "population": 85878556,
+  "gdpPerCapita": 18599,
+  "urbanPct": 89.494060002186,
+  "over65Pct": 10.5709408311479,
+  "forestPct": 29.4795681041539,
+  "density": 110.866214934449,
+  "capitalPopulation": 5803482,
+  "olympicMedals": 111,
+  "languages": [
+   "Turkish"
+  ],
+  "currencies": [
+   "TRY"
+  ],
+  "flagColors": [
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "red",
+   "white"
+  ],
+  "sets": [
+   "g20",
+   "nato",
+   "ottoman",
+   "tourism_top20"
+  ],
+  "views": 3766116
+ },
+ {
+  "id": "UGA",
+  "name": "Uganda",
+  "alt": [
+   "Jamhuri ya Uganda",
+   "Republic of Uganda",
+   "UG"
+  ],
+  "emoji": "🇺🇬",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Kampala",
+  "borders": [
+   "COD",
+   "KEN",
+   "RWA",
+   "SSD",
+   "TZA"
+  ],
+  "landlocked": true,
+  "area": 241550,
+  "population": 51384894,
+  "gdpPerCapita": 1206,
+  "urbanPct": 31.9399557536617,
+  "over65Pct": 2.22850221312123,
+  "forestPct": 11.0419703770197,
+  "density": 242.65210951526,
+  "capitalPopulation": 1680600,
+  "olympicMedals": 13,
+  "languages": [
+   "English",
+   "Swahili"
+  ],
+  "currencies": [
+   "UGX"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "equator"
+  ],
+  "views": 1335012
+ },
+ {
+  "id": "UKR",
+  "name": "Ukraine",
+  "alt": [
+   "UA",
+   "Ukrayina"
+  ],
+  "emoji": "🇺🇦",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capital": "Kyiv",
+  "borders": [
+   "BLR",
+   "HUN",
+   "MDA",
+   "POL",
+   "ROU",
+   "RUS",
+   "SVK"
+  ],
+  "landlocked": false,
+  "area": 603500,
+  "population": 38980376,
+  "gdpPerCapita": 5866,
+  "urbanPct": 69.5954924645764,
+  "over65Pct": 18.9717382539904,
+  "forestPct": 16.7552640662755,
+  "density": 65.1239834311357,
+  "capitalPopulation": 2952301,
+  "olympicMedals": 160,
+  "languages": [
+   "Ukrainian"
+  ],
+  "currencies": [
+   "UAH"
+  ],
+  "flagColors": [
+   "blue",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "yellow"
+  ],
+  "sets": [
+   "ottoman",
+   "ussr"
+  ],
+  "views": 2692272
+ },
+ {
+  "id": "ARE",
+  "name": "United Arab Emirates",
+  "alt": [
+   "AE",
+   "Emirates",
+   "UAE"
+  ],
+  "emoji": "🇦🇪",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Abu Dhabi",
+  "borders": [
+   "OMN",
+   "SAU"
+  ],
+  "landlocked": false,
+  "area": 83600,
+  "population": 11513149,
+  "gdpPerCapita": 50274,
+  "urbanPct": 85.9617641324017,
+  "over65Pct": 1.79231447206064,
+  "forestPct": 4.46775556181357,
+  "density": 147.616882568291,
+  "capitalPopulation": 1570000,
+  "olympicMedals": 2,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "AED"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "monarchy",
+   "tourism_top20"
+  ],
+  "views": 3740616
+ },
+ {
+  "id": "GBR",
+  "name": "United Kingdom",
+  "alt": [
+   "GB",
+   "Great Britain",
+   "UK",
+   "United Kingdom of Great Britain and Northern Ireland"
+  ],
+  "emoji": "🇬🇧",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capital": "London",
+  "borders": [
+   "IRL"
+  ],
+  "landlocked": false,
+  "area": 242900,
+  "population": 69487000,
+  "gdpPerCapita": 57602,
+  "urbanPct": 83.323608078271,
+  "over65Pct": 19.7026932546935,
+  "forestPct": 13.2907130161617,
+  "density": 283.247220270326,
+  "capitalPopulation": 8799728,
+  "olympicMedals": 1025,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "GBP"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left",
+   "g20",
+   "monarchy",
+   "nato",
+   "nuclear_weapons",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 6787860
+ },
+ {
+  "id": "USA",
+  "name": "United States",
+  "alt": [
+   "US",
+   "USA",
+   "United States of America"
+  ],
+  "emoji": "🇺🇸",
+  "continent": "North America",
+  "subregion": "North America",
+  "capital": "Washington D.C.",
+  "borders": [
+   "CAN",
+   "MEX"
+  ],
+  "landlocked": false,
+  "area": 9372610,
+  "population": 341784857,
+  "gdpPerCapita": 90027,
+  "urbanPct": 80.1921733027869,
+  "over65Pct": 18.387224828496,
+  "forestPct": 33.8669264120375,
+  "density": 36.8142112202129,
+  "capitalPopulation": 689545,
+  "olympicMedals": 3137,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "USD"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "apec",
+   "desert",
+   "g20",
+   "nato",
+   "nuclear_weapons",
+   "olympics_host",
+   "tourism_top20",
+   "world_cup_host"
+  ],
+  "views": 13356132
+ },
+ {
+  "id": "URY",
+  "name": "Uruguay",
+  "alt": [
+   "Oriental Republic of Uruguay",
+   "República Oriental del Uruguay",
+   "UY"
+  ],
+  "emoji": "🇺🇾",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Montevideo",
+  "borders": [
+   "ARG",
+   "BRA"
+  ],
+  "landlocked": false,
+  "area": 181034,
+  "population": 3384688,
+  "gdpPerCapita": 25216,
+  "urbanPct": 95.6537192104085,
+  "over65Pct": 16.2818995428825,
+  "forestPct": 11.9643469317792,
+  "density": 19.3582504856588,
+  "capitalPopulation": 1302954,
+  "olympicMedals": 10,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "UYU"
+  ],
+  "flagColors": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "world_cup_host"
+  ],
+  "views": 1218996
+ },
+ {
+  "id": "UZB",
+  "name": "Uzbekistan",
+  "alt": [
+   "O‘zbekiston Respublikasi",
+   "Republic of Uzbekistan",
+   "UZ",
+   "Ўзбекистон Республикаси"
+  ],
+  "emoji": "🇺🇿",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capital": "Tashkent",
+  "borders": [
+   "AFG",
+   "KAZ",
+   "KGZ",
+   "TJK",
+   "TKM"
+  ],
+  "landlocked": true,
+  "area": 447400,
+  "population": 37053428,
+  "gdpPerCapita": 3968,
+  "urbanPct": 51.0173495084299,
+  "over65Pct": 6.06931428854572,
+  "forestPct": 8.54914331101781,
+  "density": 80.9084466129581,
+  "capitalPopulation": 2956384,
+  "olympicMedals": 50,
+  "languages": [
+   "Russian",
+   "Uzbek"
+  ],
+  "currencies": [
+   "UZS"
+  ],
+  "flagColors": [
+   "blue",
+   "green",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "blue",
+   "green",
+   "white"
+  ],
+  "sets": [
+   "desert",
+   "ussr"
+  ],
+  "views": 1953696
+ },
+ {
+  "id": "VUT",
+  "name": "Vanuatu",
+  "alt": [
+   "Republic of Vanuatu",
+   "Ripablik blong Vanuatu",
+   "République de Vanuatu",
+   "VU"
+  ],
+  "emoji": "🇻🇺",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capital": "Port Vila",
+  "borders": [],
+  "landlocked": false,
+  "area": 12189,
+  "population": 335169,
+  "gdpPerCapita": 4039,
+  "urbanPct": 22.3219888836722,
+  "over65Pct": 4.3788357515164,
+  "forestPct": 36.2838392124692,
+  "density": 26.2845775225595,
+  "capitalPopulation": 49034,
+  "olympicMedals": 0,
+  "languages": [
+   "Bislama",
+   "English",
+   "French"
+  ],
+  "currencies": [
+   "VUV"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "commonwealth"
+  ],
+  "views": 945720
+ },
+ {
+  "id": "VAT",
+  "name": "Vatican City",
+  "alt": [
+   "Holy See (Vatican City State)",
+   "Stato della Città del Vaticano",
+   "VA",
+   "Vatican",
+   "Vatican City State"
+  ],
+  "emoji": "🇻🇦",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capital": "Vatican City",
+  "borders": [
+   "ITA"
+  ],
+  "landlocked": true,
+  "area": 0.44,
+  "population": 800,
+  "gdpPerCapita": null,
+  "urbanPct": 100,
+  "over65Pct": null,
+  "forestPct": null,
+  "density": 1800,
+  "capitalPopulation": 882,
+  "olympicMedals": 0,
+  "languages": [
+   "Italian",
+   "Latin"
+  ],
+  "currencies": [
+   "EUR"
+  ],
+  "flagColors": [
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "monarchy"
+  ],
+  "views": 1451712
+ },
+ {
+  "id": "VEN",
+  "name": "Venezuela",
+  "alt": [
+   "Bolivarian Republic of Venezuela",
+   "República Bolivariana de Venezuela",
+   "VE",
+   "Venezuela, Bolivarian Republic of"
+  ],
+  "emoji": "🇻🇪",
+  "continent": "South America",
+  "subregion": "South America",
+  "capital": "Caracas",
+  "borders": [
+   "BRA",
+   "COL",
+   "GUY"
+  ],
+  "landlocked": false,
+  "area": 916445,
+  "population": 28516896,
+  "gdpPerCapita": 3495,
+  "urbanPct": 89.3219112298988,
+  "over65Pct": 10.0182554931645,
+  "forestPct": 52.2338793719177,
+  "density": 32.0853171588912,
+  "capitalPopulation": 2245744,
+  "olympicMedals": 19,
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "VES"
+  ],
+  "flagColors": [
+   "blue",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "desert"
+  ],
+  "views": 2972508
+ },
+ {
+  "id": "VNM",
+  "name": "Vietnam",
+  "alt": [
+   "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+   "Socialist Republic of Vietnam",
+   "VN",
+   "Viet Nam"
+  ],
+  "emoji": "🇻🇳",
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Hanoi",
+  "borders": [
+   "CHN",
+   "KHM",
+   "LAO"
+  ],
+  "landlocked": false,
+  "area": 331212,
+  "population": 101598527,
+  "gdpPerCapita": 5066,
+  "urbanPct": 38.8299160351294,
+  "over65Pct": 9.49453578200007,
+  "forestPct": 47.4454820708996,
+  "density": 320.175197572656,
+  "capitalPopulation": 8717600,
+  "olympicMedals": 5,
+  "languages": [
+   "Vietnamese"
+  ],
+  "currencies": [
+   "VND"
+  ],
+  "flagColors": [
+   "red",
+   "yellow"
+  ],
+  "flagMain": [
+   "red",
+   "yellow"
+  ],
+  "sets": [
+   "apec",
+   "asean"
+  ],
+  "views": 2689860
+ },
+ {
+  "id": "YEM",
+  "name": "Yemen",
+  "alt": [
+   "Republic of Yemen",
+   "YE",
+   "Yemeni Republic",
+   "al-Jumhūriyyah al-Yamaniyyah"
+  ],
+  "emoji": "🇾🇪",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capital": "Sana'a",
+  "borders": [
+   "OMN",
+   "SAU"
+  ],
+  "landlocked": false,
+  "area": 527968,
+  "population": 41773878,
+  "gdpPerCapita": 634,
+  "urbanPct": 37.0336664607078,
+  "over65Pct": 2.54534547337627,
+  "forestPct": 1.03983180862549,
+  "density": 74.6080250771824,
+  "capitalPopulation": 2957000,
+  "olympicMedals": 0,
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "YER"
+  ],
+  "flagColors": [
+   "black",
+   "red",
+   "white"
+  ],
+  "flagMain": [
+   "black",
+   "red",
+   "white"
+  ],
+  "sets": [
+   "arab_league",
+   "desert",
+   "ottoman"
+  ],
+  "views": 1489332
+ },
+ {
+  "id": "ZMB",
+  "name": "Zambia",
+  "alt": [
+   "Republic of Zambia",
+   "ZM"
+  ],
+  "emoji": "🇿🇲",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Lusaka",
+  "borders": [
+   "AGO",
+   "BWA",
+   "COD",
+   "MOZ",
+   "MWI",
+   "NAM",
+   "TZA",
+   "ZWE"
+  ],
+  "landlocked": true,
+  "area": 752612,
+  "population": 21913874,
+  "gdpPerCapita": 1318,
+  "urbanPct": 45.9171510161461,
+  "over65Pct": 2.00005028777659,
+  "forestPct": 59.523784150984,
+  "density": 27.8776483407095,
+  "capitalPopulation": 2467563,
+  "olympicMedals": 3,
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "ZMW"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "orange",
+   "red"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "orange",
+   "red"
+  ],
+  "sets": [
+   "commonwealth",
+   "drives_left"
+  ],
+  "views": 798972
+ },
+ {
+  "id": "ZWE",
+  "name": "Zimbabwe",
+  "alt": [
+   "Republic of Zimbabwe",
+   "ZW"
+  ],
+  "emoji": "🇿🇼",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capital": "Harare",
+  "borders": [
+   "BWA",
+   "MOZ",
+   "ZAF",
+   "ZMB"
+  ],
+  "landlocked": true,
+  "area": 390757,
+  "population": 16950795,
+  "gdpPerCapita": 3021,
+  "urbanPct": 40.4951287431452,
+  "over65Pct": 3.56147602516578,
+  "forestPct": 44.7366421093447,
+  "density": 42.24071862479,
+  "capitalPopulation": 2150000,
+  "olympicMedals": 8,
+  "languages": [
+   "Chewa",
+   "Chibarwe",
+   "English",
+   "Kalanga",
+   "Khoisan",
+   "Ndau",
+   "Northern Ndebele",
+   "Shona",
+   "Sotho",
+   "Tonga",
+   "Tsonga",
+   "Tswana",
+   "Venda",
+   "Xhosa",
+   "Zimbabwean Sign Language"
+  ],
+  "currencies": [
+   "BWP",
+   "CNY",
+   "EUR",
+   "GBP",
+   "INR",
+   "JPY",
+   "USD",
+   "ZAR",
+   "ZWB"
+  ],
+  "flagColors": [
+   "black",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "flagMain": [
+   "black",
+   "green",
+   "red",
+   "white",
+   "yellow"
+  ],
+  "sets": [
+   "drives_left"
+  ],
+  "views": 1447164
+ }
+]
