@@ -106,7 +106,7 @@ const flagOther = [
     group: "flag",
     how:
       "Qualifies if the flag has exactly two colours, read either way: counting every detail, or counting main colours only. " +
-      "So Japan qualifies outright, and Portugal qualifies too, because its main colours are red and green even though the coat of arms adds more.",
+      "So Japan qualifies outright, and Argentina qualifies too, because its main colours are blue and white even though the sun adds yellow. Germany does not qualify.",
     test: (c) => c.flagColors.length === 2 || c.flagMain.length === 2,
   },
   {
