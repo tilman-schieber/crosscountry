@@ -259,7 +259,8 @@ def main():
             "name": c["name"]["common"],
             "alt": names,
             "emoji": c.get("flag", ""),
-            "continent": SUBREGION_TO_CONTINENT.get(c["subregion"], c["region"]),
+            # The dataset's single continent, plus the second one for countries that straddle two.
+            "continents": sorted({SUBREGION_TO_CONTINENT.get(c["subregion"], c["region"]), *curated["second_continent"].get(cid, [])}),
             "subregion": c["subregion"],
             "capital": (c.get("capital") or [""])[0],
             "borders": sorted(b for b in c.get("borders", []) if b in ids),

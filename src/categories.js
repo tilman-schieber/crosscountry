@@ -12,7 +12,13 @@ const WORLD_BANK = "World Bank, latest year available";
 
 // Rules shared by a whole group are explained once, under the group's heading.
 export const GROUPS = {
-  continent: { title: "Continent", how: "Each country belongs to exactly one continent." },
+  continent: {
+    title: "Continent",
+    how:
+      "A country with territory on two continents counts for both: Russia, Türkiye, Kazakhstan, Azerbaijan, Georgia and Armenia are Europe and Asia " +
+      "(the Europe–Asia line through the Caucasus is drawn differently by different sources, so the three Caucasus countries count for both); " +
+      "Cyprus is Europe and Asia; Egypt is Africa and Asia; Indonesia is Asia and Oceania. Overseas territories do not count.",
+  },
   flag: {
     title: "Flag",
     how:
@@ -69,19 +75,19 @@ export const GROUPS = {
 };
 
 const CONTINENT_NOTES = {
-  Africa: "Egypt counts as Africa.",
-  Asia: "Türkiye, Kazakhstan, Georgia, Armenia and Azerbaijan count as Asia. Indonesia and Timor-Leste too.",
-  Europe: "Russia and Cyprus count as Europe.",
+  Africa: "Includes Egypt.",
+  Asia: "Includes Russia, Türkiye, the Caucasus countries, Cyprus, Egypt, Indonesia and Timor-Leste.",
+  Europe: "Includes Russia, Türkiye, Kazakhstan, the Caucasus countries and Cyprus.",
   "North America": "Includes Central America and the Caribbean, down to Panama and Trinidad and Tobago.",
   "South America": "The twelve countries of the mainland; no Caribbean islands.",
-  Oceania: "Australia, New Zealand, Papua New Guinea and the Pacific island states.",
+  Oceania: "Australia, New Zealand, Papua New Guinea, the Pacific island states and Indonesia.",
 };
 const continents = Object.entries(CONTINENT_NOTES).map(([name, note]) => ({
   id: `continent:${name}`,
   label: name,
   group: "continent",
   how: note,
-  test: (c) => c.continent === name,
+  test: (c) => c.continents.includes(name),
 }));
 
 const flagColors = ["red", "blue", "green", "yellow", "white", "black", "orange"].map((color) => ({

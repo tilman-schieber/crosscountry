@@ -1,6 +1,18 @@
 {
   "_comment": "Hand-curated closed sets (ISO 3166-1 alpha-3). build.py asserts the expected counts, so an accidental edit fails loudly. Update here when the world changes.",
   "extra_countries": ["PSE", "UNK", "TWN"],
+  "second_continent": {
+    "_comment": "Countries with territory on two continents count for both. Georgia, Armenia and Cyprus are included because the Europe/Asia line is drawn differently by different sources.",
+    "RUS": ["Asia"],
+    "TUR": ["Europe"],
+    "KAZ": ["Europe"],
+    "AZE": ["Europe"],
+    "GEO": ["Europe"],
+    "ARM": ["Europe"],
+    "CYP": ["Asia"],
+    "EGY": ["Asia"],
+    "IDN": ["Oceania"]
+  },
   "sets": {
     "eu": {
       "expect": 27,
