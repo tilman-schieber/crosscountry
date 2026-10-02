@@ -85,7 +85,7 @@ h1 { font: 400 2rem/1 var(--display); margin: 0; margin-right: auto; }
 .options input { accent-color: var(--accent); margin: 0; }
 
 .days { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: 0.9rem; font-variant-numeric: tabular-nums; }
-.days button { font: inherit; color: var(--accent); background: none; border: 0; padding: 0 6px; cursor: pointer; }
+.days button { font: inherit; font-size: 1.5rem; line-height: 1; color: var(--accent); background: none; border: 0; padding: 4px 12px; min-width: 44px; cursor: pointer; }
 .days button:disabled { color: var(--faded); opacity: 0.45; cursor: default; }
 #day { min-width: 9.5em; text-align: center; }
 .days .today { margin-left: auto; font-size: 0.85rem; border-bottom: 1px solid currentColor; padding: 0; }

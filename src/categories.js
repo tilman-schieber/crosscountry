@@ -15,9 +15,8 @@ export const GROUPS = {
   continent: {
     title: "Continent",
     how:
-      "A country with territory on two continents counts for both: Russia, Türkiye, Kazakhstan, Azerbaijan, Georgia and Armenia are Europe and Asia " +
-      "(the Europe–Asia line through the Caucasus is drawn differently by different sources, so the three Caucasus countries count for both); " +
-      "Cyprus is Europe and Asia; Egypt is Africa and Asia; Indonesia is Asia and Oceania. Overseas territories do not count.",
+      "A country with territory on two continents counts for both. The Europe–Asia line is read generously around the Caucasus and the eastern Mediterranean. " +
+      "Overseas territories do not count.",
   },
   flag: {
     title: "Flag",
@@ -26,8 +25,8 @@ export const GROUPS = {
       "Pixels on the edge between two colours are skipped, because they blend into a colour that is not on the flag. " +
       "A colour counts if it covers at least 0.5% of the flag, so stars, crescents and coats of arms count. " +
       "Dark reds and maroons are red, gold is yellow, light and dark blues are blue. Teal counts as green, aquamarine as blue. Grey, purple and pink are ignored. " +
-      "A few flags are corrected by hand where the count misses a fine emblem (the sun of Argentina, Brazil's white band). " +
-      "Emblems always count: Argentina is a blue, white and yellow flag.",
+      "A few flags are corrected by hand where the count misses a fine or pale emblem. " +
+      "Emblems always count.",
   },
   borders: {
     title: "Borders",
@@ -67,7 +66,7 @@ export const GROUPS = {
     title: "Currency",
     how: "Counts any currency the mledoze/countries dataset lists as in official use, including a second currency used alongside the country's own.",
   },
-  name: { title: "Name", how: "Uses the name shown in the game, such as Türkiye, Czechia, DR Congo, Ivory Coast and Cape Verde." },
+  name: { title: "Name", how: "Uses the name the game shows when a guess completes, which can differ from other spellings (Ivory Coast rather than Côte d'Ivoire)." },
   org: { title: "Organisations" },
   state: { title: "State" },
   history: { title: "History" },
@@ -75,12 +74,12 @@ export const GROUPS = {
 };
 
 const CONTINENT_NOTES = {
-  Africa: "Includes Egypt.",
-  Asia: "Includes Russia, Türkiye, the Caucasus countries, Cyprus, Egypt, Indonesia and Timor-Leste.",
-  Europe: "Includes Russia, Türkiye, Kazakhstan, the Caucasus countries and Cyprus.",
-  "North America": "Includes Central America and the Caribbean, down to Panama and Trinidad and Tobago.",
-  "South America": "The twelve countries of the mainland; no Caribbean islands.",
-  Oceania: "Australia, New Zealand, Papua New Guinea, the Pacific island states and Indonesia.",
+  Africa: "",
+  Asia: "",
+  Europe: "",
+  "North America": "Includes Central America and the Caribbean.",
+  "South America": "The mainland only; no Caribbean islands.",
+  Oceania: "Australia, New Zealand and the Pacific islands, including countries that straddle the line to Asia.",
 };
 const continents = Object.entries(CONTINENT_NOTES).map(([name, note]) => ({
   id: `continent:${name}`,
@@ -110,14 +109,14 @@ const flagOther = [
     id: "flag:two",
     label: "Flag has exactly 2 colours",
     group: "flag",
-    how: "Exactly two colours, counting every detail: Japan or Ukraine, but not Argentina, whose sun is yellow.",
+    how: "Exactly two colours, counting every detail, so an emblem in a third colour disqualifies.",
     test: (c) => c.flagColors.length === 2,
   },
   {
     id: "flag:rwb",
     label: "Flag is only red, white and blue",
     group: "flag",
-    how: "All three colours present and no other, counting every detail: Australia or France, but not Fiji, whose shield adds yellow.",
+    how: "All three colours present and no other, counting every detail, so an emblem in a fourth colour disqualifies.",
     test: (c) => c.flagColors.join() === "blue,red,white",
   },
   {
@@ -142,14 +141,14 @@ const borders = [
     id: "landlocked",
     label: "Landlocked",
     group: "borders",
-    how: "Has no coast on an ocean or a sea connected to one. A shore on the Caspian Sea does not count as a coast, so Kazakhstan and Azerbaijan are landlocked.",
+    how: "Has no coast on an ocean or a sea connected to one. A shore on the Caspian Sea does not count as a coast.",
     test: (c) => c.landlocked,
   },
   {
     id: "borders:none",
     label: "No land borders",
     group: "borders",
-    how: `Borders none of the other countries by land. This is not the same as being an island: Ireland and Indonesia have land borders, Australia has none.`,
+    how: `Borders none of the other countries by land. This is not the same as being an island: an island can be shared, and a continent-sized country can have no neighbours.`,
     test: (c) => c.borders.length === 0,
   },
   {
@@ -173,7 +172,7 @@ const size = [
     id: "area:big",
     label: "Area over 1M km²",
     group: "size",
-    how: "Total area above 1,000,000 km², as listed in the mledoze/countries dataset. Overseas territories are not included (France is 551,695 km²).",
+    how: "Total area above 1,000,000 km², as listed in the mledoze/countries dataset. Overseas territories are not included.",
     test: (c) => c.area > 1e6,
   },
   {
@@ -222,7 +221,7 @@ const people = [
     group: "people",
     how:
       "The capital itself has more than 1,000,000 residents, by the city-proper figure on Wikidata. The wider metro area does not count, " +
-      "so Athens, Brussels, Lisbon and Washington do not qualify. Where a country has several capitals, the largest one is used.",
+      "so a capital with a small core city does not qualify however large its agglomeration. Where a country has several capitals, the largest one is used.",
     test: (c) => c.capitalPopulation > 1e6,
   },
 ];
@@ -254,14 +253,14 @@ const currency = [
     id: "cur:EUR",
     label: "Uses the euro",
     group: "currency",
-    how: `Includes non-EU users: Andorra, Kosovo, Monaco, Montenegro, San Marino and Vatican City. The dataset also lists Zimbabwe.`,
+    how: `Includes countries outside the EU that use it, and one African country the dataset lists as using it alongside other currencies.`,
     test: (c) => c.currencies.includes("EUR"),
   },
   {
     id: "cur:USD",
     label: "Uses the US dollar",
     group: "currency",
-    how: `Besides the United States that means countries such as Ecuador, El Salvador, Panama, Palau and Cambodia.`,
+    how: `The United States and the countries that have adopted the dollar as an official currency.`,
     test: (c) => c.currencies.includes("USD"),
   },
 ];
@@ -285,14 +284,14 @@ const names = [
     id: "name:same-ends",
     label: "Name starts and ends with the same letter",
     group: "name",
-    how: `First and last letter of the whole name match, ignoring case: Albania, Seychelles, Central African Republic.`,
+    how: `First and last letter of the whole name match, ignoring case.`,
     test: (c) => c.name.length > 1 && c.name[0].toLowerCase() === c.name.at(-1).toLowerCase(),
   },
   {
     id: "name:two-words",
     label: "Name has 2+ words",
     group: "name",
-    how: `The name contains a space or a hyphen, so Guinea-Bissau and Timor-Leste count.`,
+    how: `The name contains a space or a hyphen, so hyphenated names count.`,
     test: (c) => /[\s-]/.test(c.name),
   },
   {
@@ -301,7 +300,7 @@ const names = [
     group: "name",
     how:
       `The capital's English name and the country's name begin with the same letter. ` +
-      "Where a country has several capitals, the first one in the dataset is used: Pretoria for South Africa, Sucre for Bolivia, Amsterdam for the Netherlands.",
+      "Where a country has several capitals, the first one listed in the dataset is used.",
     test: (c) => c.capital && c.capital[0].toUpperCase() === c.name[0].toUpperCase(),
   },
 ];
@@ -310,56 +309,55 @@ const names = [
 const SETS = {
   eu: ["EU member", "org", `The 27 current member states of the European Union.`],
   nato: ["NATO member", "org", `The 32 current members of NATO.`],
-  commonwealth: ["Commonwealth member", "org", `The 56 current members of the Commonwealth of Nations, including the United Kingdom.`],
-  asean: ["ASEAN member", "org", `The 11 members of ASEAN, including Timor-Leste, which joined in 2025.`],
+  commonwealth: ["Commonwealth member", "org", `The 56 current members of the Commonwealth of Nations.`],
+  asean: ["ASEAN member", "org", `The 11 members of ASEAN, as of 2025.`],
   g20: ["G20 member", "org", `The 19 countries of the G20. The European Union and African Union are members but are not countries.`],
-  arab_league: ["Arab League member", "org", `The 22 members of the Arab League, including Palestine and Syria.`],
-  apec: ["APEC member", "org", `The APEC economies that are among the game's countries: 20, including Taiwan. Hong Kong is a member but not in the game.`],
+  arab_league: ["Arab League member", "org", `The 22 members of the Arab League.`],
+  apec: ["APEC member", "org", `The 20 APEC members that are countries in the game; member economies that are not countries are skipped.`],
   monarchy: [
     "Monarchy",
     "state",
-    `The head of state is a monarch: 43 countries. Includes the 15 Commonwealth realms that share the British monarch (Canada, Australia, Jamaica ...), Andorra with its two co-princes, and Vatican City.`,
+    `The head of state is a monarch: 43 countries. Includes the Commonwealth realms that share the British monarch, the co-principality in the Pyrenees and the papacy.`,
   ],
   nuclear_weapons: [
     "Has nuclear weapons",
     "state",
-    `The nine states that possess nuclear weapons: United States, Russia, United Kingdom, France, China, India, Pakistan, North Korea and Israel. Hosting another country's weapons does not count.`,
+    `The nine states that possess their own nuclear weapons, including the one that has never confirmed it. Hosting another country's weapons does not count.`,
   ],
   drives_left: ["Drives on the left", "misc", `Traffic keeps to the left side of the road: 54 countries.`],
   tourism_top20: [
     "Top 20 in tourist arrivals",
     "misc",
     "The 20 countries with the most international tourist arrivals in 2024, by UN Tourism figures, compiled from memory rather than a complete ranking. " +
-      "Territories such as Hong Kong and Macau are skipped. The first 17 are clear; Canada, the United Arab Emirates and Poland hold the last places " +
-      `in a close call against Vietnam, Morocco and Croatia.`,
+      `Territories that are not countries in the game are skipped. The first 17 places are clear; the last three are close calls.`,
   ],
-  ussr: ["Was part of the USSR", "history", `The 15 former Soviet republics, including Estonia, Latvia and Lithuania.`],
+  ussr: ["Was part of the USSR", "history", `The 15 former Soviet republics.`],
   ottoman: [
     "Was part of the Ottoman Empire",
     "history",
-    "Any part of the modern country's territory was under Ottoman rule or vassalage at some time: 36 countries. Read generously, so brief or partial control counts " +
-      `(Slovakia, Armenia, Azerbaijan, Russia, Sudan, Eritrea, Qatar, Kuwait). Sieges and raids do not count (Austria, Iran).`,
+    "Any part of the modern country's territory was under Ottoman rule or vassalage at some time: 36 countries. Read generously, so brief or partial control counts; " +
+      `sieges and raids do not.`,
   ],
   desert: [
     "Has a desert",
     "land",
-    "Contains at least part of a named desert: 50 countries. Read generously, so small and semi-arid deserts count " +
-      `(Tabernas in Spain, La Guajira in Colombia, Médanos de Coro in Venezuela). Left out as too doubtful: Canada, New Zealand, Brazil and Senegal.`,
+    "Contains at least part of a named desert: 50 countries. Read generously, so small and semi-arid deserts count; " +
+      `a few doubtful cases are left out.`,
   ],
   equator: [
     "On the equator",
     "land",
-    `The equator crosses the country's land (11 countries) or passes between its islands (Maldives and Kiribati).`,
+    `The equator crosses the country's land, or passes between its islands: 13 countries.`,
   ],
   olympics_host: [
     "Has hosted the Olympics",
     "sport",
-    `A city in today's territory has hosted Summer or Winter Games: 23 countries. Sarajevo 1984 counts for Bosnia and Herzegovina, Moscow 1980 for Russia.`,
+    `A city in today's territory has hosted Summer or Winter Games: 23 countries. Games held under a predecessor state count for the country that holds the city now.`,
   ],
   world_cup_host: [
     "Has hosted the men's World Cup",
     "sport",
-    `Hosted or co-hosted the men's FIFA World Cup from 1930 through 2026: 19 countries. England 1966 counts for the United Kingdom.`,
+    `Hosted or co-hosted the men's FIFA World Cup from 1930 through 2026: 19 countries. A tournament hosted by a constituent country counts for its state.`,
   ],
 };
 const sets = Object.entries(SETS).map(([id, [label, group, how]]) => ({
