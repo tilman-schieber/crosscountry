@@ -40,7 +40,7 @@ export const GROUPS = {
     title: "Wealth",
     how:
       `GDP per person in current US dollars, not adjusted for prices. Source: ${WORLD_BANK}. ` +
-      "Vatican City has no figure and never counts; Taiwan and North Korea use rough figures entered by hand.",
+      "Taiwan and North Korea use rough figures entered by hand.",
   },
   people: {
     title: "People",
@@ -211,7 +211,7 @@ const people = [
     id: "age:65",
     label: "Over 15% of people are 65+",
     group: "people",
-    how: `More than 15% of residents are aged 65 or older. Source: ${WORLD_BANK}. Vatican City has no figure and never counts.`,
+    how: `More than 15% of residents are aged 65 or older. Source: ${WORLD_BANK}.`,
     test: (c) => has(c.over65Pct) && c.over65Pct > 15,
   },
   { id: "density:high", label: "Over 300 people per km²", group: "people", how: "Density above 300.", test: (c) => has(c.density) && c.density > 300 },
@@ -232,7 +232,7 @@ const land = [
     id: "forest:half",
     label: "Over half covered by forest",
     group: "land",
-    how: `Forest covers more than 50% of the land area. Source: ${WORLD_BANK} (2023 for nearly all countries). Vatican City has no figure and never counts.`,
+    how: `Forest covers more than 50% of the land area. Source: ${WORLD_BANK} (2023 for nearly all countries).`,
     test: (c) => has(c.forestPct) && c.forestPct > 50,
   },
 ];
