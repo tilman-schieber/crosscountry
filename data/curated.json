@@ -91,6 +91,11 @@
       "main": ["field colours only"]
     },
     "_comment": "Flags the pixel count gets wrong: emblems too fine or too pale to register, and Armenia's stripe, which is officially orange.",
+    "AFG": {
+      "_note": "The internationally recognised tricolour (as the flag emoji shows), not the Taliban flag the source dataset ships.",
+      "any": ["black", "green", "red", "white"],
+      "main": ["black", "green", "red"]
+    },
     "ARG": {
       "any": ["blue", "white", "yellow"],
       "main": ["blue", "white"]

@@ -39,11 +39,14 @@
   ],
   "flagColors": [
    "black",
+   "green",
+   "red",
    "white"
   ],
   "flagMain": [
    "black",
-   "white"
+   "green",
+   "red"
   ],
   "sets": [
    "desert"
