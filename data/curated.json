@@ -87,12 +87,25 @@
   },
   "flag_color_overrides": {
     "_format": {
-      "any": [
-        "every colour on the flag"
-      ],
-      "main": [
-        "field colours only"
-      ]
+      "any": ["every colour on the flag"],
+      "main": ["field colours only"]
+    },
+    "_comment": "Flags the pixel count gets wrong: emblems too fine or too pale to register, and Armenia's stripe, which is officially orange.",
+    "ARG": {
+      "any": ["blue", "white", "yellow"],
+      "main": ["blue", "white"]
+    },
+    "BRA": {
+      "any": ["blue", "green", "white", "yellow"],
+      "main": ["blue", "green", "yellow"]
+    },
+    "SSD": {
+      "any": ["black", "blue", "green", "red", "white", "yellow"],
+      "main": ["black", "blue", "green", "red", "white"]
+    },
+    "ARM": {
+      "any": ["blue", "orange", "red"],
+      "main": ["blue", "orange", "red"]
     }
   },
   "stat_overrides": {

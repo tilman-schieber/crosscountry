@@ -188,13 +188,11 @@
   ],
   "flagColors": [
    "blue",
-   "orange",
    "red",
    "yellow"
   ],
   "flagMain": [
    "blue",
-   "orange",
    "red",
    "yellow"
   ],
@@ -390,13 +388,13 @@
   ],
   "flagColors": [
    "blue",
-   "red",
-   "yellow"
+   "orange",
+   "red"
   ],
   "flagMain": [
    "blue",
-   "red",
-   "yellow"
+   "orange",
+   "red"
   ],
   "sets": [
    "ottoman",
@@ -592,7 +590,6 @@
   "flagColors": [
    "black",
    "blue",
-   "green",
    "yellow"
   ],
   "flagMain": [
@@ -785,8 +782,7 @@
   ],
   "flagMain": [
    "green",
-   "red",
-   "white"
+   "red"
   ],
   "sets": [
    "ussr"
@@ -897,8 +893,7 @@
    "blue",
    "green",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [
    "commonwealth",
@@ -1102,7 +1097,6 @@
   ],
   "flagMain": [
    "blue",
-   "white",
    "yellow"
   ],
   "sets": [
@@ -1206,6 +1200,7 @@
   "flagColors": [
    "blue",
    "green",
+   "white",
    "yellow"
   ],
   "flagMain": [
@@ -1462,8 +1457,7 @@
   ],
   "flagMain": [
    "blue",
-   "red",
-   "white"
+   "red"
   ],
   "sets": [
    "asean",
@@ -1825,8 +1819,7 @@
    "yellow"
   ],
   "flagMain": [
-   "red",
-   "yellow"
+   "red"
   ],
   "sets": [
    "apec",
@@ -2286,7 +2279,6 @@
   ],
   "flagColors": [
    "blue",
-   "green",
    "red",
    "yellow"
   ],
@@ -2528,7 +2520,6 @@
   ],
   "flagColors": [
    "blue",
-   "green",
    "red",
    "yellow"
   ],
@@ -2627,8 +2618,7 @@
   ],
   "flagColors": [
    "blue",
-   "white",
-   "yellow"
+   "white"
   ],
   "flagMain": [
    "blue",
@@ -2944,7 +2934,6 @@
   ],
   "flagColors": [
    "blue",
-   "green",
    "red",
    "white",
    "yellow"
@@ -3645,10 +3634,8 @@
   ],
   "flagColors": [
    "blue",
-   "green",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "flagMain": [
    "blue",
@@ -4008,7 +3995,6 @@
   ],
   "flagMain": [
    "black",
-   "green",
    "red",
    "white"
   ],
@@ -4417,12 +4403,10 @@
   ],
   "flagColors": [
    "blue",
-   "green",
    "yellow"
   ],
   "flagMain": [
    "blue",
-   "green",
    "yellow"
   ],
   "sets": [
@@ -4677,12 +4661,10 @@
    "KGS"
   ],
   "flagColors": [
-   "orange",
    "red",
    "yellow"
   ],
   "flagMain": [
-   "orange",
    "red",
    "yellow"
   ],
@@ -5029,8 +5011,7 @@
   ],
   "flagMain": [
    "blue",
-   "red",
-   "yellow"
+   "red"
   ],
   "sets": [
    "monarchy"
@@ -5616,8 +5597,7 @@
   "flagMain": [
    "green",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [
    "apec",
@@ -5701,13 +5681,11 @@
   ],
   "flagColors": [
    "blue",
-   "orange",
    "red",
    "yellow"
   ],
   "flagMain": [
    "blue",
-   "orange",
    "red",
    "yellow"
   ],
@@ -5841,12 +5819,10 @@
    "EUR"
   ],
   "flagColors": [
-   "orange",
    "red",
    "yellow"
   ],
   "flagMain": [
-   "orange",
    "red",
    "yellow"
   ],
@@ -5942,14 +5918,14 @@
   ],
   "flagColors": [
    "black",
-   "blue",
+   "green",
    "red",
    "white",
    "yellow"
   ],
   "flagMain": [
    "black",
-   "blue",
+   "green",
    "red",
    "white",
    "yellow"
@@ -6506,12 +6482,10 @@
    "MKD"
   ],
   "flagColors": [
-   "orange",
    "red",
    "yellow"
   ],
   "flagMain": [
-   "orange",
    "red",
    "yellow"
   ],
@@ -6966,7 +6940,6 @@
    "yellow"
   ],
   "flagMain": [
-   "green",
    "red",
    "white"
   ],
@@ -7015,8 +6988,7 @@
   "flagMain": [
    "blue",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [
    "apec",
@@ -7514,7 +7486,8 @@
   ],
   "flagColors": [
    "blue",
-   "red"
+   "red",
+   "white"
   ],
   "flagMain": [
    "blue",
@@ -7566,9 +7539,7 @@
   ],
   "flagMain": [
    "blue",
-   "green",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [],
   "views": 1116156
@@ -7727,8 +7698,7 @@
   "flagMain": [
    "blue",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [
    "ottoman"
@@ -8462,8 +8432,7 @@
   "flagMain": [
    "green",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [
    "drives_left"
@@ -9163,14 +9132,11 @@
   ],
   "flagColors": [
    "green",
-   "orange",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "flagMain": [
    "green",
-   "orange",
    "red"
   ],
   "sets": [
@@ -9210,7 +9176,6 @@
   ],
   "flagColors": [
    "blue",
-   "green",
    "red",
    "white",
    "yellow"
@@ -9218,8 +9183,7 @@
   "flagMain": [
    "blue",
    "red",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [
    "commonwealth",
@@ -9589,8 +9553,7 @@
   ],
   "flagMain": [
    "blue",
-   "white",
-   "yellow"
+   "white"
   ],
   "sets": [
    "world_cup_host"
@@ -9735,7 +9698,6 @@
    "EUR"
   ],
   "flagColors": [
-   "red",
    "white",
    "yellow"
   ],

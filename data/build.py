@@ -40,7 +40,8 @@ PAGEVIEW_RANGE = ("2025090100", "2026083100")
 # colours of the flag's fields. Colours that are in one list but not the other
 # are written to the report; settle a wrong one in curated.json flag_color_overrides.
 FLAG_MAIN = 0.03
-FLAG_ANY = 0.008
+FLAG_ANY = 0.005
+FLAG_WIDTH = 480
 
 SUBREGION_TO_CONTINENT = {
     "North America": "North America",
@@ -157,7 +158,7 @@ def classify_pixel(r, g, b):
         return "orange"
     if h < 68:
         return "yellow"
-    if h < 170:
+    if h < 180:  # teal greens (Mozambique) are still green; aquamarine (Bahamas) is blue
         return "green"
     if h < 265:
         return "blue"
@@ -167,18 +168,31 @@ def classify_pixel(r, g, b):
 def flag_colors(cca3):
     svg = fetch(f"https://raw.githubusercontent.com/mledoze/countries/master/data/{cca3.lower()}.svg",
                 f"flags/{cca3.lower()}.svg", binary=True)
-    png = subprocess.run(["rsvg-convert", "-w", "160"], input=svg, capture_output=True, check=True).stdout
+    png = subprocess.run(["rsvg-convert", "-w", str(FLAG_WIDTH)], input=svg, capture_output=True, check=True).stdout
     img = Image.open(io.BytesIO(png)).convert("RGBA")
+    width, height = img.size
+    names = {}
+
+    def name_of(pixel):
+        if pixel not in names:
+            r, g, b, a = pixel
+            names[pixel] = classify_pixel(r, g, b) if a >= 128 else None
+        return names[pixel]
+
+    grid = [name_of(p) for p in img.get_flattened_data()]
     counts, total = {}, 0
-    for r, g, b, a in img.get_flattened_data():
-        if a < 128:
-            continue
-        total += 1
-        name = classify_pixel(r, g, b)
-        if name:
-            counts[name] = counts.get(name, 0) + 1
+    for y in range(1, height - 1):
+        for x in range(1, width - 1):
+            i = y * width + x
+            name = grid[i]
+            total += 1
+            # Only pixels surrounded by their own colour count. Where two colours meet,
+            # anti-aliasing blends them into a third (yellow on blue gives a green edge)
+            # that is not on the flag.
+            if name and grid[i - 1] == name and grid[i + 1] == name and grid[i - width] == name and grid[i + width] == name:
+                counts[name] = counts.get(name, 0) + 1
     shares = {k: n / total for k, n in counts.items()}
-    # A sliver of orange is gold shading or anti-aliasing next to yellow, not a colour of its own.
+    # A sliver of orange is gold shading next to yellow, not a colour of its own.
     if 0 < shares.get("orange", 0) < FLAG_MAIN:
         shares["yellow"] = shares.get("yellow", 0) + shares.pop("orange")
     return shares

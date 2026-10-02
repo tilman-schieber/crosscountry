@@ -92,7 +92,8 @@ h1 { font: 400 2rem/1 var(--display); margin: 0; margin-right: auto; }
 
 .board {
   display: grid;
-  grid-template-columns: minmax(64px, 0.8fr) repeat(3, 1fr);
+  /* minmax(0, …): a track may shrink below its content, so a long name wraps and the board never outgrows the screen. */
+  grid-template-columns: minmax(64px, 0.8fr) repeat(3, minmax(0, 1fr));
 }
 .label {
   display: flex;
@@ -136,7 +137,7 @@ h1 { font: 400 2rem/1 var(--display); margin: 0; margin-right: auto; }
 .cell .ref { visibility: hidden; }
 .cell.selected .ref { visibility: visible; color: var(--accent); }
 .cell .emoji { font-size: 1.8rem; line-height: 1; }
-.cell .name { font-size: 0.76rem; line-height: 1.2; }
+.cell .name { font-size: 0.76rem; line-height: 1.2; max-width: 100%; overflow-wrap: anywhere; }
 .cell .pct { font-size: 0.74rem; color: var(--number); font-variant-numeric: tabular-nums; }
 .cell .code { display: none; }
 .cell.shake { animation: shake 0.3s; }
@@ -359,7 +360,7 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
 [data-theme="swiss"] #score { color: var(--accent); font-weight: 900; }
 [data-theme="swiss"] .gear { align-self: flex-end; color: var(--ink); }
 [data-theme="swiss"] .options { border: 3px solid var(--ink); font-weight: 600; }
-[data-theme="swiss"] .board { padding: 1.5px; grid-template-columns: minmax(64px, 1fr) repeat(3, 1fr); }
+[data-theme="swiss"] .board { padding: 1.5px; grid-template-columns: minmax(64px, 1fr) repeat(3, minmax(0, 1fr)); }
 [data-theme="swiss"] .label { font-weight: 900; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1.1; align-items: flex-start; text-align: left; padding-right: 8px; }
 [data-theme="swiss"] .label .ref { display: none; }
 [data-theme="swiss"] .board > .label:nth-child(-n+4) { justify-content: flex-end; }
@@ -402,7 +403,7 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
 /* Phones: let the page be the sheet. */
 @media (max-width: 620px) {
   main { margin: 0; padding: 20px 16px; }
-  main > header { gap: 8px; }
+  main > header { gap: 4px 8px; flex-wrap: wrap; }
   main > header h1, [data-theme="swiss"] main > header h1 { font-size: 1.45rem; }
   .status { font-size: 0.8rem; }
   [data-theme="atlas"] main { padding: 20px 16px; background: var(--surface); box-shadow: none; }

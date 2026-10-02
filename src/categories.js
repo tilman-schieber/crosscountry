@@ -16,9 +16,11 @@ export const GROUPS = {
   flag: {
     title: "Flag",
     how:
-      "Each flag is drawn at 160 pixels wide and every pixel is sorted into red, orange, yellow, green, blue, white or black. " +
-      "A colour counts if it covers at least 0.8% of the flag, so stars, crescents and coats of arms count. " +
-      "Dark reds and maroons are red, gold is yellow, light and dark blues are blue. Grey, purple and pink are ignored. " +
+      "Each flag is drawn at 480 pixels wide and every pixel is sorted into red, orange, yellow, green, blue, white or black. " +
+      "Pixels on the edge between two colours are skipped, because they blend into a colour that is not on the flag. " +
+      "A colour counts if it covers at least 0.5% of the flag, so stars, crescents and coats of arms count. " +
+      "Dark reds and maroons are red, gold is yellow, light and dark blues are blue. Teal counts as green, aquamarine as blue. Grey, purple and pink are ignored. " +
+      "A few flags are corrected by hand where the count misses a fine emblem (the sun of Argentina, Brazil's white band). " +
       "A flag's main colours are those covering at least 3% of it, which leaves out small emblems.",
   },
   borders: {
