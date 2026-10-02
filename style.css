@@ -15,7 +15,7 @@
   --number: #9a6a1c;
   --wrong: #9c3b25;
   --display: "IM Fell English", Georgia, serif;
-  --text: "Libre Caslon Text", Georgia, serif;
+  --text: "Source Serif 4", Georgia, serif;
 }
 
 [hidden] { display: none !important; }
@@ -234,6 +234,12 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
 /* ---------- Atlas ---------- */
 [data-theme="atlas"] main { border: 1px solid var(--rule); outline: 1px solid var(--rule); outline-offset: -6px; }
 [data-theme="atlas"] .status, [data-theme="atlas"] .message, [data-theme="atlas"] .entry input::placeholder { font-style: italic; }
+[data-theme="atlas"] .label { font-size: 0.92rem; }
+[data-theme="atlas"] .ref { font-size: 0.7rem; }
+[data-theme="atlas"] .cell .name { font-size: 0.86rem; }
+[data-theme="atlas"] .cell .pct { font-size: 0.84rem; }
+/* Column labels hang from the top, so the numbers 1 2 3 share one line whatever the label length. */
+[data-theme="atlas"] .board > .label:nth-child(-n+4) { justify-content: flex-start; }
 [data-theme="atlas"] .board { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 [data-theme="atlas"] .cell { border-top: 1px solid var(--rule); border-left: 1px solid var(--rule); }
 [data-theme="atlas"] .cell:not(.filled):hover, [data-theme="atlas"] .cell.over:hover { outline: 1px solid var(--rule); outline-offset: -5px; }

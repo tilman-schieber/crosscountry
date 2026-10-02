@@ -32,3 +32,7 @@ Downloads are cached in `data/raw/`. Hand-kept lists and overrides live in `data
 - [Wikidata](https://www.wikidata.org/) (CC0): capital populations
 - [Wikipedia](https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table) (CC BY-SA): Olympic medal table
 - [Wikimedia pageviews](https://wikimedia.org/api/rest_v1/): article views
+
+## Licence
+
+The code is under the [MIT licence](LICENSE). The country data in `data/countries.json` is derived from the sources above and stays under their licences.
