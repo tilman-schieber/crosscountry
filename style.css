@@ -27,6 +27,7 @@
 [hidden] { display: none !important; }
 * { box-sizing: border-box; }
 
+html, body { max-width: 100%; overflow-x: hidden; }
 body {
   margin: 0;
   background: var(--page);
@@ -185,7 +186,7 @@ h1 { font: 400 2rem/1 var(--display); margin: 0; margin-right: auto; }
 .suggestions li { padding: 7px 8px; cursor: pointer; color: var(--accent); }
 .suggestions li::after { content: "  ⏎"; white-space: pre; color: var(--faded); }
 
-.message { white-space: pre-line; min-height: 1.45em; margin: 12px 0 0; font-size: 0.9rem; color: var(--faded); }
+.message { white-space: pre-line; overflow-wrap: anywhere; min-height: 1.45em; margin: 12px 0 0; font-size: 0.9rem; color: var(--faded); }
 .message.wrong { color: var(--wrong); }
 
 .actions { display: flex; gap: 18px; margin-top: 10px; }
@@ -400,9 +401,19 @@ button:focus-visible { outline: 1.5px dashed var(--accent); outline-offset: 3px;
 [data-theme="swiss"] .answers li.mine { color: var(--accent); }
 [data-theme="swiss"] .answers li.mine span:last-child { color: var(--accent); }
 
-/* Phones: let the page be the sheet. */
+/* Phones: let the page be the sheet, and keep the guess field in reach: it moves
+   above the board and sticks to the top of the screen while the board scrolls. */
 @media (max-width: 620px) {
-  main { margin: 0; padding: 20px 16px; }
+  main { margin: 0; padding: 20px 16px; width: 100%; display: flex; flex-direction: column; }
+  main > header { order: 0; }
+  .days { order: 1; }
+  .entry { order: 2; position: sticky; top: 0; z-index: 2; margin: 0; padding: 6px 0 8px; background: var(--surface); }
+  .message { order: 3; margin: 0 0 8px; }
+  .board { order: 4; max-width: 100%; }
+  .legend { order: 5; }
+  .actions { order: 6; }
+  .hint { order: 7; }
+  .answers { order: 8; }
   main > header { gap: 4px 8px; flex-wrap: wrap; }
   main > header h1, [data-theme="swiss"] main > header h1 { font-size: 1.45rem; }
   .status { font-size: 0.8rem; }
