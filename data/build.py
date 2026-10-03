@@ -240,7 +240,10 @@ def main():
         main = sorted(k for k, v in shares.items() if v >= FLAG_MAIN)
         override = curated["flag_color_overrides"].get(cid)
         if override is not None:
+            # A list names the colours; a map also gives each one's share of the flag.
             colors = sorted(override)
+            if isinstance(override, dict):
+                shares = dict(shares, **override)
         elif colors != main:
             minor = {k: round(shares[k], 3) for k in colors if k not in main}
             report.append(f"flag minor colours for {cid} ({c['name']['common']}): {minor}")

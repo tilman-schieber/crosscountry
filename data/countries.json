@@ -8754,12 +8754,16 @@
    "EUR"
   ],
   "flagColors": [
+   "blue",
    "red",
+   "white",
    "yellow"
   ],
   "flagShares": {
-   "red": 0.4998,
-   "yellow": 0.4436
+   "blue": 0.006,
+   "red": 0.5,
+   "white": 0.01,
+   "yellow": 0.44
   },
   "sets": [
    "desert",
