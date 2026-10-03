@@ -5,7 +5,7 @@ Sources, in order of trust:
   1. mledoze/countries      structural facts (region, borders, landlocked, area, languages, currencies)
   2. World Bank API         population, GDP per capita (most recent non-empty value)
   3. data/curated.json      small closed sets (memberships, monarchies, driving side) + overrides
-  4. flag SVGs (mledoze)    rasterised, pixels bucketed into named colours
+  4. flag SVGs (Wikimedia)  the flag Wikidata links for each country, rasterised, pixels bucketed into named colours
   5. Wikimedia pageviews    12 months of enwiki views = the "fame" prior for rarity
   6. Wikidata               population of each capital (city proper)
   7. Wikipedia              all-time Olympic medal table
@@ -35,10 +35,10 @@ UA = "crosscountry-build/0.1 (personal hobby project)"
 PAGEVIEW_RANGE = ("2025090100", "2026083100")
 
 # Any colour covering >= FLAG_ANY of the flag counts, so stars, crescents and
-# coats of arms are included. Colours below FLAG_MAIN are small details; they are
+# every colour in a coat of arms are included (the emoji flags show them too). Colours below FLAG_MAIN are small details; they are
 # written to the report so a wrong one can be settled in curated.json.
 FLAG_MAIN = 0.03
-FLAG_ANY = 0.005
+FLAG_ANY = 0.0003  # a crown jewel in a coat of arms is enough; the game then rates it as a very unlikely guess
 FLAG_WIDTH = 480
 
 SUBREGION_TO_CONTINENT = {
@@ -80,6 +80,16 @@ def world_bank(indicator):
     url = f"https://api.worldbank.org/v2/country/all/indicator/{indicator}?format=json&per_page=400&mrnev=1"
     rows = json.loads(fetch(url, f"wb_{indicator}.json"))[1]
     return {r["countryiso3code"]: (r["value"], r["date"]) for r in rows if r["value"] is not None}
+
+
+def flag_files():
+    """Wikidata's flag image (P41) per ISO code: the same depiction Wikipedia and the emoji sets use, arms included."""
+    query = "SELECT ?iso ?flag WHERE { ?c wdt:P298 ?iso; wdt:P41 ?flag. }"
+    url = "https://query.wikidata.org/sparql?format=json&query=" + urllib.parse.quote(query)
+    files = {}
+    for r in json.loads(fetch(url, "wikidata_flags.json"))["results"]["bindings"]:
+        files.setdefault(r["iso"]["value"], r["flag"]["value"].split("/")[-1])
+    return files
 
 
 def wikipedia_titles():
@@ -163,9 +173,13 @@ def classify_pixel(r, g, b):
     return None  # purple / pink: too rare to be a category
 
 
-def flag_colors(cca3):
-    svg = fetch(f"https://raw.githubusercontent.com/mledoze/countries/master/data/{cca3.lower()}.svg",
-                f"flags/{cca3.lower()}.svg", binary=True)
+def flag_colors(cca3, commons_file):
+    if commons_file:
+        svg = fetch(f"https://commons.wikimedia.org/wiki/Special:FilePath/{commons_file}",
+                    f"flags/{cca3.lower()}-commons.svg", binary=True, pause=0.5)
+    else:  # Kosovo has no Wikidata flag link
+        svg = fetch(f"https://raw.githubusercontent.com/mledoze/countries/master/data/{cca3.lower()}.svg",
+                    f"flags/{cca3.lower()}.svg", binary=True)
     png = subprocess.run(["rsvg-convert", "-w", str(FLAG_WIDTH)], input=svg, capture_output=True, check=True).stdout
     img = Image.open(io.BytesIO(png)).convert("RGBA")
     width, height = img.size
@@ -221,6 +235,7 @@ def main():
     capital_pop = capital_populations()
     medals, unmatched_teams = olympic_medals(chosen)
     titles = wikipedia_titles()
+    flags = flag_files()
 
     out, report = [], []
     report.append(f"olympic teams not matched to a current country: {', '.join(unmatched_teams)}")
@@ -235,7 +250,7 @@ def main():
         if gdp is None:
             report.append(f"no GDP per capita: {cid}")
 
-        shares = flag_colors(cid)
+        shares = flag_colors(cid, flags.get(cid))
         colors = sorted(k for k, v in shares.items() if v >= FLAG_ANY)
         main = sorted(k for k, v in shares.items() if v >= FLAG_MAIN)
         override = curated["flag_color_overrides"].get(cid)

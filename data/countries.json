@@ -99,8 +99,8 @@
    "red"
   ],
   "flagShares": {
-   "black": 0.1017,
-   "red": 0.8645
+   "black": 0.1012,
+   "red": 0.865
   },
   "sets": [
    "nato",
@@ -153,9 +153,9 @@
    "white"
   ],
   "flagShares": {
-   "green": 0.4554,
-   "red": 0.0559,
-   "white": 0.4728
+   "green": 0.4555,
+   "red": 0.0558,
+   "white": 0.4729
   },
   "sets": [
    "arab_league",
@@ -207,7 +207,7 @@
   "flagShares": {
    "blue": 0.3159,
    "red": 0.3234,
-   "yellow": 0.2804
+   "yellow": 0.2759
   },
   "sets": [
    "monarchy"
@@ -257,9 +257,9 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.4619,
-   "red": 0.4752,
-   "yellow": 0.04
+   "black": 0.4644,
+   "red": 0.4757,
+   "yellow": 0.0373
   },
   "sets": [
    "desert",
@@ -466,9 +466,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.7774,
+   "blue": 0.776,
    "red": 0.0843,
-   "white": 0.0845
+   "white": 0.0861
   },
   "sets": [
    "apec",
@@ -587,8 +587,8 @@
   "flagShares": {
    "blue": 0.3277,
    "green": 0.3277,
-   "red": 0.3086,
-   "white": 0.0119
+   "red": 0.3082,
+   "white": 0.0123
   },
   "sets": [
    "flag_star",
@@ -635,8 +635,8 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.2127,
-   "blue": 0.5599,
+   "black": 0.2131,
+   "blue": 0.5596,
    "yellow": 0.2082
   },
   "sets": [
@@ -683,8 +683,8 @@
    "white"
   ],
   "flagShares": {
-   "red": 0.6729,
-   "white": 0.3166
+   "red": 0.6711,
+   "white": 0.3186
   },
   "sets": [
    "arab_league",
@@ -732,8 +732,8 @@
    "red"
   ],
   "flagShares": {
-   "green": 0.7835,
-   "red": 0.2081
+   "green": 0.7837,
+   "red": 0.2074
   },
   "sets": [
    "commonwealth",
@@ -778,7 +778,7 @@
   "flagShares": {
    "black": 0.0321,
    "blue": 0.6611,
-   "yellow": 0.2879
+   "yellow": 0.2878
   },
   "sets": [
    "commonwealth",
@@ -832,9 +832,9 @@
    "white"
   ],
   "flagShares": {
-   "green": 0.2912,
-   "red": 0.6329,
-   "white": 0.0251
+   "green": 0.2893,
+   "red": 0.6378,
+   "white": 0.0219
   },
   "sets": [
    "ussr"
@@ -945,11 +945,11 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.5313,
-   "green": 0.0387,
-   "red": 0.1396,
-   "white": 0.1544,
-   "yellow": 0.0159
+   "blue": 0.6361,
+   "green": 0.0209,
+   "red": 0.1917,
+   "white": 0.0565,
+   "yellow": 0.0096
   },
   "sets": [
    "commonwealth",
@@ -1047,9 +1047,9 @@
    "yellow"
   ],
   "flagShares": {
-   "orange": 0.4015,
+   "orange": 0.401,
    "white": 0.0635,
-   "yellow": 0.4326
+   "yellow": 0.4334
   },
   "sets": [
    "drives_left",
@@ -1109,9 +1109,9 @@
    "yellow"
   ],
   "flagShares": {
-   "green": 0.3321,
-   "red": 0.3345,
-   "yellow": 0.2929
+   "green": 0.3282,
+   "red": 0.3282,
+   "yellow": 0.3282
   },
   "sets": [
    "desert",
@@ -1278,10 +1278,10 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.1177,
-   "green": 0.679,
-   "white": 0.0035,
-   "yellow": 0.1696
+   "blue": 0.117,
+   "green": 0.6786,
+   "white": 0.0037,
+   "yellow": 0.17
   },
   "sets": [
    "equator",
@@ -1336,7 +1336,7 @@
   ],
   "flagShares": {
    "black": 0.1634,
-   "red": 0.0408,
+   "red": 0.0411,
    "white": 0.2019,
    "yellow": 0.5321
   },
@@ -1497,9 +1497,9 @@
    "white"
   ],
   "flagShares": {
-   "green": 0.3375,
-   "red": 0.2995,
-   "white": 0.3306
+   "green": 0.3369,
+   "red": 0.2996,
+   "white": 0.3312
   },
   "sets": [
    "flag_star"
@@ -1548,8 +1548,8 @@
   ],
   "flagShares": {
    "blue": 0.4869,
-   "red": 0.3887,
-   "white": 0.0264
+   "red": 0.389,
+   "white": 0.0275
   },
   "sets": [
    "asean",
@@ -1603,7 +1603,7 @@
   ],
   "flagShares": {
    "green": 0.3305,
-   "red": 0.3151,
+   "red": 0.3152,
    "yellow": 0.3418
   },
   "sets": [
@@ -1650,8 +1650,8 @@
    "white"
   ],
   "flagShares": {
-   "red": 0.628,
-   "white": 0.3501
+   "red": 0.6276,
+   "white": 0.3504
   },
   "sets": [
    "apec",
@@ -1704,10 +1704,10 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.7217,
-   "red": 0.0779,
-   "white": 0.1439,
-   "yellow": 0.011
+   "blue": 0.7238,
+   "red": 0.0781,
+   "white": 0.1446,
+   "yellow": 0.0092
   },
   "sets": [
    "flag_star"
@@ -1934,8 +1934,8 @@
    "yellow"
   ],
   "flagShares": {
-   "red": 0.9688,
-   "yellow": 0.0197
+   "red": 0.9694,
+   "yellow": 0.0199
   },
   "sets": [
    "apec",
@@ -2045,11 +2045,11 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.2136,
-   "green": 0.211,
+   "blue": 0.2138,
+   "green": 0.2086,
    "red": 0.1522,
-   "white": 0.179,
-   "yellow": 0.2138
+   "white": 0.1806,
+   "yellow": 0.2136
   },
   "sets": [
    "arab_league",
@@ -2203,12 +2203,14 @@
   "flagColors": [
    "blue",
    "red",
-   "white"
+   "white",
+   "yellow"
   ],
   "flagShares": {
    "blue": 0.3311,
    "red": 0.3284,
-   "white": 0.2891
+   "white": 0.2891,
+   "yellow": 0.0013
   },
   "sets": [
    "eu",
@@ -2256,8 +2258,8 @@
   ],
   "flagShares": {
    "blue": 0.4689,
-   "red": 0.1993,
-   "white": 0.295
+   "red": 0.1964,
+   "white": 0.2977
   },
   "sets": [
    "flag_star"
@@ -2306,9 +2308,9 @@
    "white"
   ],
   "flagShares": {
-   "green": 0.0074,
-   "orange": 0.0856,
-   "white": 0.8827
+   "green": 0.0098,
+   "orange": 0.1092,
+   "white": 0.8533
   },
   "sets": [
    "commonwealth",
@@ -2587,10 +2589,10 @@
   ],
   "flagShares": {
    "black": 0.0747,
-   "green": 0.6404,
-   "red": 0.0716,
-   "white": 0.0769,
-   "yellow": 0.0778
+   "green": 0.6402,
+   "red": 0.0713,
+   "white": 0.0768,
+   "yellow": 0.0777
   },
   "sets": [
    "commonwealth",
@@ -2632,13 +2634,15 @@
   ],
   "flagColors": [
    "blue",
+   "green",
    "red",
    "white"
   ],
   "flagShares": {
-   "blue": 0.3329,
-   "red": 0.3337,
-   "white": 0.3008
+   "blue": 0.3428,
+   "green": 0.0034,
+   "red": 0.3437,
+   "white": 0.278
   },
   "sets": [],
   "views": 1582968
@@ -2679,12 +2683,16 @@
   ],
   "flagColors": [
    "blue",
+   "green",
    "red",
+   "white",
    "yellow"
   ],
   "flagShares": {
    "blue": 0.2148,
+   "green": 0.0048,
    "red": 0.2507,
+   "white": 0.0013,
    "yellow": 0.4683
   },
   "sets": [
@@ -2737,8 +2745,8 @@
   "flagShares": {
    "black": 0.327,
    "red": 0.3302,
-   "white": 0.2915,
-   "yellow": 0.0107
+   "white": 0.2911,
+   "yellow": 0.0117
   },
   "sets": [
    "arab_league",
@@ -2783,11 +2791,15 @@
   ],
   "flagColors": [
    "blue",
-   "white"
+   "green",
+   "white",
+   "yellow"
   ],
   "flagShares": {
-   "blue": 0.6601,
-   "white": 0.2953
+   "blue": 0.6645,
+   "green": 0.0047,
+   "white": 0.2899,
+   "yellow": 0.0007
   },
   "sets": [],
   "views": 1323264
@@ -2834,13 +2846,15 @@
    "blue",
    "green",
    "red",
-   "white"
+   "white",
+   "yellow"
   ],
   "flagShares": {
    "blue": 0.1221,
    "green": 0.3055,
    "red": 0.3025,
-   "white": 0.2365
+   "white": 0.2361,
+   "yellow": 0.0022
   },
   "sets": [
    "flag_star",
@@ -2897,8 +2911,8 @@
   "flagShares": {
    "blue": 0.2427,
    "green": 0.2427,
-   "red": 0.4159,
-   "yellow": 0.0396
+   "red": 0.4228,
+   "yellow": 0.0331
   },
   "sets": [
    "desert",
@@ -3116,15 +3130,17 @@
   ],
   "flagColors": [
    "blue",
+   "green",
    "red",
    "white",
    "yellow"
   ],
   "flagShares": {
    "blue": 0.7118,
-   "red": 0.1109,
-   "white": 0.0823,
-   "yellow": 0.0074
+   "green": 0.0047,
+   "red": 0.1102,
+   "white": 0.0831,
+   "yellow": 0.0076
   },
   "sets": [
    "commonwealth",
@@ -3175,8 +3191,8 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.3911,
-   "white": 0.5886
+   "blue": 0.3868,
+   "white": 0.593
   },
   "sets": [
    "eu",
@@ -3339,7 +3355,7 @@
   "flagShares": {
    "blue": 0.2201,
    "green": 0.3302,
-   "red": 0.327,
+   "red": 0.3302,
    "white": 0.0943
   },
   "sets": [
@@ -3388,8 +3404,8 @@
    "white"
   ],
   "flagShares": {
-   "red": 0.3458,
-   "white": 0.6229
+   "red": 0.3494,
+   "white": 0.6187
   },
   "sets": [
    "ottoman",
@@ -3600,9 +3616,9 @@
    "yellow"
   ],
   "flagShares": {
-   "green": 0.2779,
+   "green": 0.2778,
    "red": 0.3756,
-   "yellow": 0.2972
+   "yellow": 0.2973
   },
   "sets": [
    "commonwealth",
@@ -3651,14 +3667,16 @@
   "flagColors": [
    "blue",
    "green",
+   "red",
    "white",
    "yellow"
   ],
   "flagShares": {
    "blue": 0.6611,
-   "green": 0.006,
-   "white": 0.293,
-   "yellow": 0.0073
+   "green": 0.0067,
+   "red": 0.0006,
+   "white": 0.2915,
+   "yellow": 0.0077
   },
   "sets": [],
   "views": 1055532
@@ -3808,11 +3826,11 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.0467,
-   "green": 0.491,
-   "red": 0.1932,
-   "white": 0.0639,
-   "yellow": 0.1663
+   "black": 0.0289,
+   "green": 0.4896,
+   "red": 0.2108,
+   "white": 0.0486,
+   "yellow": 0.1794
   },
   "sets": [
    "commonwealth",
@@ -3857,13 +3875,17 @@
   ],
   "flagColors": [
    "blue",
+   "green",
    "red",
-   "white"
+   "white",
+   "yellow"
   ],
   "flagShares": {
-   "blue": 0.4744,
-   "red": 0.4727,
-   "white": 0.0155
+   "blue": 0.4219,
+   "green": 0.0193,
+   "red": 0.4143,
+   "white": 0.0734,
+   "yellow": 0.008
   },
   "sets": [],
   "views": 1455612
@@ -3908,8 +3930,8 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.6616,
-   "white": 0.3144
+   "blue": 0.6613,
+   "white": 0.315
   },
   "sets": [
    "flag_star"
@@ -4066,10 +4088,10 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.0095,
+   "blue": 0.0151,
    "green": 0.3302,
    "orange": 0.3302,
-   "white": 0.2982
+   "white": 0.2893
   },
   "sets": [
    "commonwealth",
@@ -4180,8 +4202,8 @@
   ],
   "flagShares": {
    "green": 0.2838,
-   "red": 0.2941,
-   "white": 0.3246
+   "red": 0.2947,
+   "white": 0.3236
   },
   "sets": [
    "desert"
@@ -4236,9 +4258,9 @@
   ],
   "flagShares": {
    "black": 0.327,
-   "green": 0.021,
+   "green": 0.0199,
    "red": 0.3302,
-   "white": 0.29
+   "white": 0.2944
   },
   "sets": [
    "arab_league",
@@ -4498,9 +4520,9 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.324,
-   "green": 0.324,
-   "yellow": 0.3247
+   "black": 0.3207,
+   "green": 0.3207,
+   "yellow": 0.3299
   },
   "sets": [
    "commonwealth",
@@ -4606,8 +4628,8 @@
   "flagShares": {
    "black": 0.2722,
    "green": 0.2722,
-   "red": 0.2437,
-   "white": 0.1906
+   "red": 0.2429,
+   "white": 0.1912
   },
   "sets": [
    "arab_league",
@@ -4667,8 +4689,8 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.8687,
-   "yellow": 0.0468
+   "blue": 0.8679,
+   "yellow": 0.0433
   },
   "sets": [
    "desert",
@@ -4776,10 +4798,10 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.2458,
-   "red": 0.4523,
-   "white": 0.1852,
-   "yellow": 0.0506
+   "blue": 0.2132,
+   "red": 0.4352,
+   "white": 0.22,
+   "yellow": 0.0592
   },
   "sets": [
    "commonwealth",
@@ -4940,8 +4962,8 @@
    "yellow"
   ],
   "flagShares": {
-   "red": 0.8906,
-   "yellow": 0.0471
+   "red": 0.8837,
+   "yellow": 0.0457
   },
   "sets": [
    "ussr"
@@ -5093,9 +5115,9 @@
    "white"
   ],
   "flagShares": {
-   "green": 0.0628,
+   "green": 0.0623,
    "red": 0.4906,
-   "white": 0.4184
+   "white": 0.4181
   },
   "sets": [
    "arab_league",
@@ -5145,10 +5167,10 @@
    "white"
   ],
   "flagShares": {
-   "black": 0.0264,
+   "black": 0.0267,
    "blue": 0.2956,
    "green": 0.2956,
-   "white": 0.3566
+   "white": 0.3564
   },
   "sets": [
    "commonwealth",
@@ -5199,7 +5221,7 @@
   "flagShares": {
    "blue": 0.0938,
    "red": 0.4496,
-   "white": 0.3791
+   "white": 0.3792
   },
   "sets": [
    "flag_star"
@@ -5254,7 +5276,7 @@
    "black": 0.4801,
    "green": 0.2437,
    "red": 0.2437,
-   "white": 0.0079
+   "white": 0.008
   },
   "sets": [
    "arab_league",
@@ -5299,14 +5321,16 @@
    "CHF"
   ],
   "flagColors": [
+   "black",
    "blue",
    "red",
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.454,
+   "black": 0.0025,
+   "blue": 0.4599,
    "red": 0.4965,
-   "yellow": 0.0194
+   "yellow": 0.0127
   },
   "sets": [
    "monarchy"
@@ -5509,9 +5533,9 @@
    "red"
   ],
   "flagShares": {
-   "black": 0.2564,
+   "black": 0.2543,
    "green": 0.3302,
-   "red": 0.3735
+   "red": 0.3756
   },
   "sets": [
    "commonwealth",
@@ -5560,10 +5584,10 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.2282,
+   "blue": 0.2328,
    "red": 0.3314,
    "white": 0.3041,
-   "yellow": 0.036
+   "yellow": 0.0308
   },
   "sets": [
    "apec",
@@ -5716,8 +5740,8 @@
    "white"
   ],
   "flagShares": {
-   "red": 0.4987,
-   "white": 0.4801
+   "red": 0.4991,
+   "white": 0.4789
   },
   "sets": [
    "commonwealth",
@@ -5764,9 +5788,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.7323,
+   "blue": 0.7322,
    "orange": 0.1,
-   "white": 0.1223
+   "white": 0.1225
   },
   "sets": [
    "flag_star"
@@ -5914,16 +5938,18 @@
    "MXN"
   ],
   "flagColors": [
+   "blue",
    "green",
    "red",
    "white",
    "yellow"
   ],
   "flagShares": {
+   "blue": 0.0028,
    "green": 0.3293,
-   "red": 0.3295,
-   "white": 0.2712,
-   "yellow": 0.0206
+   "red": 0.3296,
+   "white": 0.2713,
+   "yellow": 0.0205
   },
   "sets": [
    "apec",
@@ -6013,14 +6039,16 @@
    "MDL"
   ],
   "flagColors": [
+   "black",
    "blue",
    "red",
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.3342,
+   "black": 0.0013,
+   "blue": 0.3338,
    "red": 0.3354,
-   "yellow": 0.273
+   "yellow": 0.2728
   },
   "sets": [
    "ottoman",
@@ -6114,8 +6142,8 @@
   ],
   "flagShares": {
    "blue": 0.3305,
-   "red": 0.5822,
-   "yellow": 0.0528
+   "red": 0.5826,
+   "yellow": 0.0523
   },
   "sets": [
    "desert"
@@ -6159,12 +6187,16 @@
    "EUR"
   ],
   "flagColors": [
+   "blue",
+   "green",
    "red",
    "yellow"
   ],
   "flagShares": {
-   "red": 0.7492,
-   "yellow": 0.1464
+   "blue": 0.0031,
+   "green": 0.0026,
+   "red": 0.7421,
+   "yellow": 0.1526
   },
   "sets": [
    "nato",
@@ -6212,8 +6244,8 @@
    "red"
   ],
   "flagShares": {
-   "green": 0.0135,
-   "red": 0.9789
+   "green": 0.0233,
+   "red": 0.9625
   },
   "sets": [
    "arab_league",
@@ -6392,11 +6424,11 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.2824,
-   "green": 0.3175,
+   "blue": 0.2812,
+   "green": 0.3167,
    "red": 0.2753,
-   "white": 0.069,
-   "yellow": 0.0235
+   "white": 0.0707,
+   "yellow": 0.0237
   },
   "sets": [
    "commonwealth",
@@ -6445,8 +6477,8 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.8829,
-   "white": 0.0177,
+   "blue": 0.8826,
+   "white": 0.0179,
    "yellow": 0.0756
   },
   "sets": [
@@ -6598,9 +6630,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.7944,
+   "blue": 0.7941,
    "red": 0.0875,
-   "white": 0.0654
+   "white": 0.0655
   },
   "sets": [
    "apec",
@@ -6648,11 +6680,15 @@
   ],
   "flagColors": [
    "blue",
-   "white"
+   "green",
+   "white",
+   "yellow"
   ],
   "flagShares": {
-   "blue": 0.6603,
-   "white": 0.3061
+   "blue": 0.6604,
+   "green": 0.0014,
+   "white": 0.3061,
+   "yellow": 0.0005
   },
   "sets": [],
   "views": 1111944
@@ -6862,8 +6898,8 @@
    "yellow"
   ],
   "flagShares": {
-   "red": 0.6461,
-   "yellow": 0.2957
+   "red": 0.6486,
+   "yellow": 0.2941
   },
   "sets": [
    "nato",
@@ -6917,9 +6953,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.1977,
+   "blue": 0.1933,
    "red": 0.6033,
-   "white": 0.1627
+   "white": 0.1671
   },
   "sets": [
    "monarchy",
@@ -6969,9 +7005,9 @@
    "white"
   ],
   "flagShares": {
-   "green": 0.2455,
-   "red": 0.48,
-   "white": 0.2494
+   "green": 0.2169,
+   "red": 0.5463,
+   "white": 0.2169
   },
   "sets": [
    "arab_league",
@@ -7072,8 +7108,8 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.8166,
-   "yellow": 0.1748
+   "blue": 0.817,
+   "yellow": 0.1738
   },
   "sets": [],
   "views": 872808
@@ -7124,8 +7160,8 @@
   ],
   "flagShares": {
    "black": 0.2907,
-   "green": 0.2907,
-   "red": 0.1643,
+   "green": 0.2909,
+   "red": 0.1641,
    "white": 0.2354
   },
   "sets": [
@@ -7177,9 +7213,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.2581,
-   "red": 0.2582,
-   "white": 0.4665
+   "blue": 0.2603,
+   "red": 0.2607,
+   "white": 0.4611
   },
   "sets": [
    "flag_star"
@@ -7228,10 +7264,10 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.4738,
+   "black": 0.4747,
    "red": 0.435,
-   "white": 0.0126,
-   "yellow": 0.049
+   "white": 0.0122,
+   "yellow": 0.0491
   },
   "sets": [
    "apec",
@@ -7282,13 +7318,17 @@
   ],
   "flagColors": [
    "blue",
+   "green",
    "red",
-   "white"
+   "white",
+   "yellow"
   ],
   "flagShares": {
    "blue": 0.3282,
+   "green": 0.0013,
    "red": 0.3282,
-   "white": 0.3075
+   "white": 0.3054,
+   "yellow": 0.0003
   },
   "sets": [
    "flag_star",
@@ -7342,10 +7382,10 @@
    "yellow"
   ],
   "flagShares": {
-   "green": 0.0244,
-   "red": 0.6648,
-   "white": 0.2552,
-   "yellow": 0.0063
+   "green": 0.024,
+   "red": 0.665,
+   "white": 0.255,
+   "yellow": 0.006
   },
   "sets": [
    "apec",
@@ -7395,8 +7435,8 @@
   "flagShares": {
    "blue": 0.3877,
    "red": 0.3877,
-   "white": 0.1613,
-   "yellow": 0.0285
+   "white": 0.1616,
+   "yellow": 0.0284
   },
   "sets": [
    "apec",
@@ -7494,16 +7534,18 @@
    "EUR"
   ],
   "flagColors": [
+   "blue",
    "green",
    "red",
    "white",
    "yellow"
   ],
   "flagShares": {
-   "green": 0.3402,
-   "red": 0.561,
-   "white": 0.0139,
-   "yellow": 0.0415
+   "blue": 0.0021,
+   "green": 0.3399,
+   "red": 0.5608,
+   "white": 0.0143,
+   "yellow": 0.0411
   },
   "sets": [
    "eu",
@@ -7550,8 +7592,8 @@
    "white"
   ],
   "flagShares": {
-   "red": 0.6607,
-   "white": 0.3249
+   "red": 0.6611,
+   "white": 0.3245
   },
   "sets": [
    "arab_league",
@@ -7732,9 +7774,9 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.4688,
+   "blue": 0.4687,
    "green": 0.2453,
-   "yellow": 0.2513
+   "yellow": 0.251
   },
   "sets": [
    "commonwealth",
@@ -7780,10 +7822,10 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.288,
+   "black": 0.2881,
    "green": 0.2764,
    "red": 0.2756,
-   "white": 0.025,
+   "white": 0.0251,
    "yellow": 0.105
   },
   "sets": [
@@ -7831,10 +7873,10 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.0322,
-   "blue": 0.8572,
-   "white": 0.0245,
-   "yellow": 0.0669
+   "black": 0.0323,
+   "blue": 0.8566,
+   "white": 0.0246,
+   "yellow": 0.0671
   },
   "sets": [
    "commonwealth",
@@ -7880,8 +7922,8 @@
   ],
   "flagShares": {
    "blue": 0.2469,
-   "green": 0.2992,
-   "yellow": 0.4372
+   "green": 0.3049,
+   "yellow": 0.4317
   },
   "sets": [
    "commonwealth",
@@ -7929,9 +7971,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.235,
+   "blue": 0.2348,
    "red": 0.7469,
-   "white": 0.0052
+   "white": 0.0053
   },
   "sets": [
    "commonwealth",
@@ -7981,10 +8023,10 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.4422,
+   "blue": 0.4424,
    "green": 0.0159,
    "white": 0.4365,
-   "yellow": 0.02
+   "yellow": 0.0201
   },
   "sets": [],
   "views": 1116156
@@ -8034,8 +8076,8 @@
    "white"
   ],
   "flagShares": {
-   "green": 0.9059,
-   "white": 0.0471
+   "green": 0.9277,
+   "white": 0.0189
   },
   "sets": [
    "arab_league",
@@ -8090,9 +8132,9 @@
    "yellow"
   ],
   "flagShares": {
-   "green": 0.35,
+   "green": 0.3498,
    "red": 0.3305,
-   "yellow": 0.3065
+   "yellow": 0.3068
   },
   "sets": [
    "flag_star"
@@ -8149,10 +8191,10 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.244,
-   "red": 0.3285,
-   "white": 0.3274,
-   "yellow": 0.0134
+   "blue": 0.2431,
+   "red": 0.329,
+   "white": 0.327,
+   "yellow": 0.0135
   },
   "sets": [
    "ottoman"
@@ -8201,7 +8243,7 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.1632,
+   "blue": 0.1625,
    "green": 0.1604,
    "red": 0.3285,
    "white": 0.1584,
@@ -8302,8 +8344,8 @@
    "white"
   ],
   "flagShares": {
-   "red": 0.4645,
-   "white": 0.5194
+   "red": 0.4655,
+   "white": 0.5186
   },
   "sets": [
    "apec",
@@ -8357,9 +8399,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.2619,
-   "red": 0.3835,
-   "white": 0.3272
+   "blue": 0.2608,
+   "red": 0.3845,
+   "white": 0.3271
   },
   "sets": [
    "eu",
@@ -8411,9 +8453,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.3291,
-   "red": 0.3283,
-   "white": 0.3146
+   "blue": 0.329,
+   "red": 0.3282,
+   "white": 0.3142
   },
   "sets": [
    "eu",
@@ -8516,7 +8558,7 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.9533,
+   "blue": 0.9534,
    "white": 0.0402
   },
   "sets": [
@@ -8647,9 +8689,9 @@
   ],
   "flagShares": {
    "black": 0.0642,
-   "blue": 0.063,
+   "blue": 0.0635,
    "red": 0.0634,
-   "white": 0.7664
+   "white": 0.7665
   },
   "sets": [
    "apec",
@@ -8705,12 +8747,12 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.2551,
-   "blue": 0.2138,
-   "green": 0.2552,
-   "red": 0.1843,
+   "black": 0.2519,
+   "blue": 0.1951,
+   "green": 0.2553,
+   "red": 0.1842,
    "white": 0.0601,
-   "yellow": 0.02
+   "yellow": 0.0129
   },
   "sets": [
    "flag_star"
@@ -8756,14 +8798,12 @@
   "flagColors": [
    "blue",
    "red",
-   "white",
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.006,
-   "red": 0.5,
-   "white": 0.01,
-   "yellow": 0.44
+   "blue": 0.0004,
+   "red": 0.5013,
+   "yellow": 0.4411
   },
   "sets": [
    "desert",
@@ -8818,10 +8858,10 @@
    "yellow"
   ],
   "flagShares": {
-   "green": 0.1114,
-   "orange": 0.1114,
-   "red": 0.3255,
-   "yellow": 0.3699
+   "green": 0.104,
+   "orange": 0.1023,
+   "red": 0.2963,
+   "yellow": 0.4051
   },
   "sets": [
    "commonwealth",
@@ -9096,9 +9136,9 @@
   ],
   "flagShares": {
    "black": 0.327,
-   "green": 0.0155,
-   "red": 0.3302,
-   "white": 0.3057
+   "green": 0.3302,
+   "red": 0.0398,
+   "white": 0.2761
   },
   "sets": [
    "arab_league",
@@ -9147,10 +9187,10 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.0184,
+   "black": 0.028,
    "green": 0.5218,
    "red": 0.1214,
-   "yellow": 0.3105
+   "yellow": 0.2992
   },
   "sets": [
    "equator",
@@ -9256,8 +9296,8 @@
   "flagShares": {
    "green": 0.2815,
    "red": 0.2815,
-   "white": 0.3935,
-   "yellow": 0.0109
+   "white": 0.3958,
+   "yellow": 0.0095
   },
   "sets": [
    "flag_star",
@@ -9372,7 +9412,7 @@
   "flagShares": {
    "blue": 0.327,
    "red": 0.327,
-   "white": 0.3208
+   "white": 0.3145
   },
   "sets": [
    "apec",
@@ -9429,9 +9469,9 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.1427,
+   "black": 0.1445,
    "red": 0.7427,
-   "white": 0.0144,
+   "white": 0.013,
    "yellow": 0.0762
   },
   "sets": [
@@ -9484,10 +9524,10 @@
    "yellow"
   ],
   "flagShares": {
-   "green": 0.4391,
-   "red": 0.1926,
-   "white": 0.022,
-   "yellow": 0.3166
+   "green": 0.4389,
+   "red": 0.1918,
+   "white": 0.0243,
+   "yellow": 0.3169
   },
   "sets": [
    "commonwealth",
@@ -9677,12 +9717,14 @@
   "flagColors": [
    "green",
    "red",
-   "white"
+   "white",
+   "yellow"
   ],
   "flagShares": {
-   "green": 0.813,
-   "red": 0.0725,
-   "white": 0.0068
+   "green": 0.8124,
+   "red": 0.0593,
+   "white": 0.0068,
+   "yellow": 0.0062
   },
   "sets": [
    "desert",
@@ -9729,10 +9771,10 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.762,
-   "red": 0.0837,
-   "white": 0.0642,
-   "yellow": 0.0267
+   "blue": 0.7588,
+   "red": 0.083,
+   "white": 0.065,
+   "yellow": 0.0271
   },
   "sets": [
    "commonwealth",
@@ -9791,8 +9833,8 @@
    "white"
   ],
   "flagShares": {
-   "red": 0.9349,
-   "white": 0.0536
+   "red": 0.9352,
+   "white": 0.0533
   },
   "sets": [
    "flag_star",
@@ -10007,9 +10049,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.2687,
-   "red": 0.3567,
-   "white": 0.2995
+   "blue": 0.2407,
+   "red": 0.3807,
+   "white": 0.3157
   },
   "sets": [
    "commonwealth",
@@ -10064,9 +10106,9 @@
    "white"
   ],
   "flagShares": {
-   "blue": 0.1637,
-   "red": 0.3844,
-   "white": 0.3363
+   "blue": 0.1695,
+   "red": 0.3868,
+   "white": 0.3326
   },
   "sets": [
    "apec",
@@ -10122,8 +10164,8 @@
   ],
   "flagShares": {
    "blue": 0.348,
-   "white": 0.5539,
-   "yellow": 0.0235
+   "white": 0.5546,
+   "yellow": 0.0278
   },
   "sets": [
    "world_cup_host"
@@ -10276,12 +10318,14 @@
    "EUR"
   ],
   "flagColors": [
+   "red",
    "white",
    "yellow"
   ],
   "flagShares": {
-   "white": 0.4281,
-   "yellow": 0.5168
+   "red": 0.0024,
+   "white": 0.4194,
+   "yellow": 0.5176
   },
   "sets": [
    "monarchy"
@@ -10331,9 +10375,9 @@
    "yellow"
   ],
   "flagShares": {
-   "blue": 0.3129,
+   "blue": 0.3118,
    "red": 0.3302,
-   "white": 0.0061,
+   "white": 0.0068,
    "yellow": 0.3302
   },
   "sets": [
@@ -10493,9 +10537,9 @@
   ],
   "flagShares": {
    "black": 0.0738,
-   "green": 0.7393,
-   "orange": 0.0907,
-   "red": 0.0721
+   "green": 0.7395,
+   "orange": 0.0901,
+   "red": 0.0738
   },
   "sets": [
    "commonwealth",
@@ -10568,11 +10612,11 @@
    "yellow"
   ],
   "flagShares": {
-   "black": 0.1021,
-   "green": 0.2511,
-   "red": 0.2115,
-   "white": 0.1107,
-   "yellow": 0.257
+   "black": 0.1037,
+   "green": 0.2505,
+   "red": 0.2117,
+   "white": 0.1285,
+   "yellow": 0.2375
   },
   "sets": [
    "drives_left",

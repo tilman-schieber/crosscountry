@@ -32,12 +32,11 @@ export const GROUPS = {
   flag: {
     title: "Flag",
     how:
-      "Each flag is drawn at 480 pixels wide and every pixel is sorted into red, orange, yellow, green, blue, white or black. " +
-      "Pixels on the edge between two colours are skipped, because they blend into a colour that is not on the flag. " +
-      "A colour counts if it covers at least 0.5% of the flag, so stars, crescents and coats of arms count. " +
+      "Each flag is the image Wikipedia uses, the same depiction as the flag emoji, drawn at 480 pixels wide with every pixel sorted into " +
+      "red, orange, yellow, green, blue, white or black. Pixels on the edge between two colours are skipped, because they blend into a colour that is not on the flag. " +
+      "Every colour that appears counts, down to the smallest detail of a coat of arms; how much of the flag it covers decides how likely a guess it is. " +
       "Dark reds and maroons are red, gold is yellow, light and dark blues are blue. Teal counts as green, aquamarine as blue. Grey, purple and pink are ignored. " +
-      "A few flags are corrected by hand where the count misses a fine or pale emblem. " +
-      "Emblems always count.",
+      "Three flags are set by hand: Armenia's stripe is orange, and Afghanistan and Peru use the flag the emoji shows.",
   },
   borders: {
     title: "Borders",

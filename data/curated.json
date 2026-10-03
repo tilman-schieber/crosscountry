@@ -128,13 +128,10 @@
     }
   },
   "flag_color_overrides": {
-    "_comment": "Flags the pixel count gets wrong: emblems too fine or too pale to register, Armenia's stripe (officially orange), and Afghanistan's flag (the recognised tricolour, not the Taliban flag the source dataset ships). Spain: the game shows the emoji flag with the coat of arms, whose blue and white the dataset's civil flag lacks.",
+    "_comment": "Flags the pixel count gets wrong. Armenia's stripe is officially orange; Afghanistan's file is the Taliban flag but the emoji is the recognised tricolour; Peru's file is the civil flag but the emoji carries the arms. A map gives each colour's share of the flag.",
     "AFG": ["black", "green", "red", "white"],
-    "ARG": ["blue", "white", "yellow"],
-    "BRA": ["blue", "green", "white", "yellow"],
-    "SSD": ["black", "blue", "green", "red", "white", "yellow"],
     "ARM": ["blue", "orange", "red"],
-    "ESP": {"red": 0.5, "yellow": 0.44, "blue": 0.006, "white": 0.01}
+    "PER": {"red": 0.665, "white": 0.255, "green": 0.024, "yellow": 0.006}
   },
   "stat_overrides": {
     "_comment": "Countries the World Bank has no figure for. Rough values; only which side of a category threshold they fall on matters.",

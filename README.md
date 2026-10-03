@@ -27,7 +27,8 @@ Downloads are cached in `data/raw/`. Hand-kept lists and overrides live in `data
 
 ## Data sources
 
-- [mledoze/countries](https://github.com/mledoze/countries) (ODbL): names, borders, areas, languages, currencies, flag images
+- [mledoze/countries](https://github.com/mledoze/countries) (ODbL): names, borders, areas, languages, currencies
+- [Wikimedia Commons](https://commons.wikimedia.org/) flag images, as linked from Wikidata
 - [World Bank Open Data](https://data.worldbank.org/) (CC BY 4.0): population, GDP, urbanisation, age, forest cover, density
 - [Wikidata](https://www.wikidata.org/) (CC0): capital populations
 - [Wikipedia](https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table) (CC BY-SA): Olympic medal table

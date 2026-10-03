@@ -1,52 +1,66 @@
 olympic teams not matched to a current country: Australasia, Bermuda, Bohemia, British West Indies, Czechoslovakia, United Team of Germany, East Germany, West Germany, Hong Kong, Netherlands Antilles, Puerto Rico, Refugee Olympic Team, Russian Empire, Soviet Union, Unified Team, Olympic Athletes from Russia, ROC, Serbia and Montenegro, Virgin Islands, Yugoslavia, Individual Neutral Athletes, Independent Olympic Athletes, Independent Olympic Participants, Mixed team
+flag minor colours for ARG (Argentina): {'yellow': 0.005}
 flag minor colours for AZE (Azerbaijan): {'white': 0.012}
-flag minor colours for BLR (Belarus): {'white': 0.025}
-flag minor colours for BLZ (Belize): {'yellow': 0.016}
+flag minor colours for BLR (Belarus): {'white': 0.022}
+flag minor colours for BLZ (Belize): {'green': 0.021, 'yellow': 0.01}
 flag minor colours for BIH (Bosnia and Herzegovina): {'white': 0.03}
+flag minor colours for BRA (Brazil): {'white': 0.004}
 flag minor colours for BFA (Burkina Faso): {'yellow': 0.018}
-flag minor colours for KHM (Cambodia): {'white': 0.026}
-flag minor colours for CPV (Cape Verde): {'yellow': 0.011}
+flag minor colours for KHM (Cambodia): {'white': 0.028}
+flag minor colours for CPV (Cape Verde): {'yellow': 0.009}
 flag minor colours for CHN (China): {'yellow': 0.02}
-flag minor colours for CYP (Cyprus): {'green': 0.007}
+flag minor colours for HRV (Croatia): {'yellow': 0.001}
+flag minor colours for CYP (Cyprus): {'green': 0.01}
 flag minor colours for DJI (Djibouti): {'red': 0.013}
-flag minor colours for EGY (Egypt): {'yellow': 0.011}
-flag minor colours for FJI (Fiji): {'yellow': 0.007}
+flag minor colours for DOM (Dominican Republic): {'green': 0.003}
+flag minor colours for ECU (Ecuador): {'green': 0.005, 'white': 0.001}
+flag minor colours for EGY (Egypt): {'yellow': 0.012}
+flag minor colours for SLV (El Salvador): {'green': 0.005, 'yellow': 0.001}
+flag minor colours for GNQ (Equatorial Guinea): {'yellow': 0.002}
+flag minor colours for FJI (Fiji): {'green': 0.005, 'yellow': 0.008}
 flag minor colours for GHA (Ghana): {'black': 0.022}
-flag minor colours for GTM (Guatemala): {'green': 0.006, 'yellow': 0.007}
+flag minor colours for GTM (Guatemala): {'green': 0.007, 'red': 0.001, 'yellow': 0.008}
 flag minor colours for GNB (Guinea-Bissau): {'black': 0.013}
-flag minor colours for HTI (Haiti): {'white': 0.016}
-flag minor colours for IND (India): {'blue': 0.009}
-flag minor colours for IRQ (Iraq): {'green': 0.021}
+flag minor colours for GUY (Guyana): {'black': 0.029}
+flag minor colours for HTI (Haiti): {'green': 0.019, 'yellow': 0.008}
+flag minor colours for IND (India): {'blue': 0.015}
+flag minor colours for IRQ (Iraq): {'green': 0.02}
 flag minor colours for UNK (Kosovo): {'white': 0.012}
-flag minor colours for LSO (Lesotho): {'black': 0.026}
+flag minor colours for LSO (Lesotho): {'black': 0.027}
 flag minor colours for LBY (Libya): {'white': 0.008}
-flag minor colours for LIE (Liechtenstein): {'yellow': 0.019}
+flag minor colours for LIE (Liechtenstein): {'black': 0.002, 'yellow': 0.013}
 flag minor colours for MDV (Maldives): {'white': 0.012}
-flag minor colours for MEX (Mexico): {'yellow': 0.021}
+flag minor colours for MEX (Mexico): {'blue': 0.003, 'yellow': 0.02}
 flag minor colours for FSM (Micronesia): {'white': 0.019}
-flag minor colours for MAR (Morocco): {'green': 0.013}
+flag minor colours for MDA (Moldova): {'black': 0.001}
+flag minor colours for MNE (Montenegro): {'blue': 0.003, 'green': 0.003}
+flag minor colours for MAR (Morocco): {'green': 0.023}
 flag minor colours for NAM (Namibia): {'yellow': 0.024}
 flag minor colours for NRU (Nauru): {'white': 0.018}
-flag minor colours for PNG (Papua New Guinea): {'white': 0.013}
-flag minor colours for PER (Peru): {'green': 0.024, 'yellow': 0.006}
-flag minor colours for PHL (Philippines): {'yellow': 0.029}
-flag minor colours for PRT (Portugal): {'white': 0.014}
+flag minor colours for NIC (Nicaragua): {'green': 0.001, 'yellow': 0.001}
+flag minor colours for PNG (Papua New Guinea): {'white': 0.012}
+flag minor colours for PRY (Paraguay): {'green': 0.001, 'yellow': 0.0}
+flag minor colours for PHL (Philippines): {'yellow': 0.028}
+flag minor colours for PRT (Portugal): {'blue': 0.002, 'white': 0.014}
 flag minor colours for KNA (Saint Kitts and Nevis): {'white': 0.025}
-flag minor colours for LCA (Saint Lucia): {'white': 0.024}
+flag minor colours for LCA (Saint Lucia): {'white': 0.025}
 flag minor colours for WSM (Samoa): {'white': 0.005}
 flag minor colours for SMR (San Marino): {'green': 0.016, 'yellow': 0.02}
-flag minor colours for SRB (Serbia): {'yellow': 0.013}
+flag minor colours for SAU (Saudi Arabia): {'white': 0.019}
+flag minor colours for SRB (Serbia): {'yellow': 0.014}
 flag minor colours for SLB (Solomon Islands): {'white': 0.021}
+flag minor colours for SSD (South Sudan): {'yellow': 0.013}
+flag minor colours for ESP (Spain): {'blue': 0.0}
 flag minor colours for SUR (Suriname): {'yellow': 0.027}
-flag minor colours for SYR (Syria): {'green': 0.015}
-flag minor colours for STP (São Tomé and Príncipe): {'black': 0.018}
+flag minor colours for STP (São Tomé and Príncipe): {'black': 0.028}
 flag minor colours for TWN (Taiwan): {'white': 0.026}
-flag minor colours for TJK (Tajikistan): {'yellow': 0.011}
-flag minor colours for TLS (Timor-Leste): {'white': 0.014}
-flag minor colours for TGO (Togo): {'white': 0.022}
-flag minor colours for TKM (Turkmenistan): {'white': 0.007}
+flag minor colours for TJK (Tajikistan): {'yellow': 0.01}
+flag minor colours for TLS (Timor-Leste): {'white': 0.013}
+flag minor colours for TGO (Togo): {'white': 0.024}
+flag minor colours for TKM (Turkmenistan): {'white': 0.007, 'yellow': 0.006}
 flag minor colours for TUV (Tuvalu): {'yellow': 0.027}
-flag minor colours for URY (Uruguay): {'yellow': 0.023}
+flag minor colours for URY (Uruguay): {'yellow': 0.028}
 flag minor colours for UZB (Uzbekistan): {'red': 0.025}
 no GDP per capita: VAT
-flag minor colours for VEN (Venezuela): {'white': 0.006}
+flag minor colours for VAT (Vatican City): {'red': 0.002}
+flag minor colours for VEN (Venezuela): {'white': 0.007}
