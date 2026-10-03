@@ -1,7 +1,6 @@
 import { CATEGORIES, GROUPS } from "./categories.js";
 import { createEngine, MAX_GUESSES } from "./engine.js";
 
-const PICKS_KEY = "crosscountry.picks"; // { countryId: times picked on finished boards }
 const DAY_KEY = "crosscountry.day."; // + YYYY-MM-DD: that day's game, once a guess has been made
 const TIME_ZONE = "Europe/Berlin"; // the day changes at midnight there, wherever you play
 
@@ -39,7 +38,7 @@ const searchIndex = countries.map((c) => {
   return { country: c, keys: names.map(normalize), tails: tails.filter((t) => t.length > 3) };
 });
 
-let game; // { board, cells: [countryId|null]*9, scores: [p|null]*9, guessesLeft, over, base, counted }
+let game; // { board, cells: [countryId|null]*9, scores: [p|null]*9, guessesLeft, over }
 let day; // YYYY-MM-DD of the board on screen; it is also the board's seed
 let selected = null;
 let match = null; // the one country the typed text identifies, if any
@@ -67,8 +66,6 @@ function openDay(d) {
       scores: Array(9).fill(null),
       guessesLeft: MAX_GUESSES,
       over: false,
-      counted: false,
-      base: load(PICKS_KEY, {}), // rarity for this board is judged against picks made before it
     };
   }
   selected = game.over ? null : game.cells.findIndex((c) => !c);
@@ -92,19 +89,13 @@ function cellCategories(i) {
 
 function finishIfDone() {
   if (!game.over && (game.guessesLeft === 0 || game.cells.every(Boolean))) game.over = true;
-  if (game.over && !game.counted) {
-    const picks = load(PICKS_KEY, {});
-    for (const id of game.cells) if (id) picks[id] = (picks[id] || 0) + 1;
-    save(PICKS_KEY, picks);
-    game.counted = true;
-  }
 }
 
 function guess(country) {
   if (game.over || selected === null || game.cells[selected]) return;
   const i = selected;
   const [row, col] = cellCategories(i);
-  const hit = engine.distribution(row, col, game.base).find((d) => d.country.id === country.id);
+  const hit = engine.distribution(row, col).find((d) => d.country.id === country.id);
   game.guessesLeft--;
   if (hit) {
     game.cells[i] = country.id;
@@ -196,7 +187,7 @@ function renderAnswers() {
   const title = document.createElement("h2");
   title.textContent = `${engine.category(row).label} × ${engine.category(col).label}`;
   const list = document.createElement("ol");
-  for (const { country, p } of engine.distribution(row, col, game.base)) {
+  for (const { country, p } of engine.distribution(row, col)) {
     const li = document.createElement("li");
     if (game.cells[selected] === country.id) li.className = "mine";
     li.append(
@@ -352,7 +343,10 @@ $("share").addEventListener("click", async () => {
 $("help-intro").textContent =
   `The game has ${countries.length} countries: the 193 UN members plus Vatican City, Palestine, Kosovo and Taiwan. ` +
   "Territories and dependencies are not included. A criterion is checked the same way for every guess; " +
-  "where a fact is open to interpretation, the rule below says which reading the game uses.";
+  "where a fact is open to interpretation, the rule below says which reading the game uses. " +
+  "A cell's percentage is the share of an imagined crowd that would give the same answer: countries that are well known " +
+  "(by Wikipedia readership, economy and population) come to mind more, and so do countries that fit a criterion obviously, " +
+  "rather than barely past a threshold, through a second continent, or through a small emblem on the flag.";
 
 function renderHelp() {
   const words = $("help-search").value.toLowerCase().split(/\s+/).filter(Boolean);

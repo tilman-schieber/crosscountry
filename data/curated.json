@@ -90,6 +90,41 @@
       "expect": 20,
       "note": "Roughly the 20 most-visited countries by international tourist arrivals (UN Tourism, 2024). The first 17 are clear; Canada, UAE and Poland are close calls against Vietnam, Morocco and Croatia.",
       "members": ["FRA", "ESP", "USA", "CHN", "TUR", "ITA", "MEX", "GBR", "DEU", "JPN", "GRC", "THA", "AUT", "SAU", "PRT", "MYS", "NLD", "CAN", "ARE", "POL"]
+    },
+    "flag_star": {
+      "expect": 69,
+      "note": "Flag shows at least one star, however small (Southern Cross, Star of David, stars in a coat of arms). Suns are not stars.",
+      "members": ["DZA", "AGO", "BFA", "BDI", "CMR", "CPV", "CAF", "COM", "COD", "DJI", "GNQ", "ETH", "GHA", "GNB", "LBR", "LBY", "MRT", "MAR", "MOZ", "STP", "SEN", "SOM", "SSD", "TGO", "TUN", "ZWE", "CHN", "PRK", "VNM", "MMR", "SGP", "MYS", "PAK", "TUR", "AZE", "UZB", "TJK", "TKM", "ISR", "JOR", "SYR", "PHL", "TLS", "PNG", "AUS", "NZL", "WSM", "SLB", "TUV", "FSM", "MHL", "NRU", "BIH", "UNK", "SVN", "USA", "BRA", "CHL", "CUB", "PAN", "HND", "VEN", "DMA", "GRD", "SUR", "PRY", "BOL", "CRI", "KNA"]
+    },
+    "flag_star_small": {
+      "expect": 5,
+      "note": "Stars that only appear inside a coat of arms; a much less obvious answer.",
+      "members": ["GNQ", "PRY", "BOL", "CRI", "SVN"]
+    },
+    "realm": {
+      "expect": 14,
+      "note": "Commonwealth realms other than the United Kingdom: monarchies, but rarely thought of as such.",
+      "members": ["ATG", "AUS", "BHS", "BLZ", "CAN", "GRD", "JAM", "NZL", "PNG", "KNA", "LCA", "VCT", "SLB", "TUV"]
+    },
+    "commonwealth_nonbritish": {
+      "expect": 5,
+      "note": "Commonwealth members that were never British: less obvious answers.",
+      "members": ["MOZ", "RWA", "GAB", "TGO", "CMR"]
+    },
+    "arab_league_weak": {
+      "expect": 4,
+      "note": "Arab League members not usually thought of as Arab countries.",
+      "members": ["COM", "DJI", "SOM", "MRT"]
+    },
+    "ottoman_weak": {
+      "expect": 11,
+      "note": "Ottoman rule that was brief or partial: counts, but is a far less obvious answer.",
+      "members": ["SVK", "ARM", "AZE", "RUS", "SDN", "ERI", "QAT", "KWT", "GEO", "UKR", "MDA"]
+    },
+    "desert_weak": {
+      "expect": 14,
+      "note": "Small, semi-arid or little-known deserts: count, but are far less obvious answers.",
+      "members": ["ESP", "COL", "VEN", "KEN", "ETH", "BOL", "AGO", "PSE", "ERI", "DJI", "SOM", "ZAF", "PER", "ARG"]
     }
   },
   "flag_color_overrides": {

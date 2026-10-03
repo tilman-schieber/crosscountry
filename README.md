@@ -7,7 +7,7 @@ Play: https://gh.tschieber.de/crosscountry/
 - One board per day, switching at midnight Berlin time. The arrows under the title go back to earlier days.
 - The guess field only completes a country once what you typed can mean just one.
 - The question mark explains exactly how every criterion is counted.
-- Rarity is simulated, not crowdsourced: each valid answer gets a share based on how well known the country is (its rank for Wikipedia page views, GDP and population), shifted by your own past picks. Your history stays in your browser.
+- Rarity is simulated, not crowdsourced: each valid answer gets a share based on how well known the country is (its rank for Wikipedia page views, GDP and population) and how obviously it fits the two criteria (a flag colour that is only in the coat of arms, or a value barely past a threshold, counts for much less).
 
 Inspired by GeoGrid and Immaculate Grid; not affiliated with either.
 

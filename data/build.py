@@ -260,7 +260,8 @@ def main():
             "alt": names,
             "emoji": c.get("flag", ""),
             # The dataset's single continent, plus the second one for countries that straddle two.
-            "continents": sorted({SUBREGION_TO_CONTINENT.get(c["subregion"], c["region"]), *curated["second_continent"].get(cid, [])}),
+            # The dataset's continent first, then the second one for countries that straddle two.
+            "continents": [SUBREGION_TO_CONTINENT.get(c["subregion"], c["region"]), *curated["second_continent"].get(cid, [])],
             "subregion": c["subregion"],
             "capital": (c.get("capital") or [""])[0],
             "borders": sorted(b for b in c.get("borders", []) if b in ids),
@@ -277,6 +278,8 @@ def main():
             "languages": sorted(c.get("languages", {}).values()),
             "currencies": sorted(c.get("currencies", {}).keys()),
             "flagColors": colors,
+            # Share of the flag each colour covers; a hand-corrected colour the count missed is given an emblem's share.
+            "flagShares": {k: round(shares.get(k, 0.02), 4) for k in colors},
             "sets": sorted(k for k, s in curated["sets"].items() if cid in s["members"]),
             "views": views,
         })

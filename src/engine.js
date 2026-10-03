@@ -1,22 +1,18 @@
 import { CATEGORIES } from "./categories.js";
 
-// Rarity model. A cell's score is the share of an imagined crowd that would give
-// the same answer, then blended with your own past picks as if they were
-// ALPHA-outweighed extra players.
+// Rarity model. A cell's score is the share of an imagined crowd that would
+// give the same answer. Two things decide it:
 //
-// How well known a country is, from 0 to 1, is a weighted average of its rank
-// among all countries for Wikipedia views, total GDP and population. Ranks, not
-// raw values: a country ten times richer is not ten times more likely to be
-// guessed, and no single outlier can swallow a cell.
-//
-// The chance that a country comes to mind is an S-curve of that score: the
-// well-known countries are all about equally available (no cliff between
-// Brazil and Bulgaria), while obscure ones fall away quickly, which is what
-// makes a rare answer rare.
+// 1. How well known the country is: a score from 0 to 1, the weighted average
+//    of its rank among all countries for Wikipedia views, total GDP and
+//    population. The crowd thinks of countries in proportion to
+//    e^(SPREAD × score), so the best-known country comes to mind e^SPREAD
+//    times as readily as the least known.
+// 2. How obviously it fits each of the cell's two criteria (the category's
+//    `ease`, 1 when obvious): a country barely past a threshold, a colour that
+//    is only in the coat of arms, or a second continent counts for much less.
 export const FAME_WEIGHTS = { views: 0.4, gdp: 0.4, population: 0.2 };
-export const RECALL_MIDPOINT = 0.6; // fame score at which a country is recalled half as readily as the best known
-export const RECALL_STEEPNESS = 6; // higher makes obscure countries rarer
-export const ALPHA = 20; // how many of your own picks it takes to match the prior
+export const SPREAD = 5; // higher concentrates the crowd on well-known countries
 export const MIN_ANSWERS = 3; // every cell must have at least this many valid answers
 export const MAX_GUESSES = 10;
 // Two categories are redundant when this share of the smaller one also fits the
@@ -80,8 +76,7 @@ export function createEngine(countries) {
     }
     return total ? sum / total : 0;
   };
-  const recall = (c) => 1 / (1 + Math.exp(-RECALL_STEEPNESS * (fame(c) - RECALL_MIDPOINT)));
-  const weight = new Map(countries.map((c) => [c.id, recall(c)]));
+  const weight = new Map(countries.map((c) => [c.id, Math.exp(SPREAD * fame(c))]));
 
   const overlap = (a, b) => {
     const A = matches.get(a.id), B = matches.get(b.id);
@@ -120,17 +115,12 @@ export function createEngine(countries) {
   }
 
   // Probability (0..1) for every valid answer of a cell, most likely first.
-  // `counts` maps country id -> how often you have picked it on earlier boards.
-  function distribution(rowId, colId, counts = {}) {
+  function distribution(rowId, colId) {
     const valid = answers(rowId, colId);
-    const totalWeight = valid.reduce((s, c) => s + weight.get(c.id), 0);
-    const totalCount = valid.reduce((s, c) => s + (counts[c.id] || 0), 0);
-    return valid
-      .map((c) => ({
-        country: c,
-        p: (ALPHA * (weight.get(c.id) / totalWeight) + (counts[c.id] || 0)) / (ALPHA + totalCount),
-      }))
-      .sort((a, b) => b.p - a.p);
+    const ease = (cat, c) => (cat.ease ? cat.ease(c) : 1);
+    const scores = valid.map((c) => weight.get(c.id) * ease(byId.get(rowId), c) * ease(byId.get(colId), c));
+    const total = scores.reduce((s, w) => s + w, 0);
+    return valid.map((c, i) => ({ country: c, p: scores[i] / total })).sort((a, b) => b.p - a.p);
   }
 
   return { generateBoard, distribution, answers, category: (id) => byId.get(id), count: (id) => matches.get(id).size, usable, redundant };

@@ -8,6 +8,17 @@ const M = 1e6;
 const has = (v) => v !== null && v !== undefined;
 const startsWith = (letter) => (c) => c.name.toUpperCase().startsWith(letter);
 
+// Ease: how obviously a country satisfies a criterion, from a floor up to 1.
+// A category's optional `ease(c)` scales how often the crowd thinks of that
+// country for that cell. Country far past a threshold: 1; barely past it: EASE_FLOOR.
+const EASE_FLOOR = 0.15;
+const clamp = (x, floor = EASE_FLOOR) => Math.max(floor, Math.min(1, x));
+// `ratio` is how many times over the threshold the value is; `span` the ratio at which it is obvious.
+const byRatio = (ratio, span) => clamp(EASE_FLOOR + (1 - EASE_FLOOR) * (Math.log(ratio) / Math.log(span)));
+// `excess` is how far past the threshold in the unit itself; `width` the distance at which it is obvious.
+const byExcess = (excess, width) => clamp(EASE_FLOOR + (1 - EASE_FLOOR) * (excess / width));
+const inSet = (c, id, value) => (c.sets.includes(id) ? value : 1);
+
 const WORLD_BANK = "World Bank, latest year available";
 
 // Rules shared by a whole group are explained once, under the group's heading.
@@ -87,6 +98,7 @@ const continents = Object.entries(CONTINENT_NOTES).map(([name, note]) => ({
   group: "continent",
   how: note,
   test: (c) => c.continents.includes(name),
+  ease: (c) => (c.continents[0] === name ? 1 : 0.3), // the second continent of a straddling country
 }));
 
 const flagColors = ["red", "blue", "green", "yellow", "white", "black", "orange"].map((color) => ({
@@ -95,6 +107,7 @@ const flagColors = ["red", "blue", "green", "yellow", "white", "black", "orange"
   group: "flag",
   how: color === "orange" ? "Orange only counts when it covers at least 3% of the flag; a smaller amount is treated as yellow." : "",
   test: (c) => c.flagColors.includes(color),
+  ease: (c) => clamp((c.flagShares[color] ?? 0) / 0.1, 0.03), // a tenth of the flag is obvious; an emblem's sliver is not
 }));
 
 const flagOther = [
@@ -118,6 +131,14 @@ const flagOther = [
     group: "flag",
     how: "All three colours present and no other, counting every detail, so an emblem in a fourth colour disqualifies.",
     test: (c) => c.flagColors.join() === "blue,red,white",
+  },
+  {
+    id: "flag:star",
+    label: "Flag has a star",
+    group: "flag",
+    how: "At least one star of any size, including a Southern Cross, a Star of David or stars inside a coat of arms. Suns do not count.",
+    test: (c) => c.sets.includes("flag_star"),
+    ease: (c) => inSet(c, "flag_star_small", 0.25),
   },
   {
     id: "flag:four-plus",
@@ -164,6 +185,7 @@ const borders = [
     group: "borders",
     how: `Borders five or more other countries by land.`,
     test: (c) => c.borders.length >= 5,
+    ease: (c) => byExcess(c.borders.length - 5 + 0.6, 4),
   },
 ];
 
@@ -174,6 +196,7 @@ const size = [
     group: "size",
     how: "Total area above 1,000,000 km², as listed in the mledoze/countries dataset. Overseas territories are not included.",
     test: (c) => c.area > 1e6,
+    ease: (c) => byRatio(c.area / 1e6, 4),
   },
   {
     id: "area:small",
@@ -181,6 +204,7 @@ const size = [
     group: "size",
     how: "Total area below 10,000 km², as listed in the mledoze/countries dataset.",
     test: (c) => c.area < 1e4,
+    ease: (c) => byRatio(1e4 / c.area, 10),
   },
   {
     id: "pop:100m",
@@ -188,6 +212,7 @@ const size = [
     group: "size",
     how: `More than 100 million residents. Source: ${WORLD_BANK} (2025 for nearly all countries). Taiwan and Vatican City use rounded figures entered by hand.`,
     test: (c) => has(c.population) && c.population > 100 * M,
+    ease: (c) => byRatio(c.population / (100 * M), 4),
   },
   {
     id: "pop:1m",
@@ -195,26 +220,28 @@ const size = [
     group: "size",
     how: `Fewer than 1 million residents. Source: ${WORLD_BANK} (2025 for nearly all countries).`,
     test: (c) => has(c.population) && c.population < M,
+    ease: (c) => byRatio(M / c.population, 10),
   },
 ];
 
 const wealth = [
-  { id: "gdp:rich", label: "GDP per capita over $30k", group: "wealth", how: "Above $30,000.", test: (c) => has(c.gdpPerCapita) && c.gdpPerCapita > 30000 },
-  { id: "gdp:poor", label: "GDP per capita under $2k", group: "wealth", how: "Below $2,000.", test: (c) => has(c.gdpPerCapita) && c.gdpPerCapita < 2000 },
+  { id: "gdp:rich", label: "GDP per capita over $30k", group: "wealth", how: "Above $30,000.", test: (c) => has(c.gdpPerCapita) && c.gdpPerCapita > 30000, ease: (c) => byRatio(c.gdpPerCapita / 30000, 2.5) },
+  { id: "gdp:poor", label: "GDP per capita under $2k", group: "wealth", how: "Below $2,000.", test: (c) => has(c.gdpPerCapita) && c.gdpPerCapita < 2000, ease: (c) => byRatio(2000 / c.gdpPerCapita, 3) },
 ];
 
 const people = [
-  { id: "urban:high", label: "Over 80% live in cities", group: "people", how: "City share above 80%.", test: (c) => has(c.urbanPct) && c.urbanPct > 80 },
-  { id: "urban:low", label: "Under 35% live in cities", group: "people", how: "City share below 35%.", test: (c) => has(c.urbanPct) && c.urbanPct < 35 },
+  { id: "urban:high", label: "Over 80% live in cities", group: "people", how: "City share above 80%.", test: (c) => has(c.urbanPct) && c.urbanPct > 80, ease: (c) => byExcess(c.urbanPct - 80, 15) },
+  { id: "urban:low", label: "Under 35% live in cities", group: "people", how: "City share below 35%.", test: (c) => has(c.urbanPct) && c.urbanPct < 35, ease: (c) => byExcess(35 - c.urbanPct, 15) },
   {
     id: "age:65",
     label: "Over 15% of people are 65+",
     group: "people",
     how: `More than 15% of residents are aged 65 or older. Source: ${WORLD_BANK}.`,
     test: (c) => has(c.over65Pct) && c.over65Pct > 15,
+    ease: (c) => byExcess(c.over65Pct - 15, 8),
   },
-  { id: "density:high", label: "Over 300 people per km²", group: "people", how: "Density above 300.", test: (c) => has(c.density) && c.density > 300 },
-  { id: "density:low", label: "Under 20 people per km²", group: "people", how: "Density below 20.", test: (c) => has(c.density) && c.density < 20 },
+  { id: "density:high", label: "Over 300 people per km²", group: "people", how: "Density above 300.", test: (c) => has(c.density) && c.density > 300, ease: (c) => byRatio(c.density / 300, 4) },
+  { id: "density:low", label: "Under 20 people per km²", group: "people", how: "Density below 20.", test: (c) => has(c.density) && c.density < 20, ease: (c) => byRatio(20 / c.density, 4) },
   {
     id: "capital:1m",
     label: "Capital city over 1M people",
@@ -223,6 +250,7 @@ const people = [
       "The capital itself has more than 1,000,000 residents, by the city-proper figure on Wikidata. The wider metro area does not count, " +
       "so a capital with a small core city does not qualify however large its agglomeration. Where a country has several capitals, the largest one is used.",
     test: (c) => c.capitalPopulation > 1e6,
+    ease: (c) => byRatio(c.capitalPopulation / 1e6, 5),
   },
 ];
 
@@ -233,11 +261,12 @@ const land = [
     group: "land",
     how: `Forest covers more than 50% of the land area. Source: ${WORLD_BANK} (2023 for nearly all countries).`,
     test: (c) => has(c.forestPct) && c.forestPct > 50,
+    ease: (c) => byExcess(c.forestPct - 50, 30),
   },
 ];
 
 const sport = [
-  { id: "olympic:10", label: "More than 10 Olympic medals", group: "sport", how: "Eleven or more medals.", test: (c) => c.olympicMedals > 10 },
+  { id: "olympic:10", label: "More than 10 Olympic medals", group: "sport", how: "Eleven or more medals.", test: (c) => c.olympicMedals > 10, ease: (c) => byRatio(c.olympicMedals / 10, 20) },
   { id: "olympic:none", label: "Never won an Olympic medal", group: "sport", how: "Zero medals.", test: (c) => c.olympicMedals === 0 },
 ];
 
@@ -246,6 +275,7 @@ const languages = ["English", "French", "Spanish", "Arabic", "Portuguese"].map((
   label: `${lang} is an official language`,
   group: "language",
   test: (c) => c.languages.includes(lang),
+  ease: (c) => 1 / Math.sqrt(c.languages.length), // one of several official languages is less obvious
 }));
 
 const currency = [
@@ -255,6 +285,7 @@ const currency = [
     group: "currency",
     how: `Includes countries outside the EU that use it, and one African country the dataset lists as using it alongside other currencies.`,
     test: (c) => c.currencies.includes("EUR"),
+    ease: (c) => 1 / c.currencies.length,
   },
   {
     id: "cur:USD",
@@ -262,6 +293,7 @@ const currency = [
     group: "currency",
     how: `The United States and the countries that have adopted the dollar as an official currency.`,
     test: (c) => c.currencies.includes("USD"),
+    ease: (c) => 1 / c.currencies.length,
   },
 ];
 
@@ -360,12 +392,26 @@ const SETS = {
     `Hosted or co-hosted the men's FIFA World Cup from 1930 through 2026: 19 countries. A tournament hosted by a constituent country counts for its state.`,
   ],
 };
+// How obvious a member is, where membership is not equally obvious for all.
+const EQUATOR = { ECU: 1, BRA: 0.8, KEN: 0.8, IDN: 0.8, COD: 0.6, UGA: 0.6, GAB: 0.5, COG: 0.5, SOM: 0.4, STP: 0.4, MDV: 0.3, KIR: 0.3 };
+const SET_EASE = {
+  asean: (c) => (c.id === "TLS" ? 0.3 : 1),
+  arab_league: (c) => inSet(c, "arab_league_weak", 0.4),
+  commonwealth: (c) => inSet(c, "commonwealth_nonbritish", 0.3),
+  monarchy: (c) => (c.id === "AND" || c.id === "VAT" ? 0.5 : inSet(c, "realm", 0.5)),
+  nuclear_weapons: (c) => (c.id === "ISR" ? 0.5 : 1),
+  ottoman: (c) => inSet(c, "ottoman_weak", 0.25),
+  desert: (c) => inSet(c, "desert_weak", 0.3),
+  equator: (c) => EQUATOR[c.id] ?? 0.5,
+  olympics_host: (c) => ({ BIH: 0.4, RUS: 0.7 })[c.id] ?? 1,
+};
 const sets = Object.entries(SETS).map(([id, [label, group, how]]) => ({
   id: `set:${id}`,
   label,
   group,
   how,
   test: (c) => c.sets.includes(id),
+  ease: SET_EASE[id],
 }));
 
 export const CATEGORIES = [
